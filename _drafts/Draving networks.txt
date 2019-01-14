@@ -1,0 +1,18 @@
+Drawing networks;
+ ##Virtual layer
+
+1) import : select layers
+
+2) SQL:
+
+Select Links.* , make_line(p1.geometry, p2.geometry) from Links
+Join Points as p1 on p1.ID = Links.Source
+Join Points as p2 on p2.ID = Links.Target
+
+geometry : auto-detect works fine
+
+```
+def function(t,y):
+    some code block
+    other code
+```

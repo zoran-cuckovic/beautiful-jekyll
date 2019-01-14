@@ -50,6 +50,27 @@ hr.small {
 .main-content {
   padding-top: 80px;
 }
+
+/*    ADDITIONS ZC  
+more info : https://www.w3.org/Style/Examples/007/figures.fr.html  */
+figure{
+	float: center;
+	text-align: center;
+	font-style: italic;
+	
+    display: block;  
+
+    margin-left: auto;
+    margin-right: auto;
+	
+	margin-top: 10px 
+}
+/*  illustrations should be figures, but images are simple in markdown ... */
+image { display: block;
+		margin-top: 10 auto;}
+	
+/*   ---  end additions   ----   */
+	
 @media only screen and (min-width: 768px) {
   .main-content {
     padding-left: env(safe-area-inset-left);
@@ -530,7 +551,7 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
   .intro-header .post-heading h1 {
     font-size: 50px;

@@ -1,0 +1,27 @@
+{% comment %}
+> for automatic image folders etc
+{% capture imagePath %}{{ page.date | date: "%Y" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+
+> for responsive images : 
+![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+see: https://dev-notes.eu/2016/01/images-in-kramdown-jekyll/
+
+ PARAMETERS
+ path
+ alt
+ caption
+ width ! NOTU USED
+ 
+ NOTE: white spaces = interprets as CODE!
+{% endcomment %}
+
+
+
+
+ <figure>
+    <img src="{{ include.path }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+    {% if include.caption %} <figcaption>{{ include.caption }}</figcaption>{% endif %}
+ </figure>
+
+
+

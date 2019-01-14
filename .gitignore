@@ -2,6 +2,7 @@
 _site
 .sass-cache
 .vagrant
+0 notes.txt
 
 # general
 .DS_Store

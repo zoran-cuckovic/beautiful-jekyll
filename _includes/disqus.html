@@ -1,7 +1,7 @@
 {%- if site.disqus -%}
 <div class="comments">
     <div id="disqus_thread"></div>
-    <script type="text/javascript">
+    <script type="text/javascript" data-cfasync="false">
         var disqus_shortname = '{{ site.disqus }}';
         /* ensure that pages with query string get the same discussion */
             var url_parts = window.location.href.split("?");
@@ -19,7 +19,7 @@
 {%- elsif site.commento -%}
 <div class="comments">
     <div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
+<script src="https://cdn.commento.io/js/commento.js"  data-cfasync="false"></script>
 </div>
 {%- endif -%}
 

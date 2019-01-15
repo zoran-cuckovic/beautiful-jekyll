@@ -52,7 +52,9 @@ hr.small {
 }
 
 /*    ADDITIONS ZC  
-more info : https://www.w3.org/Style/Examples/007/figures.fr.html  */
+more info : https://www.w3.org/Style/Examples/007/figures.fr.html  
+THIS IS FOR OLD STUFF ONLY !! 
+TO FIX !! */
 figure{
 	float: center;
 	text-align: center;
@@ -65,11 +67,34 @@ figure{
 	
 	margin-top: 10px 
 }
-/*  illustrations should be figures, but images are simple in markdown ... */
-image { display: block;
-		margin-top: 10 auto;}
+/*  img is what Jekyll gives ! ... */
+img { display: block;
+	margin-left: auto;
+    margin-right: auto;
+		margin-top: 10 auto;
+}
+		
+/* hack for captions : https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll */
+img + em {text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* not working for linked images !! inside a !! 
+p a img {text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+*/
+Best solution : 
+
+.image-caption {text-align: center}
+
+
 	
-/*   ---  end additions   ----   */
+/*   ---  END additions   ----   */
 	
 @media only screen and (min-width: 768px) {
   .main-content {

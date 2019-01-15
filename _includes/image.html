@@ -13,9 +13,17 @@ see: https://dev-notes.eu/2016/01/images-in-kramdown-jekyll/
  width ! NOTU USED
  
  NOTE: white spaces = interprets as CODE!
+ 
+ 
+ 
+ BETTER SOLUTION : https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
+ in css img + em { ....... }
 {% endcomment %}
 
 
+{% unless include.path contains '://' or 'www' %}
+  {{ include.path | prepend: site.url }}
+{% endunless %}
 
 
  <figure>

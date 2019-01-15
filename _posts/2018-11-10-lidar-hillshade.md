@@ -20,13 +20,13 @@ Theoretically, such a model should exist for simple objects such as terrain feat
 
 See what’s happening when two simple features are illuminated from north-east and north-west directions. The vertical feature (yes, these are wine corks) has its shadow shifted from one side to the other, but shadow of the horizontal feature will remain on the same side. Different alignments respond differently...
 
-{% include image.html path="https://landscapearchaeology.org/wp/wp-content/uploads/2018/10/lighting-examle-small.jpg" %}
+![](/wp/wp-content/uploads/2018/10/lighting-examle-small.jpg)
 
 Vertical features will be better rendered if we calculate *difference* between the two models. What is a shadow in one model will become an illuminated patch in another one. But that approach will remove the impact of horizontal features. Their shadows remain on the same side: difference between two shadows is zero. In that case, *addition* of values will work much better.
 
 What this implies is that the sum of two hillshades (NW and NE) will effectively change the direction of light, as if it were on north. Subtracting them will have the effect of changing the light direction to either east or west. Hillshades can, then, be regarded as *vectors*, namely the X and Y component of usual [two dimensional vectors](https://www.mathsisfun.com/algebra/vectors.html). Therefore, all possible light directions can be calculated from two perpendicular hillshade models, given a constant light height. (We should add a third one to model all possible directions in a 3D sphere.)
 
-{% include image.html path="https://landscapearchaeology.org/wp/wp-content/uploads/2018/10/directions.png" %}
+![](/wp/wp-content/uploads/2018/10/directions.png")
 
 ## Better hillshades?
 
@@ -40,20 +40,20 @@ Therefore, bi-directional hillshade has to be represented through two independen
 
 Footpaths can be a good case to test hillshading techniques. Their topographic trace can be very discrete, especially for those that are out of use and overgrown with vegetation (which typically interest archaeologists). Such paths can be traces of ancient pastoral movement or even abandoned roadways. The dataset used here is covering the western slope of [Puy de Dôme](https://en.wikipedia.org/wiki/Puy_de_D%C3%B4me) above Clermont-Ferrand (France) which most likely bears traces of historical herding movement. Lidar data is offered free of charge for public use by [CRAIG Auvergne](https://ids.craig.fr/geocat/srv/fre/catalog.search;jsessionid=57CD10A46E50C09A80B868A736FF9FF4#/metadata/29bdef03-c163-4be1-8804-f16ee2cca3c9).   
 
-{% include image.html path="https://landscapearchaeology.org/wp/wp-content/uploads/2018/11/Hillshades-compare.jpg"
-caption= "Meadow paths on Puy de Dôme, DEM of 50 cm resolution (© CRAIG Auvergne). Hillshades are modelled from north-western and north-eastern directions." %}
+[![](/wp/wp-content/uploads/2018/11/Hillshades-compare.jpg)](/wp/wp-content/uploads/2018/11/Hillshades-compare.jpg)
+*Meadow paths on Puy de Dôme, DEM of 50 cm resolution (© CRAIG Auvergne). Hillshades are modelled from north-western and north-eastern directions.*
 
 Two models with NW and NE direction are quite good, but still tend to accentuate different alignments. I've tried to overlay the two models, where the upper one (NE direction) is semi-transparent and coloured orange-brown to blue. The middle part of the coloured range is completely transparent. (The idea is that the warm colour lean to south and cold colour to north.) 
 
-{% include image.html path="https://landscapearchaeology.org/wp/wp-content/uploads/2018/11/Hillshade-two-colour.jpg" %}
+![](/wp/wp-content/uploads/2018/11/Hillshade-two-colour.jpg)
 
 The result is not ideal, but it's promising. Ideally, bi-directional hillshade should be combined in a colour image. But, combining colours is fussy... this is the result of a simple stack of our two hillshades:
 
-<a href="https://landscapearchaeology.org/wp/wp-content/uploads/2018/11/Hillshade-RGB.jpg"><img src="https://landscapearchaeology.org/wp/wp-content/uploads/2018/11/Hillshade-RGB.jpg" alt="" width="662" height="600" class="aligncenter size-full wp-image-364" /></a>
+[![](/wp/wp-content/uploads/2018/11/Hillshade-RGB.jpg)](/wp/wp-content/uploads/2018/11/Hillshade-RGB.jpg)
 
 One hillshade is in the red band and the other is in the green band (blue band is empty). We should invert/stretch/edit band values to get a more pleasing colour combination... However, this procedure is effectively adding up colour values (red + green), which means that we will get the effect of vector operations. Take a look at the path below: the red colour is more intense on the western exposition than north-western, as we would expect from a hillshade calculated from that direction. Values now stretch east to west (red to green) and north to south (white to black) due to vectorised operations (!) So fussy...  
 
-<a href="https://landscapearchaeology.org/wp/wp-content/uploads/2018/11/Hillshade-RGB-sink.jpg"><img src="https://landscapearchaeology.org/wp/wp-content/uploads/2018/11/Hillshade-RGB-sink.jpg" alt="" width="662" height="600" class="aligncenter size-full wp-image-364" /></a>
+[![](/wp/wp-content/uploads/2018/11/Hillshade-RGB-sink.jpg)](/wp/wp-content/uploads/2018/11/Hillshade-RGB-sink.jpg)
 
 I hope these ramblings would be of some use for those trying to understand hillshade models,
 Happy mapping!

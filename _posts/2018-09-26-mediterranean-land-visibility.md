@@ -15,8 +15,8 @@ Visibility of land was a major consideration for ancient seafaring, for reasons 
 
 Archaeologists frequently discuss the importance of land visibility for ancient seafaring, but without a useful geographical model. There is a map which is constantly reappearing in publications but the origin of which I couldn’t determine (<a href="https://books.google.fr/books?id=sZbqAAAAQBAJ">Tartaron 2103</a>, Fig 4.9, citing <a href="https://books.google.fr/books?id=qbYiW13TJ6UC">Broodbank 2000</a>, Fig 4, citing <a href="https://books.google.fr/books?id=yD49AAAAIAAJ">Chapman 1990</a>, Fig 59, citing a 1980’s publication I cannot access…). I suspect that these are derived from the model published by <a href="https://books.google.fr/books?id=B7SLWT2vpNcC">Aubet 2001</a>, below. However, hers is a type of book which doesn’t cite its sources (but still …).
 
-{% include image.html path = "https://landscapearchaeology.org/wp/wp-content/uploads/2018/09/Aubet-Phoenicians-Land-visibility.jpg"
-caption ="After Aubet 2001, Fig 35"    %}
+![](/wp/wp-content/uploads/2018/09/Aubet-Phoenicians-Land-visibility.jpg)
+*After Aubet 2001, Fig 35*
 
 Anyway, the model that is being widely used was made by hand long time ago (that’s my guess at least) – and is quite problematic. It seems to represent the maximum theoretical visibility of land <em>without accounting for the atmosphere</em>. Yes, you can see Mount Etna some 200 km off the Sicilian coast … during five days in a year. Visibility at such distances is normally much affected by atmospheric conditions and aerosols produced at sea surface. Measurements of visibility distance in Athens rarely surpassed 50 kilometres (in the pre-pollution era: <a href="https://core.ac.uk/download/pdf/145661125.pdf">see here</a>). I would consider 50 kilometres as more realistic figure for maximum visibility of the land. At least, I wouldn’t plan a travel relying on greater visibility ranges (without modern equipment).
 
@@ -36,11 +36,14 @@ The <a href="http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/">QGIS v
 
 <h2>Results</h2>
 
-{% include image.html path ="https://landscapearchaeology.org/wp/wp-content/uploads/2018/09/Model-150-km.jpg"
-caption ="Visibility of land up to 150 km"  %}
+[![](/wp/wp-content/uploads/2018/09/Model-150-km.jpg)](/wp/wp-content/uploads/2018/09/Model-150-km.jpg)
+*Visibility of land up to 150 km*
+
 .
-{% include image.html path="https://landscapearchaeology.org/wp/wp-content/uploads/2018/09/Model-50-km.jpg"
-caption = "Visibility of land up to 50 km"     %}
+
+[![](/wp/wp-content/uploads/2018/09/Model-50-km.jpg)](/wp/wp-content/uploads/2018/09/Model-50-km.jpg)
+*Visibility of land up to 50 km*
+
 
 The 150 km model resembles the historical one, cited in archaeological publications. However, such long distance is definitely an overestimation for real world atmospheric conditions. The 50 km model is much more interesting as it indicates important “visibility bridges” between opposing coasts. One such is situated between Sicily and Tunis (ancient Carthage) and another in the middle of the Adriatic Sea (the “spur” of the Italian boot). These have very interesting prehistoric record, no doubt related to seafaring.  The “invisibility” of much of the African coast is also interesting: we can imagine the importance of the enormous <a href="https://www.ancient.eu/Lighthouse_of_Alexandria/">lighthouse in Alexandria</a> (Egypt).
 

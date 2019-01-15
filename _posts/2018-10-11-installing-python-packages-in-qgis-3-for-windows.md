@@ -16,7 +16,7 @@ This is how to proceed in QGIS 3.x in Windows (I work on Win. 7)
 2. Type ```py3_env```. This should print paths of your QGIS Python installation.
 3. Use Python's ```pip``` to install the library of your choice: ```python -m pip install {your library}```
 
-<a href="https://landscapearchaeology.org/wp/wp-content/uploads/2018/10/Capture.png"><img src="https://landscapearchaeology.org/wp/wp-content/uploads/2018/10/Capture.png" alt="" width="677" height="342" class="aligncenter size-full wp-image-338" /></a>
+[![](/wp/wp-content/uploads/2018/10/Capture.png)](/wp/wp-content/uploads/2018/10/Capture.png)
 
 Notes:
 - I don't need to open the shell as administrator -- but this could solve some problems if the program starts complaining about permissions.  

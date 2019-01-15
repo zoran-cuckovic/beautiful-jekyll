@@ -9,3 +9,7 @@ srtm 1 arc!
 
 keyword =  robustness
 accuracy vs precision
+
+multiplication of error !! no ideal precision
+
+movement &  perception

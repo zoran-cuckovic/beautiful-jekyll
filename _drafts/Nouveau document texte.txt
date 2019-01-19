@@ -1,3 +1,8 @@
+---
+layout: post
+title: ''
+published: false
+---
 Plants http://docnum.u-strasbg.fr/cdm/compoundobject/collection/coll13/id/189029/rec/53
 
 IDEAS 
@@ -23,5 +28,6 @@ plant use middle paleolothic http://science.sciencemag.org/content/334/6061/1388
 
 Forests human    https://phys.org/news/2018-05-critically-endangered-south-american-forests.html
 
+mapping science discourse:scimaps.org    .. 1.9 : word topography
 
 Soundscapes : https://phys.org/news/2019-01-forest-soundscapes-efforts-inexpensively-effectively.html?utm_source=nwletter&utm_medium=email&utm_campaign=daily-nwletter

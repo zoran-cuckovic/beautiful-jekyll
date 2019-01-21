@@ -13,8 +13,7 @@ Zoran Čučković
 
 ## Contact
 
-<form action="https://formspree.io/cuckovic.zoran@gmail.com"
-      method="POST">
+<form action="https://formspree.io/cuckovic.zoran@gmail.com" method="POST">
 	 Your name
     <input type="text" name="name">
 	<p>

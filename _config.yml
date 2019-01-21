@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://LandscapeArchaeology.org"
+url: "https://landscapearchaeology.org"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -132,8 +132,10 @@ url-pretty: "LandscapeArchaeology.org"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: landscapearcheology
-commento: true
+disqus: landscapearchaeology
+
+#commento: true
+
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""

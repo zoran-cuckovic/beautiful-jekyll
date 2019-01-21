@@ -6,9 +6,13 @@ permalink: /about/
 ---
 Hello!
 
-This fresh website will bring together my previous work on geographical analysis and archaeology. See at [zoran-cuckovic.from.hr](http://zoran-cuckovic.from.hr)
+Author/editor of LandscapeArchaeology.org goes by the name of Zoran Čučković. The site will bring together my previous work on geographical analysis and archaeology. See at [zoran-cuckovic.from.hr](http://zoran-cuckovic.from.hr). I’m currently a PhD candidate in archaeology at the University of Bourgogne Franche-Comté, France. Previously I worked as archaeologist in Croatia and studied in Croatia and Slovenia.
 
-Zoran Čučković
+LandscapeArchaeology.org is published in France.
+
+## Minimal cookie policy
+
+There are few sites out there that don't collect any information on their visitors. This site features one technical cookie which should be in compliance with EU directives (see here on [CloudFlare cookie](https://community.cloudflare.com/t/disable-cfduid-cookie-for-eu-law-compliance/19323/3)).  
 
 
 ## Contact
@@ -24,10 +28,3 @@ Zoran Čučković
 	<textarea rows="10" name="body"></textarea>
 	<p>
     <input type="submit" value="Send">
-
-
-## Minimal cookie policy
-
-There are few sites out there that don't collect any information on their visitors. LandscapeArchaeology.org features only one technical cookie, which should be in compliance with EU directives (see here on [CloudFlare cookie](https://community.cloudflare.com/t/disable-cfduid-cookie-for-eu-law-compliance/19323/3)).  
-
-

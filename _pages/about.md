@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About
-#subtitle: Why you'd want to go on a date with me
+#subtitle: some subtitle
 permalink: /about/
 ---
 Hello!
 
-This fresh website will bring together my previous work on geographical analysis and archaeology: [zoran-cuckovic.from.hr](http://zoran-cuckovic.from.hr) and [QGIS Whisperer](http://qgis.zoran-cuckovic.from.hr)
+This fresh website will bring together my previous work on geographical analysis and archaeology. See at [zoran-cuckovic.from.hr](http://zoran-cuckovic.from.hr)
 
 Zoran Čučković
 
@@ -25,6 +25,12 @@ Zoran Čučković
 	<textarea rows="10" name="body"></textarea>
 	<p>
     <input type="submit" value="Send">
+	</p>
 </form> 
+
+
+## Minimal cookie policy
+
+There are few sites out there that don't collect any information on their visitors. LandscapeArchaeology.org features only one technical cookie, which should be in compliance with EU directives (see here on [CloudFlare cookie](https://community.cloudflare.com/t/disable-cfduid-cookie-for-eu-law-compliance/19323/3)).  
 
 

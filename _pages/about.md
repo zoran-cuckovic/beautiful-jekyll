@@ -24,8 +24,6 @@ Zoran Čučković
 	<textarea rows="10" name="body"></textarea>
 	<p>
     <input type="submit" value="Send">
-	</p>
-</form> 
 
 
 ## Minimal cookie policy

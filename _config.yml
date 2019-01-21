@@ -133,8 +133,7 @@ url-pretty: "LandscapeArchaeology.org"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 # disqus: landscapearcheology
-
-commento = true
+commento: true
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
@@ -169,7 +168,7 @@ title-separator: "-"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:title/
+permalink: /:year/:title/
 paginate: 5
 
 kramdown:

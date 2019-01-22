@@ -1,15 +1,16 @@
 ---
+layout: post
 id: 372
 title: 'Depth below horizon: new (old) functionality for QGIS viewshed analysis'
-date: 2018-10-23T11:42:26+00:00
+date: 'Tue Oct 23 2018 13:42:26 GMT+0200 (heure d’été d’Europe centrale)'
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=372
+guid: 'https://landscapearchaeology.org/?p=372'
 permalink: /2018/depth-below-horizon/
 categories:
-  - 'Spatial analysis &amp; GIS'
+  - Spatial analysis &amp; GIS
 tags:
   - QGIS visibility plugin
+published: true
 ---
 The basic idea of visibility analysis is to test whether particular locations are theoretically observable from a given observer point (« theoretically » because our data and algorithms can never ideally replicate real-world situations). Such a query yields a yes/no answer for each tested point, which is typically represented as Boolean raster in GIS software.
 
@@ -24,7 +25,7 @@ This measure was already implemented in <a href="http://www.zoran-cuckovic.from.
 As a proof of concept, let’s make a simple DBH model. Our problem is the famous Easter Island and the impact of potential construction on historical landscapes. The tiny island is covered with impressive archaeological vestiges, namely stone sculptures known as Moai (<a href="https://en.wikipedia.org/wiki/Moai">see more on Wikipedia</a>). Urban planners would like to know which areas of the island could be designated for construction without harming the visual experience of the historic landscape. (The following analysis is just for fun: there is much more to urban planning than a simple GIS calculation!)
 
 ![](/wp/wp-content/uploads/2018/10/Moai_Rano_raraku.jpg)
-*By Aurbina - [Own work, Public Domain.]('https://commons.wikimedia.org/w/index.php?curid=133096)*
+*By Aurbina - [Own work, Public Domain.](https://commons.wikimedia.org/w/index.php?curid=133096)*
 
 I’ve downloaded a very helpful listing of Easter Island Moai (link below); in order to model the visual experience of their visitors we will generate DBH viewsheds from all statue locations. Now, in cases when two or more models overlap, we need to find the one that is the most vulnerable, i.e. the one which will be the most affected by construction. That would be either the one where the target area is visible (DBH = 0), or the one with the lowest DBH value. The obtained value will tell us how high a construction could reach before appearing on <em>at least one</em> visible horizon (from given observer locations). If, however, we would like to know when a construction would appear in <em>every</em> field of vision (from given observer locations), we would filter the highest DBH value.
 

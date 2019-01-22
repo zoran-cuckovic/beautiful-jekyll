@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-#subtitle: some subtitle
 permalink: /about/
+published: true
 ---
 Hello!
 
@@ -14,6 +14,7 @@ LandscapeArchaeology.org is published in France.
 
 There are few sites out there that don't collect any information on their visitors. This site features one technical cookie which should be in compliance with EU directives (see here on [CloudFlare cookie](https://community.cloudflare.com/t/disable-cfduid-cookie-for-eu-law-compliance/19323/3)).  
 
+This does not apply to comments, which are handled by [disqus.com](disqus.com) (logins, passwords etc.)
 
 ## Contact
 

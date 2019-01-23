@@ -18,7 +18,7 @@ This does not apply to comments, which are handled by [disqus.com](disqus.com) (
 
 ## Contact
 
-<form action="https://formspree.io/cuckovic.zoran@gmail.com" method="POST">
+<form id="contact-form" class="form" action="https://formspree.io/cuckovic.zoran@gmail.com" method="POST">
 	 Your name
     <input type="text" name="name">
 	<p>
@@ -29,3 +29,4 @@ This does not apply to comments, which are handled by [disqus.com](disqus.com) (
 	<textarea rows="10" name="body"></textarea>
 	<p>
     <input type="submit" value="Send">
+   </form>

@@ -1,17 +1,19 @@
 ---
-id: 86
-title: 'Benchmarking viewshed algorithm: Nuraghi of Sardinia'
-date: 2018-07-15T15:11:08+00:00
 author: Zoran
-layout: post
-guid: http://landscapearchaeology.org/?p=86
-permalink: /2018/visibility-test-nuraghi/
-image: /wp/wp-content/uploads/2018/07/Sardegna-nuraghi-teaser-740x348.jpg
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-07-15 15:11:08
+guid: http://landscapearchaeology.org/?p=86
+id: 86
+image: /wp/wp-content/uploads/2018/07/Sardegna-nuraghi-teaser-740x348.jpg
+layout: post
+permalink: /2018/visibility-test-nuraghi/
 tags:
-  - QGIS visibility plugin
+- QGIS visibility plugin
+- qgis
+title: 'Benchmarking viewshed algorithm: Nuraghi of Sardinia'
 ---
+
 The new [viewshed plugin for QGIS 3](https://landscapearchaeology.org/2018/visibility-analysis-0-6/) features an improved algorithm which should result in perceptible improvements in terms of efficiency. So let's give it a try!
 
 {% include image.html path="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Torralba_San_Antine_10.JPG/640px-Torralba_San_Antine_10.JPG"

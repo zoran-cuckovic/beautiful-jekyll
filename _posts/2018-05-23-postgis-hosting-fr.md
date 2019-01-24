@@ -1,14 +1,17 @@
 ---
-id: 241
-title: SIG collaboratif, solution simple et gratuite
-date: 2018-05-23T16:47:03+00:00
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=241
-permalink: /2018/postgis-hosting-fr/
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-05-23 16:47:03
+guid: https://landscapearchaeology.org/?p=241
+id: 241
+layout: post
+permalink: /2018/postgis-hosting-fr/
+tags:
+- qgis
+title: SIG collaboratif, solution simple et gratuite
 ---
+
 Travailler, ce n’est peut-être pas toujours la chose la plus passionnante, mais c’est quand même plus amusant (et plus efficace) en collaboration. Il y a, dans le monde du SIG, bien de solutions pour le travail collaboratif sur un même jeu de données, mais le plus souvent elles sont coûteuses ou exigeantes au niveau technique.
 
 Cependant, il existe un moyen quelque peu obscur, caché dans le benthos de l’internet, qui permet d’utiliser l’architecture collaborative – gratuitement. Le hébergeur <a href="http://www.alwaysdata.com">Alwaysdata</a> (la compagnie est française malgré le nom) offre dans son paquet découverte l’hébergement des bases de données PostGIS, très performantes et largement utilisées dans le monde SIG.

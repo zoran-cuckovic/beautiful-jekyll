@@ -9,6 +9,8 @@ permalink: /2018/numpy-loops/
 # image: /wp/wp-content/uploads/2018/06/2017-11-numpy3.png
 categories:
   - Uncategorized
+tags:
+  - code
 ---
 Numpy is the cornerstone of matrix based calculations in QGIS (and elsewhere). It does wonders with raster data (unless it hits the limit of available live memory...).  
   

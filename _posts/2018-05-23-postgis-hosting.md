@@ -1,14 +1,17 @@
 ---
-id: 239
-title: 'Postgis database: free online hosting'
-date: 2018-05-23T16:41:01+00:00
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=239
-permalink: /2018/postgis-hosting/
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-05-23 16:41:01
+guid: https://landscapearchaeology.org/?p=239
+id: 239
+layout: post
+permalink: /2018/postgis-hosting/
+tags:
+- qgis
+title: 'Postgis database: free online hosting'
 ---
+
 Postgis is _the_ database software for collaborative work in the GIS environment. Multiple users can connect to the database and edit the data without the fear of breaking down the system (except messing with each others edits - which is another type of issue).  
   
 Assuming that the interaction between the database and the user is made through internet, we need to set up a hosted database - which complicates the affair.   

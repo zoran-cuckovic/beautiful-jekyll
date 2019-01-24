@@ -1,16 +1,18 @@
 ---
-id: 296
-title: 'Land visibility in the Mediterranean: a large scale model'
-date: 2018-09-26T17:08:22+00:00
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=296
-permalink: /2018/mediterranean-land-visibility/
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-09-26 17:08:22
+guid: https://landscapearchaeology.org/?p=296
+id: 296
+layout: post
+permalink: /2018/mediterranean-land-visibility/
 tags:
-  - QGIS visibility plugin
+- QGIS visibility plugin
+- qgis
+title: 'Land visibility in the Mediterranean: a large scale model'
 ---
+
 Visibility of land was a major consideration for ancient seafaring, for reasons of navigation and security. Even if the open sea travel must have been practised already by the Neolithic period, judging by the colonisation of remote islands and by the exchange of artefacts across the Mediterranean, the sight of the land remained a much desired navigational aid at least until the medieval period. The earliest evidence of seafaring date to astonishing 100 000 years before present (artefacts from <a href="https://www.peabody.harvard.edu/files/17_Ruunels_et.al_start.pdf">Preveli on Crete</a>).
 
 Archaeologists frequently discuss the importance of land visibility for ancient seafaring, but without a useful geographical model. There is a map which is constantly reappearing in publications but the origin of which I couldn’t determine (<a href="https://books.google.fr/books?id=sZbqAAAAQBAJ">Tartaron 2103</a>, Fig 4.9, citing <a href="https://books.google.fr/books?id=qbYiW13TJ6UC">Broodbank 2000</a>, Fig 4, citing <a href="https://books.google.fr/books?id=yD49AAAAIAAJ">Chapman 1990</a>, Fig 59, citing a 1980’s publication I cannot access…). I suspect that these are derived from the model published by <a href="https://books.google.fr/books?id=B7SLWT2vpNcC">Aubet 2001</a>, below. However, hers is a type of book which doesn’t cite its sources (but still …).

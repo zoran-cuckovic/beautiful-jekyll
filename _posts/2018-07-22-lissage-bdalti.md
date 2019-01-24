@@ -1,14 +1,17 @@
 ---
-id: 215
-title: Lissage du modèle numérique de terrain BD ALTI
-date: 2018-07-22T00:06:41+00:00
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=215
-permalink: /2018/lissage-bdalti/
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-07-22 00:06:41
+guid: https://landscapearchaeology.org/?p=215
+id: 215
+layout: post
+permalink: /2018/lissage-bdalti/
+tags:
+- qgis
+title: Lissage du modèle numérique de terrain BD ALTI
 ---
+
 Le problème n’est pas nouveau, mais on ne trouve toujours pas de solutions simples pour le « maquillage » du modèle numérique de terrain (MNT) très couramment utilisé en France, le BD ALTI de résolution de 25 mètres (lien dessus). Celui-ci est disponible en valeurs entières, ce que lui donne un aspect en marches d’escalier (hautes d’un mètre) : très moche et surtout contraignant pour un bon nombre d’analyses. Par exemple, l’analyse de visibilité donne un résultat peu utilisable, comme ci-dessous.  
   
 

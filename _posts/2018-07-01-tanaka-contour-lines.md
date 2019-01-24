@@ -1,15 +1,17 @@
 ---
-id: 91
-title: Tanaka method or how to make shaded contour lines
-date: 2018-07-01T10:17:28+00:00
 author: Zoran
-layout: post
-guid: http://landscapearchaeology.org/?p=91
-permalink: /2018/tanaka-contour-lines/
-# image: /wp/wp-content/uploads/2018/06/Tanaka-up-teaser-740x408.png
 categories:
-  - 'Spatial analysis & GIS'
+- Spatial analysis & GIS
+date: 2018-07-01 10:17:28
+guid: http://landscapearchaeology.org/?p=91
+id: 91
+layout: post
+permalink: /2018/tanaka-contour-lines/
+tags:
+- qgis
+title: Tanaka method or how to make shaded contour lines
 ---
+
 Contour lines have become a commonplace, unassuming companion of our cartographic outputs - GIS has made us forget their visual potential. Already in the 19th century cartographers experimented with shaded contours, but the technique has become known as the Tanaka method, after Japanese cartographer Kitiro Tanaka (Kennelly 2016, wiki.gis 2017). Even the cover page of Imhof's seminal book sports a pile of shaded contours!
      
 ![](http://landscapearchaeology.org/wp/wp-content/uploads/2018/06/imhof.jpg)

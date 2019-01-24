@@ -1,16 +1,18 @@
 ---
-id: 58
-title: Visibility analysis for QGIS 3.0
-date: 2018-07-03T10:34:22+00:00
 author: Zoran
-layout: post
-guid: http://landscapearchaeology.org/?p=58
-permalink: /2018/visibility-analysis-0-6/
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-07-03 10:34:22
+guid: http://landscapearchaeology.org/?p=58
+id: 58
+layout: post
+permalink: /2018/visibility-analysis-0-6/
 tags:
-  - QGIS visibility plugin
+- QGIS visibility plugin
+- qgis
+title: Visibility analysis for QGIS 3.0
 ---
+
 [Visibility analysis plugin](http://www.zoran-cuckovic.from.hr/p/visibility.html) is now available in QGIS 3.0! It has been completely refurbished: from now on it will be integrated into the "Processing toolbox". This is a more appropriate habitat for the algorithm because of integration with the QGIS toolshed. It can be now combined with all the fancy geoprocessing tools (GRASS, SAGA etc).
 
 Previous experimental versions for Processing were published as [Senscape](http://github.com/zoran-cuckovic/senscape). The whole thing remains experimental, so please check twice the results and do report any issues you might find.

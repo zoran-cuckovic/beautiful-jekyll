@@ -1,14 +1,17 @@
 ---
-id: 331
-title: Installing Python packages in QGIS 3 (for Windows)
-date: 2018-10-11T18:02:55+00:00
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=331
-permalink: /2018/installing-python-packages-in-qgis-3-for-windows/
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-10-11 18:02:55
+guid: https://landscapearchaeology.org/?p=331
+id: 331
+layout: post
+permalink: /2018/installing-python-packages-in-qgis-3-for-windows/
+tags:
+- qgis
+title: Installing Python packages in QGIS 3 (for Windows)
 ---
+
 Python is in the heart of QGIS (or in the guts if you prefer), which enables us to use tons of third party Python libraries. In Linux systems, QGIS will use the main Python installation, but in Windows things get more complicated. QGIS has it's own Python, which means we end up with various Pythons on our machines...
 
 This is how to proceed in QGIS 3.x in Windows (I work on Win. 7)
@@ -19,4 +22,4 @@ This is how to proceed in QGIS 3.x in Windows (I work on Win. 7)
 [![](/wp/wp-content/uploads/2018/10/Capture.png)](/wp/wp-content/uploads/2018/10/Capture.png)
 
 Notes:
-- I don't need to open the shell as administrator -- but this could solve some problems if the program starts complaining about permissions.  
+- I don't need to open the shell as administrator -- but this could solve some problems if the program starts complaining about permissions.

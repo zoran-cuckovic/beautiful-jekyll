@@ -1,13 +1,15 @@
 ---
-id: 318
-title: Some thoughts on hillshade models for Lidar analysis
-date: 2018-11-10T20:41:45+00:00
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=318
-permalink: /2018/lidar-hillshade/
 categories:
-  - 'Spatial analysis & GIS'
+- Spatial analysis & GIS
+date: 2018-11-10 20:41:45
+guid: https://landscapearchaeology.org/?p=318
+id: 318
+layout: post
+permalink: /2018/lidar-hillshade/
+tags:
+- qgis
+title: Some thoughts on hillshade models for Lidar analysis
 ---
 
 Hillshade modelling is a standard form of terrain representation in cartography. The idea is to simulate lighting of a terrain from a certain direction (or multiple directions). The method is well known and constantly improved in GIS – as means of cartographic representation. It seems, indeed, difficult to imagine spatial analysis on shadows.

@@ -1,14 +1,17 @@
 ---
-id: 246
-title: Polar (circular) diagram
-date: 2018-05-25T16:57:53+00:00
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=246
-permalink: /2018/polar-diagram/
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-05-25 16:57:53
+guid: https://landscapearchaeology.org/?p=246
+id: 246
+layout: post
+permalink: /2018/polar-diagram/
+tags:
+- qgis
+title: Polar (circular) diagram
 ---
+
 Orientation of geographic features can be an important piece of information, for instance when studying ancient field systems or analysing geological formations. The problem comes when we try to summarise such data graphically . Standard histograms are not ideal because they cut through the continuous distribution - one cannot easily understand the relationship between the beginning and the end of the diagram (which should stick together). Polar diagram is what we need, but it cannot be made without some fiddling around.
 
 <a href="https://3.bp.blogspot.com/-L93oFU5wimQ/WgbxUnriF5I/AAAAAAAAA2A/9Odg-QlGj3o7X84AZlXDWaiV9La2ugElACLcBGAs/s1600/2017-11-Polar-graph.jpg"><img src="https://3.bp.blogspot.com/-L93oFU5wimQ/WgbxUnriF5I/AAAAAAAAA2A/9Odg-QlGj3o7X84AZlXDWaiV9La2ugElACLcBGAs/s400/2017-11-Polar-graph.jpg" alt="" /></a>

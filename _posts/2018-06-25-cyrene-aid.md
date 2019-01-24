@@ -1,14 +1,17 @@
 ---
-id: 23
-title: 'My first QGIS map: the aid from Cyrene'
-date: 2018-06-25T12:00:47+00:00
 author: Zoran
-layout: post
-guid: http://landscapearchaeology.org/?p=23
-permalink: /2018/cyrene-aid/
 categories:
-  - 'Spatial analysis &amp; GIS'
+- Spatial analysis &amp; GIS
+date: 2018-06-25 12:00:47
+guid: http://landscapearchaeology.org/?p=23
+id: 23
+layout: post
+permalink: /2018/cyrene-aid/
+tags:
+- qgis
+title: 'My first QGIS map: the aid from Cyrene'
 ---
+
 ![Cyrene, Lybia](http://landscapearchaeology.org/wp/wp-content/uploads/2018/06/Cyrene.png)
 *Cyrene, Lybia*
 
@@ -113,4 +116,3 @@ Berthelot, H. 2012, [La « stèle des céréales » de Cyrène](http://lettres.s
 Bresson, A. 2011, Grain from Cyrene [DOI:10.1093/acprof:osobl/9780199587926.003.0004](http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199587926.001.0001/acprof-9780199587926-chapter-4)
 
 Garnsey, P. 1988, *Famine and Food-Supply in the Graeco-Roman World, Responses to Risk and Crisis*, Cambridge.
-

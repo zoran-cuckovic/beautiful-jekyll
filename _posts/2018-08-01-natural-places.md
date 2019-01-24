@@ -8,6 +8,8 @@ guid: http://landscapearchaeology.org/?p=212
 permalink: /2018/natural-places/
 categories:
   - Landscape theory
+tags: 
+  - theory
 ---
 First time I heard of something like “natural places” was some ten years ago at a conference in Slovenia. Several, mostly young researchers were proud to demonstrate an existence of non-man-made features on their sites, features that apparently gained a symbolic value before or during human habitation. For instance, trees which were incorporated in Neolithic ritual arrangements (henge monuments, if I recall correctly) or rock outcrops that seemed to have attracted special attention in the past. At first sight, such a concept does not seem particularly ground-breaking: we have always known that natural features inspired a wide range of symbolically charged responses in ancient societies, such as mountaintop sanctuaries (e.g. on Crete), depositions of artefacts in springs and rivers (e.g. the source of the Seine), or sacred forests that are well known from literary sources. I got intrigued, nevertheless, by an opportunity to introduce the concept of nature in archaeology, a concept which is, in a sense, our enemy.  
   

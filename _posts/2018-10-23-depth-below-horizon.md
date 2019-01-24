@@ -1,17 +1,19 @@
 ---
-layout: post
-id: 372
-title: 'Depth below horizon: new (old) functionality for QGIS viewshed analysis'
-date: 'Tue Oct 23 2018 13:42:26 GMT+0200 (heure d’été d’Europe centrale)'
 author: Zoran
-guid: 'https://landscapearchaeology.org/?p=372'
-permalink: /2018/depth-below-horizon/
 categories:
-  - Spatial analysis &amp; GIS
-tags:
-  - QGIS visibility plugin
+- Spatial analysis &amp; GIS
+date: Tue Oct 23 2018 13:42:26 GMT+0200 (heure d’été d’Europe centrale)
+guid: https://landscapearchaeology.org/?p=372
+id: 372
+layout: post
+permalink: /2018/depth-below-horizon/
 published: true
+tags:
+- QGIS visibility plugin
+- qgis
+title: 'Depth below horizon: new (old) functionality for QGIS viewshed analysis'
 ---
+
 The basic idea of visibility analysis is to test whether particular locations are theoretically observable from a given observer point (« theoretically » because our data and algorithms can never ideally replicate real-world situations). Such a query yields a yes/no answer for each tested point, which is typically represented as Boolean raster in GIS software.
 
 But, wouldn’t it be great to know, for all those invisible locations, how much we would have to raise the ground to make them visible? Some places may only be a metre or less below the local horizon, which could be considered as possible visibility, given the usual error margin of typical elevation models. When analysing urban plans, this measure could be used to determine the visual impact of proposed constructions: where and to what extent would buildings protrude form horizon line (aka skyline).

@@ -2,6 +2,7 @@
 _site
 .sass-cache
 .vagrant
+.py
 0 notes.txt
 
 # general

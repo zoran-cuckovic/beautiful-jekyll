@@ -8,6 +8,8 @@ guid: https://landscapearchaeology.org/?p=453
 permalink: /2018/archaeology-of-simulacra/
 categories:
   - Uncategorized
+tags: 
+  - theory
   
 excerpt: "Several weeks ago I stumbled upon an amusing article on a museum displaying pebbles and rocks resembling human faces, situated in Chichibu, Japan. The stones are called <em>jinmenseki</em> (珍石) and one should be able to recognise human faces in their naturally occurring dents and holes. The founder of the museum, Shozo Hayama, spent some 50 years collecting these specimens"
 ---

@@ -31,6 +31,7 @@ include:
 
 # List of links in the navigation bar
 navbar-links:
+  Content: "tags"
   About: "about"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

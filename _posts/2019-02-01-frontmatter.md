@@ -58,7 +58,7 @@ for f in listdir(folder):
 
     #print (post['title'])
 	
-	if remove_tag :
+    if remove_tag :
         try:  post['tags'].remove(remove_tag)
         except: pass
 

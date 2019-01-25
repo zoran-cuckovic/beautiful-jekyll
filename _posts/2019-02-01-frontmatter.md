@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Bulk editing posts for Jekyll
-tag:
-  - code
 published: true
 tags:
   - code

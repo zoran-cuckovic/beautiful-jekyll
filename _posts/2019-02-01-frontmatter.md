@@ -1,6 +1,10 @@
 ---
-title: Bulk editing posts for Jekyll 
-tag: 
+layout: post
+title: Bulk editing posts for Jekyll
+tag:
+  - code
+published: true
+tags:
   - code
 ---
 
@@ -79,5 +83,4 @@ for f in listdir(folder):
 ```
 IMPORTANT: the scipt will attempt to edit all files in a folder, there is no particular filter or whatever. You should never run it inside the main folder containing original posts. Copy selected posts to a temporary folder, edit, check and then paste back to the main *_posts* folder (or wherever these may be placed).  
 
-Note that data fields are represented as keys in a dictionary, which is handy ( `print (post['title'])`). This script can be extended for other data fields (date, autor name, title etc...). 
-
+Note that data fields are represented as keys in a dictionary, which is handy ( `print (post['title'])`). This script can be extended for other data fields (date, autor name, title etc...).

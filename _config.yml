@@ -271,6 +271,13 @@ prose:
           help: "Add a thumbnail image to your post."
           placeholder: "Thumbnail"
           alterable: true
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          help: "Add /remove tags."
+          placeholder: "Tags"
+          alterable: true
       - name: "published"
         field:
           element: "checkbox"

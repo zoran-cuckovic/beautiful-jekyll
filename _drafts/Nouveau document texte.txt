@@ -35,3 +35,7 @@ Soundscapes : https://phys.org/news/2019-01-forest-soundscapes-efforts-inexpensi
 KEYWORDS : 
 
 cultural landscape; what is landscape archaeology; landscape archaeology and gis
+
+
+
+?? "I do not use #QGIS because I'm too busy developing it" : https://twitter.com/elpaso66/status/1088010747697917952

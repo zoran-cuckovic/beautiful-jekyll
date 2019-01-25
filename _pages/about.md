@@ -29,4 +29,4 @@ This does not apply to comments, which are handled by [disqus.com](disqus.com) (
 	<textarea rows="10" name="body"></textarea>
 	<p>
     <input type="submit" value="Send">
-   </form>
+</form>

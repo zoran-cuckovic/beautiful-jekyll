@@ -1,8 +1,31 @@
 ---
 layout: page
-title: 'Tag Index'
+title: 'Contents'
 ---
 
+<!-- Html Elements for Search -->
+
+<h2>Search</h2>
+
+<div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="{{site.url}}/js/simple-search.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+})
+</script>
+
+<h2>Tags</h2>
+<!-- TAGS  -->
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
         {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}

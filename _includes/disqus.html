@@ -29,4 +29,18 @@
 	<input type="hidden" name="_subject" value="Contact : "{{post.title}} />
 </form>
 <!-- https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
+
+
+
+<form id="simpleform" action="https://getsimpleform.com/messages?form_api_token=76bb142d35a0d88349f47ad64d10dd91" method="post">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission 
+  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />    -->
+  <!-- all your input fields here.... -->
+  <input type="text" placeholder="Your name" id="name"/>
+  <input type="email" placeholder="Your email" id="email"/>
+  <input type="hidden" id="_subject" value="Contact : "{{post.title}} />
+  <p>
+<textarea rows="2" id="message" placeholder="Your message"></textarea>
+  <input type='submit' value='Test form' />
+</form>
 {%- endif -%}

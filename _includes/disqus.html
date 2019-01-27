@@ -18,18 +18,6 @@
 </div>
 {% elsif site.formspree %}
 <h3> Comments? </h3>
-<!-- 
-<form id="contactform" action="https://formspree.io/cuckovic.zoran@gmail.com" method="POST">
-	<input type="text" name="name" placeholder="Your name ">
-	<input type="email" name="_replyto" placeholder="Your email ">
-	<input type="text" name="_gotcha" style="display:none" />
-	<p>
-	<textarea rows="2" name="message" placeholder="Your message"></textarea>
-    <input type="submit" value="Send">
-	<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
-	<input type="hidden" name="_subject" value="Contact : "{{post.title}} />
-</form>
-https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
 <form id="simpleform" action="https://getsimpleform.com/messages?form_api_token=76bb142d35a0d88349f47ad64d10dd91" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission 
   <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />    -->

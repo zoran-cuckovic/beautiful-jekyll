@@ -34,7 +34,6 @@ There are few sites out there that don't collect any information on their visito
 	<textarea rows="2" name="message" placeholder="Your message"></textarea>
     <input type="submit" value="Send">
 	<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
-	<input type="hidden" name="_subject" value={{post.title}} />
 </form>
 https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
 

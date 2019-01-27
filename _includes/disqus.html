@@ -34,11 +34,11 @@ https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission 
   <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />    -->
   <!-- all your input fields here.... -->
-  <input type="text" placeholder="Your name" id="name"/>
-  <input type="email" placeholder="Your email" id="email"/>
-  <input type="hidden" id="_subject" value="Contact : "{{post.title}} />
+  <input type="text" placeholder="Your name" name="name"/>
+  <input type="email" placeholder="Your email" name="email"/>
+  <input type="hidden" name="title" value="Contact : "{{post.title}} />
   <p>
-<textarea rows="2" id="message" placeholder="Your message"></textarea>
-  <input type='submit' value='Test form' />
+<textarea rows="2" name="message" placeholder="Your message"></textarea>
+  <input type='submit' value='Send' />
 </form>
 {%- endif -%}

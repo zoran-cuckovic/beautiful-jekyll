@@ -2,8 +2,11 @@
 _site
 .sass-cache
 .vagrant
+
 /PRIVATE
 0 notes.txt
+*.bat
+*.py
 
 # general
 .DS_Store

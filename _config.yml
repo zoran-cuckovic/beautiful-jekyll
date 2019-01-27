@@ -131,10 +131,10 @@ url-pretty: "LandscapeArchaeology.org"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Comments --- #
 
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: landscapearchaeology
+formspree: true
 
-commento: true
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+#disqus: landscapearchaeology
 
 repository: USERNAME/PROJECT 
 # NOT USED, to fool local deploy !!

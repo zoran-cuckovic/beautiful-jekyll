@@ -14,19 +14,15 @@ LandscapeArchaeology.org is published in France.
 
 There are few sites out there that don't collect any information on their visitors. This site features one technical cookie which should be in compliance with EU directives (see here on [CloudFlare cookie](https://community.cloudflare.com/t/disable-cfduid-cookie-for-eu-law-compliance/19323/3)).  
 
-This does not apply to comments, which are handled by [disqus.com](disqus.com) (logins, passwords etc.)
-
 ## Contact
 
-<form id="contact-form" class="form" action="https://formspree.io/cuckovic.zoran@gmail.com" method="POST">
-	 Your name
-    <input type="text" name="name">
+<form id="contact-form"  action="https://formspree.io/cuckovic.zoran@gmail.com" method="POST">
+	 Your name <input type="text" name="name">
 	<p>
-	Your email
-    <input type="email" name="_replyto">
+	Your email <input type="email" name="_replyto">
 	<p>
-	Message
-	<textarea rows="10" name="body"></textarea>
+	Message	<textarea rows="10" name="body"></textarea>
 	<p>
     <input type="submit" value="Send">
-</form>
+
+

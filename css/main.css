@@ -598,6 +598,9 @@ footer .theme-by {
   display: none;
 }
 @media only screen and (max-width: 365px) {
+	
+
+
   .header-section.has-img .intro-header.no-img {
     display: block;
   }
@@ -612,6 +615,8 @@ footer .theme-by {
   .header-section.has-img .big-img {
     margin-bottom: 0;
   }
+  
+
 }
 @media only screen and (max-width: 325px) {
   .intro-header.big-img {
@@ -715,6 +720,26 @@ table tr td :last-child {
   margin-bottom: 0;
 }
 
+/* --- Forms (ZC)  --- */
+form {
+	#margin-left:auto;
+	#margin-right:auto;
+    max-width: 600px;
+    background: #F7F7F7;
+    padding: 15px 15px 15px 15px;
+    # font: 12px Georgia, "Times New Roman", Times, serif;
+    # color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+
+form textarea{ width:450px}
+
+@media only screen and (max-width: 500px) {
+
+	form textarea{ width:250px}
+}
+	
 /* --- Code blocks --- */
 
 pre {

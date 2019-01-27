@@ -16,10 +16,17 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-{%- elsif site.commento -%}
-<div class="comments">
-    <div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"  data-cfasync="false"></script>
-</div>
+{% elsif site.formspree %}
+<h3> Comments? </h3>
+<form id="contactform" action="//formspree.io/zoran.cuckovic@gmail.com" method="POST">
+	<input type="text" name="name" placeholder="Your name ">
+	<input type="email" name="_replyto" placeholder="Your email ">
+	<input type="text" name="_gotcha" style="display:none" />
+	<p>
+	<textarea rows="2" name="message" placeholder="Your message"></textarea>
+    <input type="submit" value="Send">
+	<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
+	<input type="hidden" name="_subject" value="Contact : "{{post.title}} />
+</form>
+<!-- https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
 {%- endif -%}
-

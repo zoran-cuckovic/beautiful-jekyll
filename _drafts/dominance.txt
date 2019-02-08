@@ -1,0 +1,21 @@
+Local dominance
+
+https://blog23d.wordpress.com/2013/06/13/dem-visualisation-techniques-local-dominance/
+
+Hesse : 
+Local dominance visualisation of a DEM is based on computing, for every pixel of the DEM, how dominant an observer standing on that point would be for a local surrounding area. Dominance as used here is the average steepness of the angle at which the observer looks down at the surrounding land surface. It is higher for points on local elevations and lower for points in local depressions.
+
+Local dominance is computed for pixels within a specified maximum radius and a specified observer height above the surface. To reduce the noisy appearance of the resulting image due to small-scale surface roughness, a minimum radius can be specified. Pixel brightness is derived from the local dominance values by applying an appropriate greyscale histogram stretch.
+
+Local dominance visualisation is well suited for very subtle positive relief features such as former field boundaries or strongly eroded burial mounds, but also delivers very good results for topographic depressions such as dolines, mining traces or hollow ways. 
+
+-------              end Hesse           ------------------------
+
+https://livt.sourceforge.io/
+https://www.academia.edu/4610472/Visualisation_of_high-resolution_DEM_with_the_Lidar_Visualisation_Toolbox_LiVT
+
+distance : expressed in pixels !! (should be pixel_distance * pixel_size)
+not optimized!!
+
+== weighted tpi
+

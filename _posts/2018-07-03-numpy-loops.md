@@ -1,22 +1,21 @@
 ---
+layout: post
 id: 143
 title: Looping through numpy arrays (e.g. moving/rolling window)
-date: 2018-07-03T17:34:56+00:00
+date: 'Tue Jul 03 2018 19:34:56 GMT+0200 (heure d’été d’Europe centrale)'
 author: Zoran
-layout: post
-guid: http://landscapearchaeology.org/?p=143
+guid: 'http://landscapearchaeology.org/?p=143'
 permalink: /2018/numpy-loops/
-# image: /wp/wp-content/uploads/2018/06/2017-11-numpy3.png
 categories:
   - Uncategorized
 tags:
   - code
+published: true
 ---
 Numpy is the cornerstone of matrix based calculations in QGIS (and elsewhere). It does wonders with raster data (unless it hits the limit of available live memory...).  
   
 A recurrent problem with Numpy is the implementation of various looping routines, such as the sliding window which is frequently used in image filtering and other approaches focused on cell neighbourhood. Below is the illustration of the problem: for each cell the window needs to query a specified neighbourhood (square, circular or other).  
   
-
 ![](http://landscapearchaeology.org/wp/wp-content/uploads/2018/06/2017-11-numpy1b.png)
 
 Now, there exists a solution in the form of "stride tricks" within the Numpy library. However it is really cryptic (the [SciPy cookbook](http://scipy-cookbook.readthedocs.io/items/GameOfLifeStrides.html) uses the "devious" epithet); after all the very name "tricks" implies it being ... tricky. Numpy documentation actually [discourages its use](https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.lib.stride_tricks.as_strided.html). We can do it in a more understandable manner - which also means more configurable - and without any particular computational overhead.  
@@ -143,5 +142,7 @@ output = calculate_something(temp_sum)
 ```
  
 Perhaps we could do better, but the advantage of this approach is that we can adapt it to any imaginable shape of the moving window - because we conserve the loop over window cells. We are also working on views, as opposed to hard copies of the data, which is what Numpy likes a lot.  
+
+PS. You can find an implementation of sliding window logic in a script for GIS raster analysis [(Topographic position index)](https://landscapearchaeology.org/2019/tpi/).  
   
 Any suggestions are welcome!

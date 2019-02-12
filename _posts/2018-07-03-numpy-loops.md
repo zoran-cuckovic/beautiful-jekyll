@@ -62,6 +62,7 @@ pad = 1
 matrix = np.pad(data, pad, 'edge')
 
 # Level 2: traversing the window (3x3 size)
+# You could (should) use numpy.ndenumerate() function, as well
 for y in range(3):
     for x in range(3):
 
@@ -86,8 +87,6 @@ Therefore, we need to adjust both views at the same time. Note that these views 
 To finish, let's throw in an additional parameter for steps - the range to be skipped between analysed cells (see [numpy docs](https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html) for steps). Let's now wrap all this to a function which will return matching views:  
   
 ```
-import numpy as np
-
 """
 Function returning two matching numpy views for moving window routines.
 - offset_y and offset_x refer to the shift in relation to the analysed (central) cell 
@@ -96,6 +95,7 @@ Function returning two matching numpy views for moving window routines.
 
 All comments are welcome at landscapearchaeology.org/2018/numpy-loops
 """
+import numpy as np
 
 def view (offset_y, offset_x, size_y, size_x, step=1):
  

@@ -1,15 +1,18 @@
 ---
+layout: post
 author: Zoran
 categories:
-- Spatial analysis &amp; GIS
-date: 2018-06-25 12:00:47
-guid: http://landscapearchaeology.org/?p=23
+  - Spatial analysis &amp; GIS
+date: 'Mon Jun 25 2018 14:00:47 GMT+0200 (heure d’été d’Europe centrale)'
+guid: 'http://landscapearchaeology.org/?p=23'
 id: 23
-layout: post
 permalink: /2018/cyrene-aid/
 tags:
-- qgis
+  - qgis
+  - tutorial
 title: 'My first QGIS map: the aid from Cyrene'
+published: true
+subtitle: Learn how to make a basic map in QGIS
 ---
 
 ![Cyrene, Lybia](http://landscapearchaeology.org/wp/wp-content/uploads/2018/06/Cyrene.png)

@@ -35,8 +35,7 @@ edited by Robert Layton & Peter Ucko
 **Wisdom Sits in Places: Landscape and Language Among the Western Apache** 
 by Keith Basso
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=landarch07-20&marketplace=amazon&region=US&placement=0826317243&asins=0826317243&linkId=cee06db43a178b258d28184198b39a63&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
+<a target="_blank"  href="https://www.amazon.com/gp/product/0826317243/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0826317243&linkCode=as2&tag=landarch07-20&linkId=62fca2633886e9f7ece58b6ce8d930ab"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0826317243&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=landarch07-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=landarch07-20&l=am2&o=1&a=0826317243" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
     
     
  NB. Images link to Amazon store: I get candy if you use them :)

@@ -18,5 +18,5 @@ The PyQGIS Programmer's Guide: Extending QGIS 3 with Python 3
     </iframe>
     
     
-    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=landarch07-20&marketplace=amazon&region=US&placement=178630189X&asins=178630189X&linkId=cb26513f59158d3b3f67799b790025fa&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=landarch07-20&marketplace=amazon&region=US&placement=178630189X&asins=178630189X&linkId=cb26513f59158d3b3f67799b790025fa&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>

@@ -6,20 +6,15 @@ title: My bookshelf
 ## QGIS (version 3)
 Learn QGIS: Your step-by-step guide to the fundamental of QGIS 3.4, 4th Edition
 
-<iframe width="120" height="240" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=landarch07-20&marketplace=amazon&region=US&placement=1788997425&asins=1788997425&linkId=53601fdaf0c38dd5603a2ba0d943f0fb&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF"></iframe>
-   
-<iframe height="480" src="https://drive.google.com/file/d/1Z8HOgsrupJijSkp2F-zUhN9-gpgD4wQT/preview" width="800"></iframe> 
+<a target="_blank"  href="https://www.amazon.com/gp/product/1788997425/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1788997425&linkCode=as2&tag=landarch07-20&linkId=76da4cd939d6ac43d2029434c047b393"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1788997425&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=landarch07-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=landarch07-20&l=am2&o=1&a=1788997425" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
  
 Qgis Map Design 2nd ed. Edition
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=landarch07-20&marketplace=amazon&region=US&placement=0998547743&asins=0998547743&linkId=db5ea770409d92a6461e4fa23b836a40&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe>
+<a target="_blank"  href="https://www.amazon.com/gp/product/0998547743/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0998547743&linkCode=as2&tag=landarch07-20&linkId=0ee36208a15c6258f6340cdc47744309"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0998547743&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=landarch07-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=landarch07-20&l=am2&o=1&a=0998547743" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 The PyQGIS Programmer's Guide: Extending QGIS 3 with Python 3
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=landarch07-20&marketplace=amazon&region=US&placement=0998547727&asins=0998547727&linkId=ac83b4382ae9dfd458d63e540ad28b32&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe>
+<a target="_blank"  href="https://www.amazon.com/gp/product/0998547727/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0998547727&linkCode=as2&tag=landarch07-20&linkId=5b8a2755e51b4e88a775bf7f78baa754"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0998547727&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=landarch07-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=landarch07-20&l=am2&o=1&a=0998547727" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
     
     
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=landarch07-20&marketplace=amazon&region=US&placement=178630189X&asins=178630189X&linkId=cb26513f59158d3b3f67799b790025fa&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-</iframe>
+<a target="_blank"  href="https://www.amazon.com/gp/product/178630189X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=178630189X&linkCode=as2&tag=landarch07-20&linkId=33886a0c49ec7e405f853616a068f014"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=178630189X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=landarch07-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=landarch07-20&l=am2&o=1&a=178630189X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

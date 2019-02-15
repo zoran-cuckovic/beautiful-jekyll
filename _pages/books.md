@@ -10,7 +10,7 @@ by Andrew Cutts & Anita Graser
 
 <a target="_blank"  href="https://www.amazon.com/gp/product/1788997425/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1788997425&linkCode=as2&tag=landarch07-20&linkId=76da4cd939d6ac43d2029434c047b393"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1788997425&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=landarch07-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=landarch07-20&l=am2&o=1&a=1788997425" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
  
-**Qgis Map Design 2nd ed. Edition** 
+**Qgis Map Design** 
 by	Anita Graser & Gretchen N. Peterson
 
 <a target="_blank"  href="https://www.amazon.com/gp/product/0998547743/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0998547743&linkCode=as2&tag=landarch07-20&linkId=0ee36208a15c6258f6340cdc47744309"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0998547743&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=landarch07-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=landarch07-20&l=am2&o=1&a=0998547743" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

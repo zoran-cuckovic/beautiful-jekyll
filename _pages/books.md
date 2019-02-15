@@ -1,6 +1,6 @@
 ---
 layout: page
-published: false
+permalink: /books/
 title: My bookshelf 
 ---
 ## QGIS (version 3)

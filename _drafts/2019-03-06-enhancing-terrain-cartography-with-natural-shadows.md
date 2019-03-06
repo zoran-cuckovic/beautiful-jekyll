@@ -9,8 +9,6 @@ tags:
 ---
 
 ![Algo-window.JPG]({{site.baseurl}}/figures/Algo-window.JPG)
-![Algo-window.JPG]({{site.baseurl}}/figures/Algo-window.JPG)
-
 *QGIS algorithm for modelling natural shadows.* 
 
 ## Introduction
@@ -57,8 +55,6 @@ You can see the algo in GitHub repository: [QGIS-raster-sahding](https://github.
 
 ## Using the algorithm and styling the output
 
-
-
 The shading algorithm is used as a Processing script for QGIS 3 and is installed as usual (figure below). It will appear under **Scripts >> Raster terrain analysis >> Natural shading** in the Processing toolbox.
 
 ![processing-add-script.jpg]({{site.baseurl}}/figures/processing-add-script.jpg)
@@ -79,15 +75,24 @@ Natural shadows work best where hillshades tend to produce "elephant skin" effec
 
 See how shadows introduce a feeling of depth? Now, simple black/grey shadows would be problematic as they could easily occlude detail in valleys. Or, if too transparent, they would just add some mist, without introducing much perceptual improvement. Hopefully, my algorithm provides information on shadow depth, which enables to fine tune the effect. Shallow shadows should be less strong, as we can suppose a stronger impact of light dispersal in such areas. Here, I've set different intensities of grey and different levels of opacity for five classes between zero and minus 400 metres.  Typically you would also need to completely eliminate shadows less than 2 or 3 metres in depth (opacity = 0%), as they tend to encroach ridgelines and hilltops.
 
-
+![Style.JPG]({{site.baseurl}}/figures/Style.JPG)
 *Shadow intensities are controlled by both colour and transparency for each depth class.*
 
-One last example, Požega valley in Croatian part of Pannonia.
+One last example, Požega valley in Croatian part of Pannonia:
+
+![Pozega-hillshade.jpg]({{site.baseurl}}/figures/Pozega-hillshade.jpg)
+
+
+And with natural shadows:
+
+![Pozega-shade.jpg]({{site.baseurl}}/figures/Pozega-shade.jpg)
+
+
 
 
 ## Download
 
-The scrip can be downloaded from [GitHub repository]
+The script can be downloaded from [GitHub repository]
 TODO !!
 
 Happy mapping!

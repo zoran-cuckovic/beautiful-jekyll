@@ -14,7 +14,7 @@ tags:
 ## Introduction
 Modelling natural illumination is quite difficult in software for digital cartography. Yes, we do have hillshading algorithms, but despite the name they do not produce true shade. Hillshade routines colour the terrain according to exposition towards the sun (white for directly exposed and black for unexposed areas),  *but they do not model light path*. There are no shadows in hillshades. As a result, a canyon floor will be rendered the same way as a wide valley, which impedes the perception of depth. Hillshades often have a feeling of "elephant skin", as if the Earth surface were wrinkled by long term cosmetic abuse.
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="820" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1d278554-40e8-11e9-9c6a-0edaf8f81e27">*Simple hillshade vs natural shadows: slide to compare*  </iframe> 
+<iframe frameborder="0" class="juxtapose" width="100%" height="650" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1d278554-40e8-11e9-9c6a-0edaf8f81e27"> </iframe> 
 *Simple hillshade vs natural shadows: slide to compare*  
 
 Compare these two images: shadows are not just nice, they enable better understanding of the terrain. Today, cartographers typically turn to 3D software, such as Blender, to obtain the effect of natural lighting (see for example [scottreinhardmaps.com](https://www.scottreinhardmaps.com/shop)). Historically the effect was achieved by hand (figure below).

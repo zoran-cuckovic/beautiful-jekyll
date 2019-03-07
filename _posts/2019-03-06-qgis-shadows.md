@@ -27,7 +27,7 @@ Compare these two images: shadows are not just nice, they enable better understa
 
 But, why should we drop all benefits of georeferenced environment and revert to software which can't handle geographical data? It is not that difficult to simulate natural light, provided that we do not expect the same level of quality as in dedicated 3D doftware. 
 
-I have developed a short algorithm to simulate incident light over the terrain, namely the shadows it should produce. Rather than simple yes/no format, *shadows are represented as depth values*. In natural environment, there is a considerable difference between two metres deep shadow, as behind a small mound and hundreds of metres deep shadow, behind a cliff. Taking care of such nuances can help as to get closer to the refined effect of handmade hillshades.
+I have developed a short algorithm to simulate incident light over digital terrain models, namely the shadows it should produce. Rather than simple yes/no format, *shadows are represented as depth values*. In natural environment, there is a considerable difference between two metres deep shadow, as behind a small mound and hundreds of metres deep shadow, behind a cliff. Taking care of such nuances can help as to get closer to the refined effect of handmade hillshades.
 
 ![Puy-de-Dome.jpg]({{site.baseurl}}/figures/Puy-de-Dome.jpg)
 *Deep shadow below Puy de Dôme, France ([© baladomes.com](http://www.baladomes.com)).*
@@ -40,10 +40,10 @@ For those interested in the code behind my solution, these are the two crucial l
 shadows = elevations - numpy.maximum.accumulate( elevations )
 ``` 
 
-The accumulate function takes care that values in a (numpy) array which stores the elevation model would only increase, from the beginning of the array to its end. Imagine that you walk over a mountain, and the path is constantly winding upwards and downwards. If you would like to move only upwards, you would need to fill all valleys with soil or water. The accumulate function does that, it simulates a cascading terrain profile where we can travel either upwards or over a flat terrain. Filled portions of the terrain become shadows if you imagine the sun shining into a flank of a mountain. Shadow depth is calculated by subtracting the cascading model from the actual terrain height.    
+The accumulate function takes care that values in a (numpy) array that stores the elevation model would only increase, from the beginning of the array to its end. Imagine that you walk over a mountain, and the path is constantly winding upwards and downwards. If you would like to move only upwards, you would need to fill all valleys with soil or water. The accumulate function does that, it simulates a cascading terrain profile where we can travel either upwards or over a flat terrain. Filled portions of the terrain become shadows if you imagine the sun shining into a flank of a mountain. Shadow depth is calculated by subtracting the cascading model from the actual terrain height.    
 
 ```
-tilt = (indices_x + indices_y) * (sun_angle / 90 )  
+tilt = (indices_x + indices_y) * (sun_angle / 45 )  
 ```
 
 To simulate the vertical angle from which the sun is shining over the terrain, we rather tilt the entire elevation model. That is, we construct a sloping surface and the drape the terrain over it. Indices in the line above can be understood as distance values where the size of pixel is one. They increase from the corner (or the border) closest to the sun position. Note that we decompose distances on x axis and on y axis components: let's pretend these are vector components (see the previous post on [vectors and hillshades]( https://landscapearchaeology.org/2018/lidar-hillshade/)). 

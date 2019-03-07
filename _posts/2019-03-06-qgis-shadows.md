@@ -60,7 +60,7 @@ The shading algorithm is used as a Processing script for QGIS 3 and is installed
 
 The input for the algorithm is a digital elevation model and the output is a "shadow map". The result will be smoothed by default (otherwise there is a nasty pixelisation effect). Other parameters should be self-explanatory (sun direction and vertical angle).
 
-The most important issue is **limited handling of large datasets**, because of numpy raster processing library, which is limited by the available live computer memory. Large rasters, if opened, will saturate live memory (raster size at which this effect may be noticed depends on your machine...). (The algorithm is in the "proof of concept" stage, technical problems will be handled in the future.)
+The most important issue is **limited handling of large datasets**, because of numpy raster processing library, which is limited by the available live computer memory. Large rasters, if opened, will saturate live memory (raster size at which this effect may be noticed depends on your machine...). 
 
 The output will provide information on the **depth below the closest sun ray for each pixel in a raster DEM.** These values can be used to produce gradients of shadow tones, as opposed to uniformly dark surfaces. The best effect is made, as for usual hillshade models, when superimposing several layers in transparency mode. 
 
@@ -86,6 +86,9 @@ And with natural shadows:
 
 ![Pozega-shade.jpg]({{site.baseurl}}/figures/Pozega-shade.jpg)
 
+## Conclusion
+
+The algorithm for natural shadow modelling gives nice results, but beware that it's still in the "proof of concept" stage. There are several technical problems to be tackled in the future (such as handling large rasters). Please feel free to report any problems/inconsistencies that may arise. 
 
 ## Download
 

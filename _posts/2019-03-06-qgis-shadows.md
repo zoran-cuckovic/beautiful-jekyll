@@ -64,7 +64,7 @@ The most important issue is **limited handling of large datasets**, because of n
 
 The output will provide information on the **depth below the closest sun ray for each pixel in a raster DEM.** These values can be used to produce gradients of shadow tones, as opposed to uniformly dark surfaces. The best effect is made, as for usual hillshade models, when superimposing several layers in transparency mode. 
 
-Natural shadows work best where hillshades tend to produce "elephant skin" effect; the first example is errored and gullied relief in Istria, Croatia. Here, I'm using an elevation model styled with hypsometric colours, overlaid with a hillshade model and a shadow model.  
+Natural shadows work best where hillshades tend to produce the "elephant skin" effect; my first example is errored and gullied relief in Istria, Croatia. Here, I'm using an elevation model styled with hypsometric colours, overlaid with a hillshade model and a shadow model.  
 
 ![Istra-hillshade.jpg]({{site.baseurl}}/figures/Istra-hillshade.jpg)
 *Simple hillshade draped over elevation model.*
@@ -72,7 +72,7 @@ Natural shadows work best where hillshades tend to produce "elephant skin" effec
 ![Istra-shadow.jpg]({{site.baseurl}}/figures/Istra-shadow.jpg)
 *Natural shadows combined with hillshade and elevation model.*
 
-See how shadows introduce a feeling of depth? Now, simple black/grey shadows would be problematic as they could easily occlude detail in valleys. Or, if too transparent, they would just add some mist, without introducing much perceptual improvement. My algorithm, however, provides information on shadow depth, which enables to fine tune the effect. Shallow shadows should be less strong, as we can suppose a stronger impact of light dispersal in such areas. Here, I've set different intensities of grey and different levels of opacity for five classes between zero and minus 400 metres. Typically you would also need to completely eliminate shadows less than 2 or 3 metres in depth (opacity = 0%), as they tend to encroach ridgelines and hilltops.
+See how shadows introduce a feeling of depth? Now, simple black/grey shadows would be problematic as they could easily occlude detail in valleys. Or, if too transparent, they would just add some mist, without introducing much perceptual improvement. The algorithm for natural shadow modelling, however, provides information on shadow depth, which enables to fine tune the effect. Shallow shadows should be less strong, as we can suppose a stronger impact of light dispersal in such areas. Here, I've set different intensities of grey and different levels of opacity for five classes between zero and minus 400 metres. Typically you would also need to completely eliminate shadows less than 2 or 3 metres in depth (opacity = 0%), as they tend to encroach ridgelines and hilltops.
 
 ![Style.JPG]({{site.baseurl}}/figures/Style.JPG)
 *Shadow intensities are controlled by both colour and transparency for each depth class.*

@@ -73,7 +73,7 @@ See how shadows introduce a feeling of depth? Now, simple black/grey shadows wou
 
 One last example, Požega valley in Croatian part of Pannonia:
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="669" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b58ce824-40e9-11e9-9c6a-0edaf8f81e27"></iframe>
+<iframe frameborder="0" class="juxtapose" width="100%" height="500" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b58ce824-40e9-11e9-9c6a-0edaf8f81e27"></iframe>
 
 ## Conclusion
 

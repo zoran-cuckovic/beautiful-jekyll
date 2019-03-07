@@ -20,6 +20,8 @@ Modelling natural illumination is quite difficult in software for digital cartog
 ![shade-test.jpg]({{site.baseurl}}/figures/shade-test.jpg)
 *... and the same combined with natural shadows.*
 
+<iframe frameborder="0" class="juxtapose" width="100%" height="820" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1d278554-40e8-11e9-9c6a-0edaf8f81e27"></iframe>
+
 Compare these two images: shadows are not just nice, they enable better understanding of the terrain. Today, cartographers typically turn to 3D software, such as Blender, to obtain the effect of natural lighting (see for example [scottreinhardmaps.com](https://www.scottreinhardmaps.com/shop)). Historically the effect was achieved by hand (figure below).
 
 ![jungfraugruppe.jpg]({{site.baseurl}}/figures/jungfraugruppe.jpg)

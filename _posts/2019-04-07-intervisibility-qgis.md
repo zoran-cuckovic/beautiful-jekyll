@@ -8,14 +8,14 @@ tags:
 ---
 Intervisibility analysis tests the potential for visual connection between two observers. I say potential because visibility on landscape scale is often the question of a myriad factors (distance, atmosphere, signal quality etc...). Visibility analysis in GIS is usually taking into account only the terrain (plus solid buildings) and tests whether a visual connexion would be blocked by the terrain. The choice of distance limit and other factors will depend upon the problem in question. For instance, wind turbines will be seen over longer distances in the night, because of those strong, ugly lights.
 
-![04-19-plugin_main.JPG]({{site.baseurl}}/figures/04-19-plugin_main.JPG)
+![19-04-plugin_main.JPG]({{site.baseurl}}/figures/19-04-plugin_main.JPG)
 *Intervisibility module of QGIS Visibility analysis plugin.*
 
 ## Towers BC
 
 Anyway, instead of wind turbines, let’s examine the intervisibility problem on a prettier example, ancient Greek towers. Ancient Greeks were busy tower-builders: hundreds of stone-built towers, mostly dating to 5th and 4th century BC, still survive in the Greek countryside. These constructions were square or circular in plan and typically under 10 meters in diameter. Full elevation is very rarely preserved. Several structures that subsist to near-original height indicate a general trend of the height as the double of the diameter (Young 1956). The function of the towers seems to have been primarily defensive and strategic, they would have provided refuge from potential robber/pirate attacks and allow visual control over the landed property.
  
- ![04-19-tower_andros.jpg]({{site.baseurl}}/figures/04-19-tower_andros.jpg)
+ ![19-04-tower_andros.jpg]({{site.baseurl}}/figures/19-04-tower_andros.jpg)
 *Agios Petros tower on Andros Island (http://www.kastra.eu)*
 
 
@@ -29,18 +29,18 @@ Lines of sight between towers will be analysed in QGIS with the [Visibility anal
 
 Some users were having difficulties to grasp the parameters involved. Note that in many, if not most cases we use the same set of locations for both signal emitters and receivers. The term intervisibility implies that the relationship is reciprocal between two locations: observes are, in turn, signal emitters. However, the visibility relationship is not necessarily reciprocal in the real world. We can see a tower at a distance only if we see a good portion of it, say at least the top five meters. Let's assume that Greek towers typically measured 15 metres; in this case we will test intervisibility for the height of 10 meters. But this does not apply to the observer who is comfortable at the top of a tower: see figure below. Therefore we need two parameters for each tower, its observation height and its target height. 
 
-![04-19-towers.jpg]({{site.baseurl}}/figures/04-19-towers.jpg)
+![19-04-towers.jpg]({{site.baseurl}}/figures/19-04-towers.jpg)
 *The problem of reciprocity (images from www.svgrepo.com/svg/140937/tower).*
 
 These parameters are specified through the *Create viewpoints* module. (Note that you can vary the value for each point by editing the associated data table.). Other parameters, such as radius of analysis etc. shouldn’t need further explanation. 
 
-![04-19-create_points.jpg]({{site.baseurl}}/figures/04-19-create_points.jpg)
+![19-04-create_points.jpg]({{site.baseurl}}/figures/19-04-create_points.jpg)
 
 The elevation model used is EU DEM with approx. 30 metres horizontal resolution. The QGIS visibility analysis plugin **will only work on rasters projected in a metric coordinate system**.
 
 The result of the analysis is intriguing (figure below). We can notice several closely knit communities, but very bad connection with the most important settlement on the eastern coast of the island. Did tower builders care more about their neighbours than about the city folk? I will leave you to ponder on what this could mean…
 
-![04-19-intervisibility_all.jpg]({{site.baseurl}}/figures/04-19-intervisibility_all.jpg)
+![19-04-intervisibility_all.jpg]({{site.baseurl}}/figures/19-04-intervisibility_all.jpg)
 *Intervisibility connections between towers (circles) and the urban area of Siphnos polis (orange square).*
 
 Let us return to technical issues. I’ve stressed that intervisibility is not reciprocal, and our analysis used different heights for observers and visual targets. We can expect, then, to have some non-reciprocal connexions where only one tower can be seen at 10 meters height, the other being visible at 15 metres. In order to filter out such broken links we will need to test whether each Source-Target pair could be matched with corresponding Target-Source pair. This can be done with a moderately advanced SQL query that can be specified under general properties of QGIS layers. The magic formula is:
@@ -50,7 +50,7 @@ Let us return to technical issues. I’ve stressed that intervisibility is not r
 ```
 where “Intervisibility” is layer name in my particular project. “Source” and “Target” are column names in the algorithm output. To join field values I’m using the magic sign || which somehow works in QGIS (it does not appear among the proposed SQL operators). Note that we are using a so-called subquery, specified by a Select statement in parentheses. Subqueries are usually arcane, but this one should be simple enough to grasp. Essentially, the engine is forced to scan the entire table for each Source-Target pair, searching for its potential match. This may become computationally heavy for large datasets (but *really* large).
  
- ![04-19-layer_properties.JPG]({{site.baseurl}}/figures/04-19-layer_properties.JPG)
+ ![19-04-layer_properties.JPG]({{site.baseurl}}/figures/19-04-layer_properties.JPG)
 *Query builder under Layer properties in QGIS.*
  
 Now we can have a clean map with reciprocal relationships only. But, these are all in pairs, which is not useful any more since one-directional connections were eliminated. If your Source and Target IDs are numerical, as assigned automatically by the Visibility module, then the filtering is straightforward. For each connection pair, one ID will be greater than the other (there should be no duplicate IDs, obviously), so we can just append to our filter `Source > Target `: 
@@ -60,7 +60,7 @@ Now we can have a clean map with reciprocal relationships only. But, these are a
 AND "Source" > "Target"
 ```
 
-![04-19-query.JPG]({{site.baseurl}}/figures/04-19-query.JPG)
+![19-04-query.JPG]({{site.baseurl}}/figures/19-04-query.JPG)
 *Final layer query.*
 
 And finally, to select broken links we simply modify the criteria to NOT IN. Obviously, we need to remove the direction filter because we cannot know in advance which direction will be broken. 
@@ -69,7 +69,7 @@ And finally, to select broken links we simply modify the criteria to NOT IN. Obv
 (select "Target" || "Source" from Intervisibility)
 ```
 
-![04-19-intervisibility_broken.jpg]({{site.baseurl}}/figures/04-19-intervisibility_broken.jpg)
+![19-04-intervisibility_broken.jpg]({{site.baseurl}}/figures/19-04-intervisibility_broken.jpg)
 *Broken intervisibility links (non-reciprocal).*
 
 Happy mapping!

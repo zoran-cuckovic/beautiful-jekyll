@@ -23,7 +23,7 @@ Before constructing such a tower, which is a serious investment of time and reso
 
 ## Analysis 
 
-My case study will be the island of Siphons which, for reasons still debated, was furnished with a dense network of towers (see below for references). The database I’m using may not meet all scientific standards (here goes my disclaimer), but it’s more than enough for this tutorial. 
+My case study will be the island of Sifnos (Siphnos) which, for reasons still debated, was furnished with a dense network of towers (see below for references). The database I’m using may not meet all scientific standards (here goes my disclaimer), but it’s more than enough for this tutorial. 
 
 Lines of sight between towers will be analysed in QGIS with the [Visibility analysis plugin]( www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/). The module requires two sets of points, one that stores the points of origin of intervisibility lines and the other that stores the target points. In case when sources are the same as targets, we can specify the same file as both the source and the target.
 
@@ -36,7 +36,7 @@ These parameters are specified through the *Create viewpoints* module. (Note tha
 
 ![19-04-create_points.jpg]({{site.baseurl}}/figures/19-04-create_points.jpg)
 
-The elevation model used is EU DEM with approx. 30 metres horizontal resolution. The QGIS visibility analysis plugin **will only work on rasters projected in a metric coordinate system**.
+The elevation model used is [EU DEM](www.eea.europa.eu/data-and-maps/data/eu-dem) with approx. 30 metres horizontal resolution. The QGIS visibility analysis plugin **will only work on rasters projected in a metric coordinate system**.
 
 The result of the analysis is intriguing (figure below). We can notice several closely knit communities, but very bad connection with the most important settlement on the eastern coast of the island. Did tower builders care more about their neighbours than about the city folk? I will leave you to ponder on what this could mean…
 

@@ -19,7 +19,7 @@ Anyway, instead of wind turbines, let’s examine the intervisibility problem on
 *Agios Petros tower on Andros Island (http://www.kastra.eu)*
 
 
-Before constructing such a tower, which is a serious investment of time and resources, one would need to consider carefully its placement: close to farmed land but in low position, or on a hill with a good view, in view with other towers, but perhaps hidden from potential attack route etc. These questions just beg for a GIS analysis... Intervisibility analysis can inform us on the potential for visual communication between towers. One can suppose that in the case of an imminent danger some kind of visual signalling across the countryside would have been more than welcome.
+Before constructing such a tower, which is a serious investment of time and resources, one would need to consider carefully its placement: close to farmed land but in low position, or on a hill with a good view, in view with other towers, but perhaps hidden from potential attack route, etc. These questions just beg for a GIS analysis... Intervisibility analysis can inform us on the potential for visual communication between towers. One can suppose that in the case of an imminent danger some kind of visual signalling across the countryside would have been more than welcome.
 
 ## Analysis 
 
@@ -82,4 +82,4 @@ Davies G. N. (1998): *Economic Geography of the Ancient Greek Countryside: A re-
 
 Young, J. H. (1956) : Ancient Towers on the Island of Siphnos. *American Journal of Archaeology*, vol. 60/1, pp. 51-55.
 
-The Towers of Sifnos: [www.sifnos-towers.gr](https://www.sifnos-towers.gr/en.html) [This is a new site with an updated database.]
+The Towers of Sifnos: [www.sifnos-towers.gr](https://www.sifnos-towers.gr/en.html) [This is a new website with an updated database.]

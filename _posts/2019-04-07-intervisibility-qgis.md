@@ -4,6 +4,7 @@ published: true
 title: 'Intervisibility analysis in QGIS: an archaeological tutorial'
 tags:
   - qgis
+  - ' QGIS visibility plugin '
 ---
 Intervisibility analysis tests the potential for visual connection between two observers. I say potential because visibility on landscape scale is often the question of a myriad factors (distance, atmosphere, signal quality etc...). Visibility analysis in GIS is usually taking into account only the terrain (plus solid buildings) and tests whether a visual connexion would be blocked by the terrain. The choice of distance limit and other factors will depend upon the problem in question. For instance, wind turbines will be seen over longer distances in the night, because of those strong, ugly lights.
 

@@ -16,7 +16,7 @@ Intervisibility analysis tests the potential for visual connection between two o
 Anyway, instead of wind turbines, let’s examine the intervisibility problem on a prettier example, ancient Greek towers. Ancient Greeks were busy tower-builders: hundreds of stone-built towers, mostly dating to 5th and 4th century BC, still survive in the Greek countryside. These constructions were square or circular in plan and typically under 10 meters in diameter. Full elevation is very rarely preserved. Several structures that subsist to near-original height indicate a general trend of the height as the double of the diameter (Young 1956). The function of the towers seems to have been primarily defensive and strategic, they would have provided refuge from potential robber/pirate attacks and allow visual control over the landed property.
  
  ![19-04-tower_andros.jpg]({{site.baseurl}}/figures/19-04-tower_andros.jpg)
-*Agios Petros tower on Andros Island (http://www.kastra.eu)*
+*Agios Petros tower on Andros Island (www.kastra.eu)*
 
 
 Before constructing such a tower, which is a serious investment of time and resources, one would need to consider carefully its placement: close to farmed land but in low position, or on a hill with a good view, in view with other towers, but perhaps hidden from potential attack route, etc. These questions just beg for a GIS analysis... Intervisibility analysis can inform us on the potential for visual communication between towers. One can suppose that in the case of an imminent danger some kind of visual signalling across the countryside would have been more than welcome.

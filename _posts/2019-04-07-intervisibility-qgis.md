@@ -63,7 +63,7 @@ AND "Source" > "Target"
 ![19-04-query.JPG]({{site.baseurl}}/figures/19-04-query.JPG)
 *Final layer query.*
 
-And finally, to select broken links we simply modify the criteria to NOT IN. Obviously, we need to remove the direction filter because we cannot know in advance which direction will be broken. 
+And finally, to select broken links we simply modify the criteria to NOT IN. We need to remove the direction filter because we cannot know in advance which direction will be broken. 
 ``` 
 "Source" || "Target" NOT IN 
 (select "Target" || "Source" from Intervisibility)

@@ -9,6 +9,7 @@ tags:
 Intervisibility analysis tests the potential for visual connection between two observers. I say potential because visibility on landscape scale is often the question of a myriad factors (distance, atmosphere, signal quality etc...). Visibility analysis in GIS is usually taking into account only the terrain (plus solid buildings) and tests whether a visual connexion would be blocked by the terrain. The choice of distance limit and other factors will depend upon the problem in question. For instance, wind turbines will be seen over longer distances in the night, because of those strong, ugly lights.
 
 ![04-19-plugin_main.JPG]({{site.baseurl}}/figures/04-19-plugin_main.JPG)
+*Intervisibility module of QGIS Visibility analysis plugin.*
 
 ## Towers BC
 
@@ -18,7 +19,7 @@ Anyway, instead of wind turbines, let’s examine the intervisibility problem on
 *Agios Petros tower on Andros Island (http://www.kastra.eu)*
 
 
-When constructing such a tower, which is a serious investment of time and resources, one would need to consider carefully its placement: close to farmed land but in low position, or on a hill with a good view, in view with other towers, but perhaps hidden from potential attack route etc. These questions just beg for a GIS analysis... Intervisibility analysis can inform us on the potential for visual communication between towers. One can suppose that in the case of an imminent danger some kind of visual signalling across the countryside would have been more than welcome.
+Before constructing such a tower, which is a serious investment of time and resources, one would need to consider carefully its placement: close to farmed land but in low position, or on a hill with a good view, in view with other towers, but perhaps hidden from potential attack route etc. These questions just beg for a GIS analysis... Intervisibility analysis can inform us on the potential for visual communication between towers. One can suppose that in the case of an imminent danger some kind of visual signalling across the countryside would have been more than welcome.
 
 ## Analysis 
 
@@ -26,7 +27,7 @@ My case study will be the island of Siphons which, for reasons still debated, wa
 
 Lines of sight between towers will be analysed in QGIS with the [Visibility analysis plugin]( www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/). The module requires two sets of points, one that stores the points of origin of intervisibility lines and the other that stores the target points. In case when sources are the same as targets, we can specify the same file as both the source and the target.
 
-Some users were having difficulties to grasp the parameters involved. Note that in many, if not most cases we use the same set of locations for both signal emitters and receivers. The term intervisibility implies that the relationship is reciprocal between two locations: observes are, in turn, signal emitters. However, the visibility relationship is not necessarily reciprocal in the real world. We can see a tower at a distance only if we see a good portion of it, say at least the top five meters. Let's assume that Greek towers typically measured 15 metres; in this case we will test intervisibility for the height of 10 meters. But this does not apply to the observer who is comfortable at the top of a tower: see figure below. Therefore we need two parameters for each tower, observer height and target height. 
+Some users were having difficulties to grasp the parameters involved. Note that in many, if not most cases we use the same set of locations for both signal emitters and receivers. The term intervisibility implies that the relationship is reciprocal between two locations: observes are, in turn, signal emitters. However, the visibility relationship is not necessarily reciprocal in the real world. We can see a tower at a distance only if we see a good portion of it, say at least the top five meters. Let's assume that Greek towers typically measured 15 metres; in this case we will test intervisibility for the height of 10 meters. But this does not apply to the observer who is comfortable at the top of a tower: see figure below. Therefore we need two parameters for each tower, its observation height and its target height. 
 
 ![04-19-towers.jpg]({{site.baseurl}}/figures/04-19-towers.jpg)
 *The problem of reciprocity (images from www.svgrepo.com/svg/140937/tower).*
@@ -47,7 +48,7 @@ Let us return to technical issues. I’ve stressed that intervisibility is not r
 "Source" || "Target" IN 
 (Select "Target" || "Source" from Intervisibility)
 ```
-where “Intervisibility” is layer name in my particular project. “Source” and “Target” are column names in the algorithm output. To join field values I’m using the magic sign || which somehow works in QGIS (it does not appear among the proposed SQL operators). Note that we are using a so called subquery, specified by a Select statement in parentheses. Subqueries are usually arcane, but this one should be simple enough to grasp. Essentially, the engine is forced to scan the entire table for each Source-Target pair, searching for its potential match. This may become computationally heavy for large datasets (but *really* large).
+where “Intervisibility” is layer name in my particular project. “Source” and “Target” are column names in the algorithm output. To join field values I’m using the magic sign || which somehow works in QGIS (it does not appear among the proposed SQL operators). Note that we are using a so-called subquery, specified by a Select statement in parentheses. Subqueries are usually arcane, but this one should be simple enough to grasp. Essentially, the engine is forced to scan the entire table for each Source-Target pair, searching for its potential match. This may become computationally heavy for large datasets (but *really* large).
  
  ![04-19-layer_properties.JPG]({{site.baseurl}}/figures/04-19-layer_properties.JPG)
 *Query builder under Layer properties in QGIS.*
@@ -56,13 +57,14 @@ Now we can have a clean map with reciprocal relationships only. But, these are a
 ```
 "Source" || "Target" IN 
 (Select "Target" || "Source" from Intervisibility)
-AND “Source” > “Target”
+AND "Source" > "Target"
 ```
 
 ![04-19-query.JPG]({{site.baseurl}}/figures/04-19-query.JPG)
 *Final layer query.*
 
-And finally, to select broken links we simply modify the criteria to NOT IN. Obviously, we need to remove the direction filter because we cannot know in advance which direction will be broken. ``` 
+And finally, to select broken links we simply modify the criteria to NOT IN. Obviously, we need to remove the direction filter because we cannot know in advance which direction will be broken. 
+``` 
 "Source" || "Target" NOT IN 
 (select "Target" || "Source" from Intervisibility)
 ```

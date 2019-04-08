@@ -32,7 +32,7 @@ Some users were having difficulties to grasp the parameters involved. Note that 
 ![19-04-towers.jpg]({{site.baseurl}}/figures/19-04-towers.jpg)
 *The problem of reciprocity (images from www.svgrepo.com/svg/140937/tower).*
 
-The same would apply if we were using two different datastes, for instance the view of towers from villages. Towers would become targets and only their target height would be taken into account (e.g. 10 meters); likewise, villages would become observers and only their observer height would be needed.  
+The same would apply if we were using two different datastes, for instance the view of towers from villages. Towers would become targets and only their target height would be taken into account (here, 10 meters); likewise, villages would become observers and only their observer height would be needed.  
 
 These parameters are specified through the *Create viewpoints* module. (Note that you can vary the value for each point by editing the associated data table.). Other parameters, such as radius of analysis etc. shouldn’t need further explanation. 
 

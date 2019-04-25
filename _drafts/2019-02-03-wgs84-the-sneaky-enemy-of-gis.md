@@ -15,5 +15,4 @@ Thus I discovered the awful truth: **there is a vast amount of "GIS analysis" be
 https://community.esri.com/thread/35322
 
 
-
-
+NEW : automatic projection raster QGIS - verify

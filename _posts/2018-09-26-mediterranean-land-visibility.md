@@ -1,16 +1,17 @@
 ---
+layout: post
 author: Zoran
 categories:
-- Spatial analysis &amp; GIS
-date: 2018-09-26 17:08:22
-guid: https://landscapearchaeology.org/?p=296
+  - Spatial analysis &amp; GIS
+date: 'Wed Sep 26 2018 19:08:22 GMT+0200 (heure d’été d’Europe centrale)'
+guid: 'https://landscapearchaeology.org/?p=296'
 id: 296
-layout: post
 permalink: /2018/mediterranean-land-visibility/
 tags:
-- QGIS visibility plugin
-- qgis
+  - QGIS visibility plugin
+  - qgis
 title: 'Land visibility in the Mediterranean: a large scale model'
+published: true
 ---
 
 Visibility of land was a major consideration for ancient seafaring, for reasons of navigation and security. Even if the open sea travel must have been practised already by the Neolithic period, judging by the colonisation of remote islands and by the exchange of artefacts across the Mediterranean, the sight of the land remained a much desired navigational aid at least until the medieval period. The earliest evidence of seafaring date to astonishing 100 000 years before present (artefacts from <a href="https://www.peabody.harvard.edu/files/17_Ruunels_et.al_start.pdf">Preveli on Crete</a>).
@@ -20,7 +21,7 @@ Archaeologists frequently discuss the importance of land visibility for ancient 
 ![](/wp/wp-content/uploads/2018/09/Aubet-Phoenicians-Land-visibility.jpg)
 *After Aubet 2001, Fig 35*
 
-Anyway, the model that is being widely used was made by hand long time ago (that’s my guess at least) – and is quite problematic. It seems to represent the maximum theoretical visibility of land <em>without accounting for the atmosphere</em>. Yes, you can see Mount Etna some 200 km off the Sicilian coast … during five days in a year. Visibility at such distances is normally much affected by atmospheric conditions and aerosols produced at sea surface. Measurements of visibility distance in Athens rarely surpassed 50 kilometres (in the pre-pollution era: <a href="https://core.ac.uk/download/pdf/145661125.pdf">see here</a>). I would consider 50 kilometres as more realistic figure for maximum visibility of the land. At least, I wouldn’t plan a travel relying on greater visibility ranges (without modern equipment).
+Anyway, the model that is being widely used was made by hand long time ago (that’s my guess at least) – and is quite problematic. It seems to represent the maximum theoretical visibility of land <em>without accounting for the atmosphere</em>. Yes, you can see Mount Etna some 200 km off the Sicilian coast … during five days in a year. Visibility at such distances is normally much affected by atmospheric conditions and aerosols produced at sea surface. Measurements of visibility distance in Athens rarely surpassed 50 kilometres (in the pre-pollution era: <a href="https://www.researchgate.net/publication/308039259_Long-term_visibility_variation_in_Athens_1931-2013_A_proxy_for_local_and_regional_atmospheric_aerosol_loads">see here</a>). I would consider 50 kilometres as more realistic figure for maximum visibility of the land. At least, I wouldn’t plan a travel relying on greater visibility ranges (without modern equipment).
 
 Let’s, then tackle the issue with modern technology. All we need is an elevation model, GIS software, and … enough time to calculate visibility. Mediterranean is large, and the calculation is by no means a simple one. The procedure, however, is not that complicated – this is how I did it :
 

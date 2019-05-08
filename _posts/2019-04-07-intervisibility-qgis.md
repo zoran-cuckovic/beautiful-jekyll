@@ -47,8 +47,8 @@ The result of the analysis is intriguing (figure below). We can notice several c
 
 Let us return to technical issues. I’ve stressed that intervisibility is not reciprocal, and our analysis used different heights for observers and visual targets. We can expect, then, to have some non-reciprocal connexions where only one tower can be seen at 10 meters height, the other being visible at 15 metres. In order to filter out such broken links we will need to test whether each Source-Target pair could be matched with corresponding Target-Source pair. This can be done with a moderately advanced SQL query that can be specified under general properties of QGIS layers. The magic formula is:
 ``` 
-"Source" || "Target" IN 
-(Select "Target" || "Source" from Intervisibility)
+"Source" || '-' || "Target" IN 
+(Select "Target" || '-' || "Source" from Intervisibility)
 ```
 where “Intervisibility” is layer name in my particular project. “Source” and “Target” are column names in the algorithm output. To join field values I’m using the magic sign || which somehow works in QGIS (it does not appear among the proposed SQL operators). Note that we are using a so-called subquery, specified by a Select statement in parentheses. Subqueries are usually arcane, but this one should be simple enough to grasp. Essentially, the engine is forced to scan the entire table for each Source-Target pair, searching for its potential match. This may become computationally heavy for large datasets (but *really* large).
  
@@ -57,8 +57,8 @@ where “Intervisibility” is layer name in my particular project. “Source”
  
 Now we can have a clean map with reciprocal relationships only. But, these are all in pairs, which is not useful any more since one-directional connections were eliminated. If your Source and Target IDs are numerical, as assigned automatically by the Visibility module, then the filtering is straightforward. For each connection pair, one ID will be greater than the other (there should be no duplicate IDs, obviously), so we can just append to our filter `Source > Target `: 
 ```
-"Source" || "Target" IN 
-(Select "Target" || "Source" from Intervisibility)
+"Source" || '-' || "Target" IN 
+(Select "Target" || '-' || "Source" from Intervisibility)
 AND "Source" > "Target"
 ```
 
@@ -67,8 +67,8 @@ AND "Source" > "Target"
 
 And finally, to select broken links we simply modify the criteria to NOT IN. We need to remove the direction filter because we cannot know in advance which direction will be broken. 
 ``` 
-"Source" || "Target" NOT IN 
-(select "Target" || "Source" from Intervisibility)
+"Source" || '-' ||"Target" NOT IN 
+(select "Target" || '-' || "Source" from Intervisibility)
 ```
 
 ![19-04-intervisibility_broken.jpg]({{site.baseurl}}/figures/19-04-intervisibility_broken.jpg)

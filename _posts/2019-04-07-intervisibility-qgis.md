@@ -50,7 +50,7 @@ Let us return to technical issues. I’ve stressed that intervisibility is not r
 "Source" || '-' || "Target" IN 
 (Select "Target" || '-' || "Source" from Intervisibility)
 ```
-where “Intervisibility” is layer name in my particular project. “Source” and “Target” are column names in the algorithm output. To join field values I’m using the magic sign || which somehow works in QGIS (it does not appear among the proposed SQL operators). There is a spearator between values `'-'` to prevent misidentification (345 can be produced as 3 + 45 or 34 + 5).
+where “Intervisibility” is layer name in my particular project. “Source” and “Target” are column names in the algorithm output. To join field values I’m using the magic sign `||` which somehow works in QGIS (it does not appear among the proposed SQL operators). There is a spearator between values `'-'` to prevent misidentification (345 can be produced as 3 || 45 or 34 || 5).
 Note that we are using a so-called subquery, specified by a Select statement in parentheses. Subqueries are usually arcane, but this one should be simple enough to grasp. Essentially, the engine is forced to scan the entire table for each Source-Target pair, searching for its potential match. This may become computationally heavy for large datasets (but *really* large).
  
  ![19-04-layer_properties.JPG]({{site.baseurl}}/figures/19-04-layer_properties.JPG)

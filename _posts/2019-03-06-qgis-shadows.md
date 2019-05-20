@@ -34,13 +34,16 @@ I have developed a short algorithm to simulate incident light over digital terra
 For those interested in the code behind my solution, these are the two crucial lines: 
 
 ```
+import numpy
 shadows = elevations - numpy.maximum.accumulate( elevations )
 ``` 
 
 The accumulate function takes care that values in a (numpy) array that stores the elevation model would only increase, from the beginning of the array to its end. Imagine that you walk over a mountain, and the path is constantly winding upwards and downwards. If you would like to move only upwards, you would need to fill all valleys with soil or water. The accumulate function does that, it simulates a cascading terrain profile where we can travel either upwards or over a flat terrain. Filled portions of the terrain become shadows if you imagine the sun shining into a flank of a mountain. Shadow depth is calculated by subtracting the cascading model from the actual terrain height.    
 
 ```
-tilt = (indices_x + indices_y) * (sun_angle / 45 )  
+from math import tan, radians
+tilt_factor = tan(radians(sun_angle)) * pixel_size
+tilt_matrix = tilt_factor * (indices_x + indices_y)   
 ```
 
 To simulate the vertical angle from which the sun is shining over the terrain, we rather tilt the entire elevation model. That is, we construct a sloping surface and the drape the terrain over it. Indices in the line above can be understood as distance values where the size of pixel is one. They increase from the corner (or the border) closest to the sun position. Note that we decompose distances on x axis and on y axis components: let's pretend these are vector components (see the previous post on [vectors and hillshades]( https://landscapearchaeology.org/2018/lidar-hillshade/)). 

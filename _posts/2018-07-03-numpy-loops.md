@@ -74,12 +74,12 @@ for y in range(3):
 #Analysis inside the window is finished
 output = calculate_something(temp_sum) 
 ```
-And we're fine!  
+Note that the pad width should be half the window size: `pad = window_size // 2` where // is integer division. Window frame size should always be in odd numbers, oherwise it won't be symetrically placed.
 
 ### Refinement: unpadded solution
 
-It's kind of ugly to use pads. We are producing copies of the original data, which can be particularly problematic for large offsets. Furthermore, padding may influence the result in unexpected ways.  
-  
+The above solution should be good enough for most of typical uses (for example, a small moving average filter). But, it's kind of ugly to use pads. We are producing copies of the original data, which can be particularly problematic for large offsets. Furthermore, padding may influence the result in edge zones in unexpected ways. 
+
 Returning to the illustration above, we can see that the cropped window view cannot match the main view (the one pointing to the original and/or temporary data). The latter also needs to be cropped, but in the opposite direction. This is logical: the top row cannot have a neighbour to the north anyway.    
   
 Therefore, we need to adjust both views at the same time. Note that these views are opposite to each other, which means that we can play with swapping: when the window is placed to the north-west (-1, -1), the main view is to the south-east (1,1), but when the window is on the south-east  (1,1), the main view will be on the north-west (-1, -1).  

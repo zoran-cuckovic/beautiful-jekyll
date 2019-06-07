@@ -74,7 +74,7 @@ for y in range(3):
 #Analysis inside the window is finished
 output = calculate_something(temp_sum) 
 ```
-Note that the pad width should be half the window size: `pad = window_size // 2` where // is integer division. Window frame size should always be in odd numbers, oherwise it won't be symetrically placed.
+Note that the pad width should be half the window size: `pad = window_size // 2` where // is integer division. Window frame size should always be in odd numbers, otherwise it won't be placed symetrically.
 
 ### Refinement: unpadded solution
 

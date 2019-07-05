@@ -3,7 +3,7 @@ layout: post
 published: True
 title: DEM shading algorithm for QGIS
 subtitle: 'Kickstarter campaign for a happier QGIS :)'
-date: '2019-07-04'
+date: '2019-07-05'
 tags:
   - QGIS
 ---

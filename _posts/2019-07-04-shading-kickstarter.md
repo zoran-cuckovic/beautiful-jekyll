@@ -22,5 +22,4 @@ What is the difference between "hillshading" and "natural shading"? (Neither of 
 *The coast of Dalmatia, Croatia.*
 
 ## Support the Kickstarter campaign
-
-<iframe width="800" height="450" src="https://www.kickstarter.com/projects/archaeology/terrain-shading-plugin-for-qgis/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+<iframe src="https://www.kickstarter.com/projects/archaeology/terrain-shading-plugin-for-qgis/widget/card.html?v=2" width="330" height="630" frameborder="0" scrolling="no"></iframe>

@@ -18,7 +18,7 @@ What is the difference between "hillshading" and "natural shading"? (Neither of 
 
 ## Shaded terrain examples
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="820" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=455cca0e-9f05-11e9-b9b8-0edaf8f81e27"></iframe>
+<iframe frameborder="0" class="juxtapose" width="100%" height="620" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=455cca0e-9f05-11e9-b9b8-0edaf8f81e27"></iframe>
 *The coast of Dalmatia, Croatia.*
 
 ## Support the Kickstarter campaign

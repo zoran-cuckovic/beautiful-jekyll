@@ -19,7 +19,10 @@ What is the difference between "hillshading" and "natural shading"? (Neither of 
 ## Shaded terrain examples
 
 <iframe frameborder="0" class="juxtapose" width="100%" height="620" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=455cca0e-9f05-11e9-b9b8-0edaf8f81e27"></iframe>
-*The coast of Dalmatia, Croatia.*
+*Coast of Dalmatia, Croatia.*
+
+<iframe frameborder="0" class="juxtapose" width="100%" height="566" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9c44cc92-9ffd-11e9-b9b8-0edaf8f81e27"></iframe>
+*Gergovia stronghold (France): Caesar's army was defeated there (or at least retreated without seizing the Gaulish fortress...).* 
 
 ## Support the Kickstarter campaign
 <iframe src="https://www.kickstarter.com/projects/archaeology/terrain-shading-plugin-for-qgis/widget/card.html?v=2" width="220" height="420" frameborder="0" scrolling="no"></iframe>

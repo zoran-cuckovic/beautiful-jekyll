@@ -25,8 +25,7 @@ What is the difference between "hillshading" and "natural shading"? (Neither of 
 *Gergovia stronghold (France): Caesar's army was defeated there (or at least retreated without seizing the Gaulish fortress...). Data: Lidar scan, www.craig.fr. Map: Elise Fovet, MSH Clermont-Ferrand.* 
 
 <iframe frameborder="0" class="juxtapose" width="100%" height="694" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=dee230c4-9fff-11e9-b9b8-0edaf8f81e27"></iframe>
-*Gergovia : detail of suface structures (modern period drystone walls and cairns, which may sometimes cover archaeological remains).
-Data: Lidar scan, www.craig.fr. Map: Elise Fovet, MSH Clermont-Ferrand.* 
+*Gergovia : detail of suface structures (modern period drystone walls and cairns, which may sometimes cover archaeological remains). Data: Lidar scan, www.craig.fr. Map: Elise Fovet, MSH Clermont-Ferrand.* 
 
 ## Support the Kickstarter campaign
 <iframe src="https://www.kickstarter.com/projects/archaeology/terrain-shading-plugin-for-qgis/widget/card.html?v=2" width="220" height="420" frameborder="0" scrolling="no"></iframe>

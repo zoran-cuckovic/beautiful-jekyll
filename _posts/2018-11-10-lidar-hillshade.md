@@ -1,15 +1,16 @@
 ---
+layout: post
 author: Zoran
 categories:
-- Spatial analysis & GIS
-date: 2018-11-10 20:41:45
-guid: https://landscapearchaeology.org/?p=318
+  - Spatial analysis & GIS
+date: 'Sat Nov 10 2018 21:41:45 GMT+0100 (heure normale d’Europe centrale)'
+guid: 'https://landscapearchaeology.org/?p=318'
 id: 318
-layout: post
 permalink: /2018/lidar-hillshade/
 tags:
-- qgis
+  - qgis
 title: Some thoughts on hillshade models for Lidar analysis
+published: true
 ---
 
 Hillshade modelling is a standard form of terrain representation in cartography. The idea is to simulate lighting of a terrain from a certain direction (or multiple directions). The method is well known and constantly improved in GIS – as means of cartographic representation. It seems, indeed, difficult to imagine spatial analysis on shadows.
@@ -28,7 +29,7 @@ Vertical features will be better rendered if we calculate *difference* between t
 
 What this implies is that the sum of two hillshades (NW and NE) will effectively change the direction of light, as if it were on north. Subtracting them will have the effect of changing the light direction to either east or west. Hillshades can, then, be regarded as *vectors*, namely the X and Y component of usual [two dimensional vectors](https://www.mathsisfun.com/algebra/vectors.html). Therefore, all possible light directions can be calculated from two perpendicular hillshade models, given a constant light height. (We should add a third one to model all possible directions in a 3D sphere.)
 
-![](/wp/wp-content/uploads/2018/10/directions.png")
+![](/wp/wp-content/uploads/2018/10/directions.png)
 
 ## Better hillshades?
 

@@ -82,7 +82,7 @@ The above solution should be good enough for most of typical uses (for example, 
 
 Returning to the illustration above, we can see that the cropped window view cannot match the main view (the one pointing to the original and/or temporary data). The latter also needs to be cropped, but in the opposite direction. This is logical: the top row cannot have a neighbour to the north anyway.    
   
-Therefore, we need to adjust both views at the same time. Note that these views are opposite to each other, which means that we can play with swapping: when the window is placed to the north-west (-1, -1), the main view is to the south-east (1,1), but when the window is on the south-east  (1,1), the main view will be on the north-west (-1, -1).  
+Therefore, we need to adjust both views at the same time. Note that these views are opposite to each other, which means that we can play with swapping: when the window is placed to the north-west (-1, -1), the main view is to the south-east (1,1), but when the window is on the south-east  (1,1), the main view will be on the north-west (-1, -1) (see the illustration above).  
   
 To finish, let's throw in an additional parameter for steps - the range to be skipped between analysed cells (see [numpy docs](https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html) for steps). Let's now wrap all this to a function which will return matching views:  
   
@@ -143,6 +143,7 @@ output = calculate_something(temp_sum)
  
 Perhaps we could do better, but the advantage of this approach is that we can adapt it to any imaginable shape of the moving window - because we conserve the loop over window cells. We are also working on views, as opposed to hard copies of the data, which is what Numpy likes a lot.  
 
-PS. You can find an implementation of sliding window logic in a script for GIS raster analysis [(Topographic position index)](https://landscapearchaeology.org/2019/tpi/).  
+## Related posts
+You can find an implementation of sliding window logic in a script for GIS raster analysis [(Topographic position index)](https://landscapearchaeology.org/2019/tpi/).  
   
 Any suggestions are welcome!

@@ -85,4 +85,3 @@ Archéogéographie : [archeogeographie.org]( archeogeographie.org), [www.formesd
 Trame foncière : [www.arturbain.fr](https://www.arturbain.fr/arturbain/vocabulaire/francais/fiches/trame_fonciere_nouvelle_version/fiche_interactive/impression/int.pdf))
 
 Enfin, un vieux ouvrage complètement oublié, mais fantastique : [*Découverte aérienne du monde*](https://archive.org/details/in.ernet.dli.2015.169564/page/n243) par Paul Chombart de Lauwe *et alii* (les photographies ont malheureusement été oblitérés lors du traitement des scans).
-

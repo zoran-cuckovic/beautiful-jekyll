@@ -1,7 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Archéologie des parcellaires : une brève introduction sur l’exemple du Cantal'
+tags:
+  - field systems
 ---
 
 

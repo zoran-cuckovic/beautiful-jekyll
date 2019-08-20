@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 'Archéologie des parcellaires : une brève introduction sur l’exemple du Cantal'
+title: 'Archéologie des parcellaires : quelques réflexions sur l’exemple du Cantal'
 tags:
   - field systems
 ---
@@ -72,7 +72,7 @@ Encore un parcellaire du même type : petits lotissements allongés et organisé
 On s’attend certainement aux systèmes de parcellaire dédiés à l’élevage sur les hauteurs au-dessus de 1000 mètres d'altitude, mais on trouve des traces assez clairs de l’agriculture historique au-delà de cette limite. Ici apparaissent assez clairement les rideaux de culture, accrochés à la pente qui monte à 1200 mètres. 
 
 ![Crêtes de labour]({{site.baseurl}}/figures/2019-08-30-cretes-labour.jpg)
-*Possible traces de labour, commune de Vèze.*
+*Possibles traces de labour, commune de Vèze.*
 
 Plus en hauteur, à près de 1300 mètres d’altitude, apparaissent des traces assez vagues – donc hypothétiques – des labours agricoles. Ces indices, toujours sur le secteur de Vèze, sont à vérifier…  
 

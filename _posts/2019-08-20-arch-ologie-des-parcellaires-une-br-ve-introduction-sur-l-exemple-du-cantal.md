@@ -34,7 +34,7 @@ L’organisation du paysage agricole, par contre, évolue suivant d’autres pr�
 ![Paysage agricole]({{site.baseurl}}/figures/2019-08-30-schema-agricole.jpg)
 Schéma d’un paysage agricole. 
  
-![2019-08-30-Majorca.jpg]({{site.baseurl}}/figures/2019-08-30-schema-agricole.jpg)
+![2019-08-30-Majorca.jpg]({{site.baseurl}}/figures/2019-08-30-Majorca.jpg)
 Terrasses agricoles sur l’île de Majorque (par A. Sureda, [wikimedia](https://commons.wikimedia.org/wiki/File:Marjades2.jpg))
 
 ![Rideaux de culture]({{site.baseurl}}/figures/2019-08-30-rideaux-culture-angleterre.jpg)
@@ -48,24 +48,41 @@ Résumons cette introduction en éclair : le plus important à retenir est qu’
 ## Parcellaires fossiles du Cantal 
 
 La faible empreinte de l’élevage contemporain (et historique) a permis la conservation extraordinaire des vestiges archéologiques sur les hauteurs du Cantal, dont également les parcellaires. Les structures archéologiques peuvent être aperçus sur les clichés aériens ensemble avec les paysages agro-pastoraux qui les accompagnaient. J’utilise ici Google Earth, le moyen le plus simple d’examiner les traces des parcellaires toujours visibles dans le paysage. 
- 
-Mont Chastel, Vèze
+
+![Parcellaire, Mt. Chastel]({{site.baseurl}}/figures/2019-08-30-chastel.jpg)
+Mont Chastel, Vèze (Cantal).
+
 L’habitat médiéval de Mont Chastel est bien visible sur la droite de l’image (les fosses, les traces des murs etc.). Le parcellaire régulier implanté sur la crête douce qui mène au site semble axé sur l’entrée à la zone fortifiée. On observe la disposition verticale des parcelles, leur régularité et les traces probables des murets de part et l’autre du chemin axial. Une trace possible d’un chemin d’accès à la fortification traverse les lotissements de manière oblique : il pourrait s’agir d’un dispositif plus ancien que le parcellaire. Le lotissement a dû être fait, dans ce cas, lors d’une phase tardive d’évolution du site.    
- 
-Enclos pastoraux, commune de Ségur-les-Villas
+
+![Parcellaire événtail]({{site.baseurl}}/figures/2019-08-30-parcellaire-eventail.jpg)
+Enclos pastoraux, commune de Ségur-les-Villas (Cantal).
+
 Le principe vertical est encore mieux visible sur ce parcellaire qui rayonne depuis un chemin bordé des murs en pierre sèche, pour descendre la pente douce. Un deuxième chemin a pu desservir les bordures basses des parcelles, mais il est peu visible sur l’image.  
- 
-Parcellaire extensif, commune de Ségur-les-Villas
+
+![Parcellaire médieval]({{site.baseurl}}/figures/2019-08-30-parcellaire-medieval.jpg)
+Parcellaire extensif, commune de Ségur-les-Villas (Cantal).
+
 Encore un parcellaire du même type : petits lotissements allongés et organisées autour des chemins d’accès. Ici encore on remarque la régularité étonnante des parcelles, ce qui indique que le système a évolué peu depuis le premier lotissement, conduit suivant un principe d’équité. En théorie ce parcellaire a dû être utilisé peu et pendant un temps plutôt court. Cependant, un système d’enclos pastoraux (si c’était la fonction de ce dispositif) ne supporte pas bien les découpages aléatoires (voir l’exemple de l’île de Pag, plus haut) : un dispositif équilibré a également pu être maintenu en état pendant une période plutôt longue.  
- 
-Rideaux de culture, commune de Vèze
+
+![Rideaux de culture]({{site.baseurl}}/figures/2019-08-30-rideaux-culture.jpg)
+Rideaux de culture, commune de Vèze (Cantal). 
+
 On s’attend certainement aux systèmes des parcellaires dédiés à l’élevage sur les hauteurs au-dessus de 1000 mètres, mais on trouve des traces assez clairs de l’agriculture historique au-delà de cette limite. Ici apparaissent assez clairement les rideaux de culture, accrochés à la pente qui monte à 1200 mètres. 
 
- 
+![Crêtes de labour]({{site.baseurl}}/figures/2019-08-30-cretes-labour.jpg)
 Possible traces de labour, commune de Vèze.
+
 Plus en hauteur, à près de 1300 mètres d’altitude, apparaissent des traces assez vagues – donc hypothétiques – des labours agricoles. Ces indices, toujours sur le secteur de Vèze, sont à vérifier…  
-Il reste tant d’autres choses à découvrir sur les paysages pastoraux et agricoles des planèzes de Cantal ! Je n’entreprends pas ici une étude scientifique, je profite seulement de cette zone exceptionnelle pour illustrer le sujet d’analyse des parcellaires historiques. En France, l’étude des trames de parcellaire historique est aujourd’hui associée en particulier avec l’école d’archéogéographie (voir plus bas). Cependant, des scientifiques travaillant sur des sujets très variés s’intéressent aux parcellaires anciens : les géologues qui étudient, par exemple, l’érosion historique, les historiens et les archéologues évidemment, les environnementalistes qui étudient le couvert végétal ancien, enfin ceux travaillant sur l’écologie humaine, c’est-à-dire l’impact (positif ou négatif) de l’homme sur le milieu naturel.  
+
+Il reste tant d’autres choses à découvrir sur les paysages pastoraux et agricoles des planèzes de Cantal ! Je n’entreprends pas ici une étude scientifique, je profite seulement de cette zone exceptionnelle pour illustrer le sujet d’analyse des parcellaires historiques. En France, l’étude des trames de parcellaire historique est aujourd’hui associée en particulier avec l’école d’archéogéographie (voir plus bas). Cependant, des scientifiques travaillant sur des sujets très variés s’intéressent aux parcellaires anciens : les géologues qui étudient, par exemple, l’érosion historique, les historiens et les archéologues évidemment, les environnementalistes qui étudient le couvert végétal ancien, enfin ceux travaillant sur l’écologie humaine, c’est-à-dire l’impact (positif ou négatif) de l’homme sur le milieu naturel. 
+
 ## Approfondissements
-Introduction en étude des parcellaires historiques : [historicengland.org.uk/images-books/publications/iha-field-systems/](historicengland.org.uk/images-books/publications/iha-field-systems/)
+
+Introduction en étude des parcellaires historiques : [historicengland.org.uk](historicengland.org.uk/images-books/publications/iha-field-systems/)
+
 Archéogéographie : [archeogeographie.org]( archeogeographie.org), [www.formesdufoncier.org]( www.formesdufoncier.org)
-Trame foncière : [www.arturbain.fr 
+
+Trame foncière : [www.arturbain.fr](https://www.arturbain.fr/arturbain/vocabulaire/francais/fiches/trame_fonciere_nouvelle_version/fiche_interactive/impression/int.pdf))
+
+Enfin, un vieux ouvrage complètement oublié, mais fantastique : [*Découverte aérienne du monde*](https://archive.org/details/in.ernet.dli.2015.169564/page/n243) par Paul Chombart de Lauwe *et alii* (les photographies ont malheureusement été oblitérés lors du traitement des scans).
+

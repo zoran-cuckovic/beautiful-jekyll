@@ -82,7 +82,7 @@ Il reste tant d’autres choses à découvrir sur les paysages pastoraux et agri
 
 Introduction en étude des parcellaires historiques : [historicengland.org.uk](historicengland.org.uk/images-books/publications/iha-field-systems/).
 
-Archéogéographie : [archeogeographie.org]( archeogeographie.org), [www.formesdufoncier.org]( www.formesdufoncier.org).
+Archéogéographie : [archeogeographie.org](http://archeogeographie.org), [www.formesdufoncier.org]( http://www.formesdufoncier.org).
 
 Trame foncière : [www.arturbain.fr](https://www.arturbain.fr/arturbain/vocabulaire/francais/fiches/trame_fonciere_nouvelle_version/fiche_interactive/impression/int.pdf).
 

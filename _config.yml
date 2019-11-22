@@ -33,6 +33,7 @@ include:
 navbar-links:
   Books: "books"
   Content: "tags"
+  QGIS visibility analysis: "https://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/"
   About: "about"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

@@ -2,6 +2,7 @@
 layout: page
 published: true
 title: Free lidar data
+permalink/lidar-data/
 ---
  
 

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: page
 published: false
 title: Free lidar data
+permalink:/lidar-data
 ---
  
 

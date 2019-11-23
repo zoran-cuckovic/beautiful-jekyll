@@ -92,7 +92,7 @@ Best solution :
 
 .image-caption {text-align: center}
 
-details {
+details { display : block;
          position : relative;
 	max-width : 95 %
 }

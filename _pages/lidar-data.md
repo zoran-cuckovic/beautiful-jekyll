@@ -34,6 +34,8 @@ Wallonie : http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3
 Netherlands : https://www.pdok.nl/nl/ahn3-downloads   20 pts m2
 
 Spain :  http://pnoa.ign.es/presentacion and free download in http://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do?codFamilia=LIDAR
+https://mappinggis.com/2016/09/descargar-datos-lidar-gratis/
+https://idee.es/fr/directorio-de-servicios?p_p_id=DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J_tipoServicio=WCS&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J_supertipo=OGC&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J_descSrv=DESCARGA
 castilla et leon https://datosabiertos.jcyl.es/web/jcyl/set/es/medio-ambiente/modelo-digital-terreno-cyl-elevaciones-5m./1284688447307
 Andalusia : http://www.juntadeandalucia.es/medioambiente/site/rediam/menuitem.04dc44281e5d53cf8ca78ca731525ea0/?vgnextoid=a8688c8322819510VgnVCM2000000624e50aRCRD&vgnextchannel=48f87d087270f210VgnVCM1000001325e50aRCRD&vgnextfmt=rediam&lr=lang_es
 Galicia :  http://mapas.xunta.gal/visores/descargas/

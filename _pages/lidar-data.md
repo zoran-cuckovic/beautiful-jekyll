@@ -9,10 +9,6 @@ permalink: /lidar-data/
 # United Kingdom
 ## England 
 DSM / DTM / point cloud : [ data.gov.uk]( https://data.gov.uk/dataset/8275e71e-1516-42a1-bb0c-4fa73807fe2b/lidar-dtm-time-stamped-tiles)
-<details>
- <summary> remarks </summary>
- <p> some aditional remarks </p>
-</details>
 
 ## Scotland
    [remotesensingdata.gov.scot](https://remotesensingdata.gov.scot/collections)

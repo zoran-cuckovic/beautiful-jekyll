@@ -23,10 +23,6 @@ Auvergne : craig
 
 Slovenia
 
-<details>some detail 
-  <summary> some summary </summary>
-  some text
- </details>
  
 Italy:  DTM 1 or 2 meters
 Formal request and 2 euros fee http://www.pcn.minambiente.it/mattm/procedura-richiesta-dati-lidar-e-interferometrici-ps/

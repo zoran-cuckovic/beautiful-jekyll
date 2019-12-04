@@ -8,10 +8,12 @@ permalink: /lidar-data/
 
 # United Kingdom
 ## England 
-DSM / DTM / point cloud : [ data.gov.uk]( https://data.gov.uk/dataset/8275e71e-1516-42a1-bb0c-4fa73807fe2b/lidar-dtm-time-stamped-tiles)
+[data.gov.uk/dataset : time stamped tiles](https://data.gov.uk/dataset/8275e71e-1516-42a1-bb0c-4fa73807fe2b/lidar-dtm-time-stamped-tiles): various lidar surveys beggining in 1998
+[data.gov.uk/dataset : composite](https://data.gov.uk/dataset/80c522cc-e0bf-4466-8409-57a04c456197/lidar-composite-dsm-1m): Point cloud, DEM/DSM 1m, DEM/DSM 2m
+
 
 ## Scotland
-   [remotesensingdata.gov.scot](https://remotesensingdata.gov.scot/collections)
+   [remotesensingdata.gov.scot](https://remotesensingdata.gov.scot/collections): Point cloud, DSM/DTM 1m, DSM/DTM 1m.
 explanation https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too/
 ## Wales
 (lle.gov.wales)[http://lle.gov.wales/catalogue/item/lidarcompositedataset/]
@@ -21,11 +23,12 @@ Viewing : https://www.lidarfinder.com/
 Normandy (coast): https://diffusion.shom.fr/pro/lidar-nhdf-2017-partie-maritime.html
 Auvergne : craig
 
-Slovenia
-
+# Slovenia
+(gis.arso.gov.si)[http://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso&culture=en-US]: point cloud, DTM 1m
  
-Italy:  DTM 1 or 2 meters
-Formal request and 2 euros fee http://www.pcn.minambiente.it/mattm/procedura-richiesta-dati-lidar-e-interferometrici-ps/
+# Italy
+(Formal request and 2 euros fee are required)
+[www.pcn.minambiente.it](http://www.pcn.minambiente.it/mattm/procedura-richiesta-dati-lidar-e-interferometrici-ps/): DTM 1 or 2 meters
 
 Trento: http://www.territorio.provincia.tn.it/portal/server.pt/community/lidar/847/lidar/23954
 Belgium
@@ -34,15 +37,9 @@ Wallonie : http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3
 
 Netherlands : https://www.pdok.nl/nl/ahn3-downloads   20 pts m2
 
-Spain :  http://pnoa.ign.es/presentacion and free download in http://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do?codFamilia=LIDAR
-https://mappinggis.com/2016/09/descargar-datos-lidar-gratis/
-https://idee.es/fr/directorio-de-servicios?p_p_id=DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J_tipoServicio=WCS&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J_supertipo=OGC&_DIRSRVIDEE_WAR_DIRSRVIDEEportlet_INSTANCE_KXnVu4qMJc1J_descSrv=DESCARGA
-castilla et leon https://datosabiertos.jcyl.es/web/jcyl/set/es/medio-ambiente/modelo-digital-terreno-cyl-elevaciones-5m./1284688447307
+# Spain 
+[centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Pointcloud, DEM 2m, DEM 5m. 
 
-navarra http://blog-idee.blogspot.com/2018/10/publicados-los-datos-lidar-2017-de.html
-Andalusia : http://www.juntadeandalucia.es/medioambiente/site/rediam/menuitem.04dc44281e5d53cf8ca78ca731525ea0/?vgnextoid=a8688c8322819510VgnVCM2000000624e50aRCRD&vgnextchannel=48f87d087270f210VgnVCM1000001325e50aRCRD&vgnextfmt=rediam&lr=lang_es
-Galicia :  http://mapas.xunta.gal/visores/descargas/
-Itd za spanjolsku vidi po regijama
 
 
 Estonia

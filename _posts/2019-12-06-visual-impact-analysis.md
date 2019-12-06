@@ -13,7 +13,7 @@ A common problem in visibility analysis is to determine the visual impact of a t
 The tower of Urkulu was built by the Romans on top of a hill some 1400 metres above the sea level, close to a major Roman road. What can be seen today is only its round base, 19.5 meters in diameter, constructed of massive, well-shaped limestone blocks and filled with rubble and construction debris. Archaeologists and historians believe that the tower had a symbolic function, as a so-called trophy tower ([tropaeum](https://en.wikipedia.org/wiki/Tropaeum_Traiani)) which boasted Roman supremacy over the region. However, the building is ideally placed for visual surveillance and signalling, as we shall see later on; its original function may not be fully clear. In order to understand better the reasons for the construction of this strange, massive tower, let’s do some visibility modelling. 
 
 ![Urkulu tower](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Torre_de_Urkulu.jpg/800px-Torre_de_Urkulu.jpg)
-*Urkulu tower ([Wikipedia](https://fr.wikipedia.org/wiki/Fichier:Torre_de_Urkulu.jpg))
+*Urkulu tower ([Wikipedia](https://fr.wikipedia.org/wiki/Fichier:Torre_de_Urkulu.jpg))*
 
 The problem is following: which height should the tower attain in order to be visually dominant? Or, if it was used for surveillance/signalling, which height would allow for good visual control of the surrounding area? 
 
@@ -37,7 +37,7 @@ Next, we use QGIS Visibility Plugin to create viewpoints from these multiple loc
 
 ![2019-12-4.jpg]({{site.baseurl}}/figures/2019-12-4.jpg)
 
-Each observer point will be assigned a specific height. Here, I’m using increments of 5 for a range of 0 to 20 metres. 
+Each observer point will be assigned a specific height. Here, I’m using increments of 5 for a range of 0 to 20 metres. Note that the Target height parameter is set 1.6 metres which simulates a typicial observer height (!). Our "observer point" is actually occupied by the tower, while potential observers are scattered across the landscape.   
 
 ![2019-12-5.jpg]({{site.baseurl}}/figures/2019-12-5.jpg)
 
@@ -51,7 +51,7 @@ Let’s finish by styling the output. I will set the invisible areas to transpar
 
 ![2019-12-7.jpg]({{site.baseurl}}/figures/2019-12-7.jpg)
 
-We can think of our result as a series of nested boxes: the largest area is visible from the top level and the smallest one from the ground level. For a common 2.5D elevation model, it is not possible that a patch seen from a lower level would not be visible from the top level (this is not valid for true 3D models…). These viewshed overlaps are registered in the algorithm output (0 = not visible, 1 overlap = visible from the top level exclusively, 5 overlaps = visible from all floors down to the ground level).
+We can think of our result as a series of nested boxes: the largest area is visible from the top level and the smallest one from the ground level. For a common 2.5D elevation model, it is not possible that a patch seen from a lower level would not be visible from the top level (this is not valid for true 3D models…). These viewshed overlaps are registered in the algorithm output (0 = not visible, 1 overlap = only the top level, at 20 metres is visible, 5 overlaps = the entirety of the structure is visible, down to the ground level).
 
 ![2019-12-8.jpg]({{site.baseurl}}/figures/2019-12-8.jpg)
 

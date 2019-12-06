@@ -62,6 +62,8 @@ Note the pale tones to the north of the tower: these are the areas where only th
 
 ![2019-12-Urkulu_(sitna.navarra.es).jpg]({{site.baseurl}}/figures/2019-12-Urkulu_(sitna.navarra.es).jpg)
 
+
+
 We can, then, conclude that the Roman trophy tower was constructed to be visible at relatively close distance, perhaps from the road that passed nearby. 
 
 We can, however, also imagine a practical purpose of the building. If the height of the tower compensated for some 5 metres difference from the mountaintop, it could have been used for surveillance of the passage across the mountain. In principle, our analysis can be used to estimate which areas would be visible from each height level, but we should bear in mind that the SRTM terrain model is imprecise and not suitable for a precision calculation.  

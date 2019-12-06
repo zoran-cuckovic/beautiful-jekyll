@@ -12,11 +12,14 @@ A common problem in visibility analysis is to determine the visual impact of a t
 
 The tower of Urkulu was built by the Romans on top of a hill some 1400 metres above the sea level, close to a major Roman road. What can be seen today is only its round base, 19.5 meters in diameter, constructed of massive, well-shaped limestone blocks and filled with rubble and construction debris. Archaeologists and historians believe that the tower had a symbolic function, as a so-called trophy tower ([tropaeum](https://en.wikipedia.org/wiki/Tropaeum_Traiani)) which boasted Roman supremacy over the region. However, the building is ideally placed for visual surveillance and signalling, as we shall see later on; its original function may not be fully clear. In order to understand better the reasons for the construction of this strange, massive tower, let’s do some visibility modelling. 
 
+![Urkulu tower](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Torre_de_Urkulu.jpg/800px-Torre_de_Urkulu.jpg)
+*Urkulu tower ([Wikipedia](https://fr.wikipedia.org/wiki/Fichier:Torre_de_Urkulu.jpg))
+
 The problem is following: which height should the tower attain in order to be visually dominant? Or, if it was used for surveillance/signalling, which height would allow for good visual control of the surrounding area? 
 
 Standard visibility analysis produces models for single, fixed observer/target height, so we shall make a series of viewsheds for a range of hypothetical heights, and combine them in a cumulative visibility model. 
 
-I will be using [QGIS Visibility analysis plugin](http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/), which can be installed from the official QGIS Plugins repository. My data is SRTM digital elevation model of 1 arc-second precision, which yields 27 meters resolution when projected.  
+I will be using [QGIS Visibility analysis plugin](http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/), which can be installed from the official QGIS Plugins repository. My data is [SRTM digital elevation model](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc) of 1 arc-second precision, which yields 27 meters resolution when projected.  
 
 # Tutorial
 
@@ -30,7 +33,7 @@ First, the analysed building has to be represented as a series of observer/targe
 
 **NB** If you play with different elevation models, it is advisable to be as precise as possible and to duplicate points instead of generating random points. 
 
-Next, we create viewpoints from these multiple locations. The analysis radius is set to 30 kilometres. 
+Next, we use QGIS Visibility Plugin to create viewpoints from these multiple locations. The analysis radius is set to 30 kilometres. 
 
 ![2019-12-4.jpg]({{site.baseurl}}/figures/2019-12-4.jpg)
 

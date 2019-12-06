@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Analysing visual impact of tall buildings: a Roman period case study'
 tags:
   - qgis visibility analysis

@@ -65,7 +65,7 @@ Our viewshed model is quite interesting. First of all, it is very fragmented for
 Note the pale tones to the north of the tower: these are the areas where only the top portion of the building would be visible. Most of these locations are more than 10 kilometres away, so the level of “impressiveness” of the building would be quite low. Indeed, the building is placed some 5 metres or so below the actual hilltop, which is effectively hiding the building from the north.   
 
 ![2019-12-Urkulu map]({{site.baseurl}}/figures/2019-12-Urkulu-topo.jpg)
-*The Urkulu tower is represented by the orange circle.
+*The Urkulu tower is represented by the orange circle.*
 
 We can, then, conclude that the Roman trophy tower was constructed to be visible at relatively close distance, perhaps from the road that passed nearby. 
 

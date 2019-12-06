@@ -70,6 +70,6 @@ Note the pale tones to the north of the tower: these are the areas where only th
 
 We can, then, conclude that the Roman trophy tower was constructed to be visible at relatively close distance, perhaps from the road that passed nearby. 
 
-We can, however, also imagine a practical purpose of the building. If the height of the tower compensated for some 5 metres difference from the mountaintop, it could have been used for surveillance of the passage across the mountain. In principle, our analysis can be used to estimate which areas would be visible from each height level, but we should bear in mind that the SRTM terrain model is imprecise and not suitable for a precision calculation.  
+We can, however, also imagine a practical purpose for the building. If the height of the tower compensated for some 5 metres difference from the mountaintop, it could have been used for surveillance of the passage across the mountain. In principle, our analysis can be used to estimate which areas would be visible from each height level, but we should bear in mind that the SRTM terrain model is imprecise and not suitable for a precision calculation.  
 
 This short example should introduce some basic concepts of the analysis of visual impact of tall constructions. The same principles can be used to analyse skyscrapers, wind turbines, or other types of buildings. Note, however, that precise elevation model is paramount for such an analysis; I repeat that the STRM model used here should only serve as “proof of concept”.

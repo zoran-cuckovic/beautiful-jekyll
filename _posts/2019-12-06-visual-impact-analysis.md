@@ -62,13 +62,14 @@ And here is our visibility model:
 ![2019-12-viewshed.jpg]({{site.baseurl}}/figures/2019-12-viewshed.jpg)
 
 Our viewshed model is quite interesting. First of all, it is very fragmented for a building destined to impress travellers from afar. The building would often go out of sight and then reappear in front of a passenger. Surely, there are better locations from which the impressive tower would be an unavoidable sight. 
-Note the pale tones to the north of the tower: these are the areas where only the top portion of the building would be visible. Most of these locations are more than 10 kilometres away, so the level of “impressiveness” of the building would be quite low. Indeed, the building is placed some 5 metres or so below the actual hilltop, which is effectively hiding the building from the north.   
+
+Note the pale tones to the north of the tower: these are the areas where only the top portion of the building would be visible. Most of these locations are more than 10 kilometres away, so the level of “impressiveness” of the building would be quite low. Indeed, the building is placed some 5 metres or so below the actual hilltop, which is effectively hiding it from the north.   
 
 ![2019-12-Urkulu map]({{site.baseurl}}/figures/2019-12-Urkulu-topo.jpg)
-*The Urkulu tower is represented by the orange circle.*
+*The Urkulu tower is represented by the orange circle (map from [sitna.navarra.es](https://sitna.navarra.es/navegar/)).*
 
 We can, then, conclude that the Roman trophy tower was constructed to be visible at relatively close distance, perhaps from the road that passed nearby. 
 
 We can, however, also imagine a practical purpose of the building. If the height of the tower compensated for some 5 metres difference from the mountaintop, it could have been used for surveillance of the passage across the mountain. In principle, our analysis can be used to estimate which areas would be visible from each height level, but we should bear in mind that the SRTM terrain model is imprecise and not suitable for a precision calculation.  
 
-This short example should introduce some basic concepts of the analysis of visual impact. The same principles can be used to analyse skyscrapers, wind turbines, or other types of tall buildings. Note, however, that precise elevation model is primordial for such an analysis, I repeat that the STRM model used here should only serve as “proof of concept”.
+This short example should introduce some basic concepts of the analysis of visual impact of tall constructions. The same principles can be used to analyse skyscrapers, wind turbines, or other types of buildings. Note, however, that precise elevation model is paramount for such an analysis; I repeat that the STRM model used here should only serve as “proof of concept”.

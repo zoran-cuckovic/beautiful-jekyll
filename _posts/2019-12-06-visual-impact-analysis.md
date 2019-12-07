@@ -41,7 +41,7 @@ Each observer point will be assigned a specific height. Here, I’m using increm
 
 ![2019-12-5.jpg]({{site.baseurl}}/figures/2019-12-5.jpg)
 
-*NB For the lazy ones, or those that have dozens of observation points, the observer heights can be entered through QGIS field calculator with expression `(@row_number – 1) * 5`, where 5 is the increment used here.  
+**NB** For the lazy ones, or those that have dozens of observation points, the observer heights can be entered through QGIS field calculator with expression `(@row_number – 1) * 5`, where 5 is the increment used here.  
 
 We can now perform the viewshed calculation. Note that the algorithm will always combine outputs when multiple points are present. I’m using the Earth curvature correction as it may have some impact over longer distances. 
 

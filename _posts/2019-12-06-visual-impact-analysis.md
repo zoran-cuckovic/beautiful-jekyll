@@ -15,7 +15,7 @@ The tower of Urkulu was built by the Romans on top of a hill some 1400 metres ab
 ![Urkulu tower](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Torre_de_Urkulu.jpg/800px-Torre_de_Urkulu.jpg)
 *Urkulu tower ([Wikipedia](https://fr.wikipedia.org/wiki/Fichier:Torre_de_Urkulu.jpg))*
 
-The problem is following: which height should the tower attain in order to be visually dominant? Or, if it was used for surveillance/signalling, which height would allow for good visual control of the surrounding area? 
+The problem is as follows: which height should the tower attain in order to be visually dominant? Or, if it was used for surveillance/signalling, which height would allow for good visual control of the surrounding area? 
 
 Standard visibility analysis produces models for single, fixed observer/target height, so we shall make a series of viewsheds for a range of hypothetical heights, and combine them in a cumulative visibility model. 
 

@@ -5,7 +5,7 @@ title: DEM shading algorithm for QGIS
 subtitle: 'Kickstarter campaign for a happier QGIS :)'
 date: '2019-07-05'
 tags:
-  - QGIS
+  - qgis
 ---
 I've been seeing on the net more and more of beautiful maps made in 3D software, Blender mostly. The reason for venturing into 3D: shadows mostly. While we do have hillshading algorithms in most GIS packages, nothing can beat true ambient light for terrain visualisation. Shadows do not only give a natural feel to an image, they also provide important information on object shapes and depths (see examples below).
 
@@ -25,4 +25,4 @@ What is the difference between "hillshading" and "natural shading"? (Neither of 
 *Gergovia stronghold (France): Caesar's army was defeated there (or at least retreated without seizing the Gaulish fortress...). Data: Lidar scan, www.craig.fr. Map: Elise Fovet, MSH Clermont-Ferrand.* 
 
 <iframe frameborder="0" class="juxtapose" width="100%" height="694" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=438272fe-a001-11e9-b9b8-0edaf8f81e27"></iframe>
-*Gergovia : detail of suface structures (modern period drystone walls and cairns, which may sometimes cover archaeological remains). Data: Lidar scan, www.craig.fr. Map: Elise Fovet, MSH Clermont-Ferrand.* 
+*Gergovia : detail of suface structures (modern period drystone walls and cairns, which may sometimes cover archaeological remains). Data: Lidar scan, www.craig.fr. Map: Elise Fovet, MSH Clermont-Ferrand.*

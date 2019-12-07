@@ -3,7 +3,7 @@ layout: post
 published: true
 title: 'Analysing visual impact of tall buildings: a Roman period case study'
 tags:
-  - qgis visibility analysis
+  - QGIS visibility plugin
 ---
 # Introduction
 A common problem in visibility analysis is to determine the visual impact of a tall building, for instance a skyscraper or a wind turbine. Now, there is a variety of approaches to measure such impact: how tall does the building stand above the horizon, against which background is it placed, does it cast shadows on certain places, etc. This tutorial will cover the basic measure of the apparent height of tall buildings. My example will be an extraordinary Roman tower, built high and deep in the northern flanks of the Pyrenees.   

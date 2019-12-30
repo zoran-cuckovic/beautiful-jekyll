@@ -12,7 +12,7 @@ tags:
 *QGIS algorithm for natural shadow modelling.* 
 
 ## Introduction
-Modelling natural illumination is quite difficult in software for digital cartography. Yes, we do have hillshading algorithms, but despite the name they do not produce true shade. Hillshade routines colour the terrain according to exposition towards the sun (white for directly exposed and black for unexposed areas),  *but they do not model light path*. There are no shadows in hillshades. As a result, a canyon floor will be rendered the same way as a wide valley, which impedes the perception of depth. Hillshades often have a feeling of "elephant skin", as if the Earth surface were wrinkled by long term cosmetic abuse.
+Modelling natural illumination is quite difficult in software for digital cartography. Yes, we do have hillshading algorithms, but despite the name they do not produce true shade. Hillshade routines colour the terrain according to exposition towards the sun (white for directly exposed and black for unexposed areas),  *but they do not model the light path*. There are no shadows in hillshades. As a result, a canyon floor will be rendered the same way as a wide valley, which impedes the perception of depth. Hillshades often have a feeling of "elephant skin", as if the Earth surface were wrinkled by long term cosmetic abuse.
 
 <iframe frameborder="0" class="juxtapose" width="100%" height="750" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1d278554-40e8-11e9-9c6a-0edaf8f81e27"> </iframe> 
 *Simple hillshade vs natural shadows: slide to compare*  
@@ -38,7 +38,7 @@ import numpy
 shadows = elevations - numpy.maximum.accumulate( elevations )
 ``` 
 
-The accumulate function takes care that values in a (numpy) array that stores the elevation model would only increase, from the beginning of the array to its end. Imagine that you walk over a mountain, and the path is constantly winding upwards and downwards. If you would like to move only upwards, you would need to fill all valleys with soil or water. The accumulate function does that, it simulates a cascading terrain profile where we can travel either upwards or over a flat terrain. Filled portions of the terrain become shadows if you imagine the sun shining into a flank of a mountain. Shadow depth is calculated by subtracting the cascading model from the actual terrain height.    
+The accumulate function takes care that values in the (numpy) array which stores the elevation model would only increase, from the beginning of the array to the end. Imagine walking over a mountain, along a path which is constantly winding upwards and downwards. If you would like to move only upwards, you would need to fill all valleys with soil or water. The accumulate function does just that, it simulates a cascading terrain profile where we can travel either upwards or over a flat terrain. Filled portions of the terrain become shadows if you imagine the sun shining into a flank of a mountain. Shadow depth is calculated by subtracting the cascading model from the actual terrain height.    
 
 ```
 from math import tan, radians
@@ -91,4 +91,3 @@ Happy mapping!
 ## PS. Kickstarter campaign for QGIS shading
 I'm proposing to integrate this algorithm in QGIS processing toolbox, which would need some extra work. If you think the idea is cool, do support the initiative on Kickstarter:
 <iframe src="https://www.kickstarter.com/projects/archaeology/terrain-shading-plugin-for-qgis/widget/card.html?v=2" width="220" height="420" frameborder="0" scrolling="no"></iframe>
-

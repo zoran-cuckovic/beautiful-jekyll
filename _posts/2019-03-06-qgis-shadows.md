@@ -84,10 +84,7 @@ The algorithm for natural shadow modelling gives nice results, but beware that i
 
 ## Download
 
-The script can be [downloaded directly](https://github.com/zoran-cuckovic/QGIS-raster-shading/archive/master.zip) or from [GitHub repository](https://github.com/zoran-cuckovic/QGIS-raster-shading/). Problems and issues can be signalled in the same repository.
+The script can be [downloaded directly](https://github.com/zoran-cuckovic/QGIS-raster-shading/archive/script.zip) or from [GitHub repository](https://github.com/zoran-cuckovic/QGIS-raster-shading/). Problems and issues can be signalled in the same repository.
 
 Happy mapping!
 
-## PS. Kickstarter campaign for QGIS shading
-I'm proposing to integrate this algorithm in QGIS processing toolbox, which would need some extra work. If you think the idea is cool, do support the initiative on Kickstarter:
-<iframe src="https://www.kickstarter.com/projects/archaeology/terrain-shading-plugin-for-qgis/widget/card.html?v=2" width="220" height="420" frameborder="0" scrolling="no"></iframe>

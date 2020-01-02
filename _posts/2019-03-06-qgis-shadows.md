@@ -86,5 +86,6 @@ The algorithm for natural shadow modelling gives nice results, but beware that i
 
 The script can be [downloaded directly](https://github.com/zoran-cuckovic/QGIS-raster-shading/archive/script.zip) or from [GitHub repository](https://github.com/zoran-cuckovic/QGIS-raster-shading/). Problems and issues can be signalled in the same repository.
 
-Happy mapping!
+**Update, January 2020**: the algorithm is now available as [native QGIS plugin](http://www.zoran-cuckovic.from.hr/QGIS-terrain-shading/). 
 
+Happy mapping!

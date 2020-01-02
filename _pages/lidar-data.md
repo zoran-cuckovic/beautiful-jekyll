@@ -51,6 +51,8 @@ Netherlands : https://www.pdok.nl/nl/ahn3-downloads   20 pts m2
 [centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Pointcloud, DEM 2m, DEM 5m. 
 
 
+Germany
+-  https://data.geobasis-bb.de/geobasis/daten/dgm/
 
 Estonia
 

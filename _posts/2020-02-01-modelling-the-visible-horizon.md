@@ -3,10 +3,7 @@ layout: post
 published: false
 title: Modelling the visible horizon
 ---
----
-layout: post
-tags: [qgis-visibility, qgis, gis]
----
+
 
 The new release brings a more polished algorithm and two options for horizon analysis. Horizon detection was, and still remains, rather problematic. On the conceptual level, the skyline has to be understood in terms of perception and not as a fixed terrain parameter. Consider the image below: there are many skylines in the mountainous landscape, progressively dissolving into the atmosphere. The most distant skyline might not even be visible at all, even if it would be rendered as “true horizon” by GIS. Sometimes we may be able to see a chain of mountains at distances [above 100 or 200 km](http://www.summitpost.org/phpBB3/longest-lines-of-sight-photographed-t44409.html), but such views demand exceptional weather conditions. A book was recently published by William Malm (2016) on that particular issue.
 

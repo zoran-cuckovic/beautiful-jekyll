@@ -46,3 +46,12 @@ To obtain the best from both worlds, we can combine the usual sky-view factor wi
 *QGIS stlye used for the negative svf overlay. Valleys are represented with an inverse scale (white to black) and superposed as a semi-transparent layer over the usual sky-view model.*
 
 Happy mapping!
+
+### Bibliography
+
+K. Zakšek, K. Oštir and Ž. Kokalj 2011: Sky-View Factor as a Relief Visualization Technique. *Remote Sensing* 3(2), 398-415.[Open access](https://doi.org/10.3390/rs3020398). 
+
+R. Yokoyama, M. Shlrasawa and R. Pik 2002: Visualizing Topography by *Openness*: A New Application of Image Processing to Digital Elevation Models. Photogrammetric Engineering & Remote Sensing 68(3), 257-265. [Semantic scholar](https://pdfs.semanticscholar.org/c3d9/a561fdb9e8c34a2b79152aea72b46090bb2e.pdf)
+
+
+

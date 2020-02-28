@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Ambient occlusion and sky-view algorithm for QGIS.
 ---
 Ambient occlusion is a concept developed in 3D modelling and visualisation, it evaluates the exposition to the ambient light of each model element. The idea is to simulate the diffuse, scattered light that bounces off various surfaces. Such light may not have an identifiable source, as for instance in foggy environments or in cases of large numbers of reflective surfaces. Ambient occlusion models produce very realistic renderings which capture the dim light in tight spaces and corners (Figure below).

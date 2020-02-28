@@ -14,7 +14,7 @@ Ambiental occlusion is very promising for terrain visualisation, as well; a coup
 *Real life illustration of the sky-view principle (Palagruža island, Adriatic Sea, [wikimedia.org](https://commons.wikimedia.org/wiki/File:Lighthouse_on_top_of_Palagru%C5%BEa.jpg)).*
 
 
-In the image above, water line approximates the horizontal plane for a sea level location (the photographer’s position). On the open sea, his/her sky view would be 100%, but here an island is blocking a small portion of the sky. The effect is inversely proportional to the distance from the island (the closer we get, the less light we receive). Terrain openness value, however, will never surpass 50% on the open sea, as only half of the surrounding sphere will remain unblocked. If we specify short sphere radius, say 100 meters, we will obtain openness values above 50% for the lighthouse position, because in this case the light-blocking sea level will be situated below the lighthouse. 
+In the image above, water line approximates the horizontal plane for a sea level location (the photographer’s position). On the open sea, his/her sky view would be 100%, but here an island is blocking a small portion of the sky. The effect is inversely proportional to the distance from the island (the closer we get, the less light we receive). Terrain openness value, however, will never surpass 50% on the open sea, as only half of the surrounding sphere will remain unblocked. Openness values above 50% are possible, though, for ridgetop positions, such as the one occupied by the lighthouse in the figure above. Provided that we specify short sphere radius, say 100 meters, the light-blocking sea surface will appear significantly below the lighthouse. 
 
 Openness and sky-view factor are now available in the [Terrain shading plugin for QGIS](https://zoran-cuckovic.github.io/QGIS-terrain-shading/). As in other common approaches, these metrics are estimated with a sample of lines of sight, projected from each terrain element (a pixel in this case). As of writing, 8 lines are used. As a side-note, this plugin already features a shading algorithm inspired by the principle of ambient occlusion; the [shadow depth method](https://landscapearchaeology.org/2019/qgis-shadows/) models the depth-dependant shadow translucency. 
 
@@ -52,6 +52,3 @@ Happy mapping!
 K. Zakšek, K. Oštir and Ž. Kokalj 2011: Sky-View Factor as a Relief Visualization Technique. *Remote Sensing* 3(2), 398-415.[Open access](https://doi.org/10.3390/rs3020398). 
 
 R. Yokoyama, M. Shlrasawa and R. Pik 2002: Visualizing Topography by *Openness*: A New Application of Image Processing to Digital Elevation Models. Photogrammetric Engineering & Remote Sensing 68(3), 257-265. [Semantic scholar](https://pdfs.semanticscholar.org/c3d9/a561fdb9e8c34a2b79152aea72b46090bb2e.pdf)
-
-
-

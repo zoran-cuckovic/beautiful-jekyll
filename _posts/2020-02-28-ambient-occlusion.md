@@ -27,7 +27,7 @@ This simple sky-view factor shading of Banks peninsula (New Zealand) is ideally 
 
 ![20-02-banks_svf_shadows.jpg]({{site.baseurl}}/figures/20-02-banks_svf_shadows.jpg)
 
-## Refinement: calculations over inverted DEM
+## Refinement: calculations over an inverted DEM
 
 If we observe carefully the images above, we may notice that the sky-view factor is more efficient for rendering ridgelines than valley bottoms and drainage channels. This is probably not a major issue, but let’s try to compensate for this effect. 
 

@@ -5,12 +5,14 @@ categories:
 date: 2018-04-23 16:54:40
 guid: https://landscapearchaeology.org/?p=244
 id: 244
+published = false
 layout: post
 permalink: /2018/table-sorting/
 tags:
 - qgis
 title: Sorting a table to order lables from north to south
 ---
+TODO: QGIS3 :  ORDER BY EXPRESSION IN VECTOR TOOLS
 
 Numerical labels are very handy for relating data in a table catalogue to a map, especially when the amount of data is too large for a simple eyeball scan (more than 10 to 15 labels). Imagine having some 50 sites stored alphabetically in a catalogue: how do you find the site n° 32 on the map? The simplest approach is to order site labels on the map in some meaningful manner, typically in ascending order from north to south.  
     

@@ -50,6 +50,8 @@ Netherlands : https://www.pdok.nl/nl/ahn3-downloads   20 pts m2
 # Spain 
 [centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Pointcloud, DEM 2m, DEM 5m. 
 
+# Danemark
+https://download.kortforsyningen.dk/content/geodataprodukter?field_korttype_tid_1=653&field_aktualitet_tid=749&field_datastruktur_tid=All&field_scheme_tid=All
 
 Germany
 -  https://data.geobasis-bb.de/geobasis/daten/dgm/

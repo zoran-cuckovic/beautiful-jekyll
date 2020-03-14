@@ -10,9 +10,9 @@ Author/editor of LandscapeArchaeology.org goes by the name of Zoran Čučković.
 
 LandscapeArchaeology.org is published in France and is attributed ISSN 2649-8774.
 
-## Minimal cookie policy
+## Cookie policy
 
-There are few sites out there that don't collect any information on their visitors. This site features one technical cookie which should be in compliance with EU directives (see here on [CloudFlare cookie](https://community.cloudflare.com/t/disable-cfduid-cookie-for-eu-law-compliance/19323/3)).  
+There are few sites out there that don't collect any information on their visitors. This site features a Google Analytics cookie (as does 3/4 of the web...). [See on Wikipedia](https://en.wikipedia.org/wiki/Google_Analytics).  
 
 ## Contact
 

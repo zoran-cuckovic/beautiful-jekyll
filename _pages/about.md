@@ -36,3 +36,9 @@ There are few sites out there that don't collect any information on their visito
 	<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
 </form>
 https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
+
+## Coffee corner
+
+Like free, open source software ? Me too! Buy me a coffee, so that I may support you with free GIS goodness.
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D41HYSW)

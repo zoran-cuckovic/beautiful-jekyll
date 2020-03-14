@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Viewshed analysis in QGIS 3: a tutorial.'
 ---
 

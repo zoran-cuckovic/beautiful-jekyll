@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 'Viewshed analysis in QGIS 3: a tutorial.'
+title: 'Viewshed analysis in QGIS 3: a tutorial'
 ---
 
 Viewshed analysis denotes field of vision modelling in GIS jargon. The term is quite awkwardly borrowing its suffix from watershed, even if there is nothing being “shed”. Anyway, the term viewshed has become commonplace in GIS terminology and is here to stay. 

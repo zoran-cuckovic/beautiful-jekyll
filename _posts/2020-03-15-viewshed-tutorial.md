@@ -37,16 +37,16 @@ We can now classify our cumulative viewshed model in order to isolate areas that
 
 ![2020-03-15-visibility_from.png]({{site.baseurl}}/figures/2020-03-15-visibility_from.png)
 
-## Understanding the target height parameter. 
+## Reverse viewshed 
 
-Let us now ask another question, concerning the visual impact of ancient towers. From which areas a random passer-by would feel observed? Or, to put things into contemporary perspective, from which areas would a tourist have a particularly good sight of the structures (setting aside their poor state of conservation). 
+Let us now ask another question, concerning the visual impact of ancient towers. From which areas a random passer-by would feel observed? Or, to put things into contemporary perspective, from which areas would a tourist have a particularly good sight of ancient towers (setting aside their poor state of conservation). 
 
-Our previous model was not parametrised for this question. We have modelled the situation where an observer, placed atop a tower, is looking to the bare ground. However, for the second problem we need to simulate potential observers anywhere in the landscape. This can be achieved by tweaking the target height parameter which, normally, determines the height above the bare terrain that the observer is looking to. 
+Our previous model was not parametrised for this question. We have modelled a situation where an observer, placed atop a tower, is looking to the bare ground. However, for the second problem we need to simulate potential observers anywhere in the landscape. This can be achieved by tweaking the target height parameter which, normally, determines the height above the bare terrain that the observer is looking to. 
 
 ![2020-03-15-views.png]({{site.baseurl}}/figures/2020-03-15-views.png)
-*Views from vs views towards central point*
+*Views from vs views towards a central point.*
 
-Note that a single line of sight is valid in both directions: the path of a light ray from A to B is the same as from B to A. Of course, human visual capacities do not work that way, if I can see A, it doesn’t imply that A sees me – but if it were the case, our views would be nourished by the same light channel. Therefore, if we reverse viewshed parameters and set the target height to a human eyelevel and the observer height to zero, we will effectively model a situation where a large number of potential observers look to a single point, the one that was previously occupied by the tower.
+Note that a single line of sight is valid in both directions: the path of a light ray from A to B is the same as from B to A. Of course, human visual capacities do not work that way, if I can see A, it doesn’t imply that A sees me – but if it were the case, our views would be nourished by the same light channel. Therefore, if we reverse viewshed parameters and set the target height to a human eyelevel while the observer's height is zero, we will effectively model a situation where a large number of potential observers is looking to a single point, the one that was previously occupied by the tower.
 
 Remember: observer height and target height parameters are interchangeable, they are named this way for simplicity reasons. The “observer point” is just a central point from or to which the visibility is calculated. So, if our previous observer position, a tower, has now become the object seen, we should consider its apparent height above the horizon. Let’s suppose that at least top 5 meters have to be in view on order for it to be perceived: the “observer height” will now be 10 - 5 = 5 metres. We can, of course, set parameters to any desired value, in order to simulate a wide range of potential situations, such as an observer in a car and target occupied by a wind turbine… 
 
@@ -59,10 +59,14 @@ So, all we need to do is to change parameters. We can do that, a) by editing val
 
 Now we have our model of the visibility of towers for a random passer-by. It is quite similar to the previous one since the parameters were only slightly changed. We could go on and check the difference between two models by subtracting them. That way, we may find areas which were “covertly observed”, where a passer-by wouldn’t have a tower in clear sight, while still being observed. But that’s for another tutorial…  
  
-•	A random, historical comment. Both our models show important visibility overlaps off-shore. The island is known to have suffered from sea-borne raids in the antiquity, defence from piracy might be one of the hypotheses for further study. 
+*
+
+A random, archaeologist's comment. Both our models show important visibility overlaps off-shore. The island is known to have suffered from sea-borne raids in the Antiquity, defence from piracy might be one of the hypotheses for further study. 
 
 ## Data sources
 
-Greek towers were digitalised from: Ashton, N. G. and Pantazoglou, E. Th. (1991): Siphnos: ancient towers BC. Athens. Note that today twice as more have been registered, as claimed on [e-sifnos.com](http://sifnos1.e-sifnos.com/explore-sifnos/ancient-towers.php). 
+Greek towers dataset: Ashton, N. G. and Pantazoglou, E. Th. (1991): Siphnos: ancient towers BC. Athens. (Today, twice as much have been registered, as claimed on [e-sifnos.com](http://sifnos1.e-sifnos.com/explore-sifnos/ancient-towers.php)). 
 
 Elevation model: [NASADEM](https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem) with 30m resolution.
+
+Happy mapping!

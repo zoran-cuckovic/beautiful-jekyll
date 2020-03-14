@@ -33,7 +33,9 @@ include:
 navbar-links:
   Books: "books"
   Content: "tags"
-  QGIS visibility analysis: "https://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/"
+  QGIS projects:
+    - QGIS visibility analysis: "https://zoran-cuckovic.github.io/QGIS-visibility-analysis/"
+    - QGIS terrain shading:  "https://zoran-cuckovic.github.io/QGIS-terrain-shading/" 
   About: "about"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

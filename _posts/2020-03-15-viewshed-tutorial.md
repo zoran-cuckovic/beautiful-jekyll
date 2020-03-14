@@ -7,7 +7,7 @@ title: 'Viewshed analysis in QGIS 3: a tutorial.'
 Viewshed analysis denotes field of vision modelling in GIS jargon. The term is quite awkwardly borrowing its suffix from watershed, even if there is nothing being “shed”. Anyway, the term viewshed has become commonplace in GIS terminology and is here to stay. 
 
 ![2018-03-15-viewshed.jpg]({{site.baseurl}}/figures/2020-03-15-viewshed.jpg)
-*Viewshed output: visible area in white and hidden space in black. Observer location is marked by red diamond.* 
+*Viewshed output: visible area in white and hidden space in black. Observer location is marked by the red diamond.* 
 
 A basic viewshed analysis output is a visibility map, in raster format, which classifies the terrain surrounding an observation point into visible and not visible (true/false or 1/0). Other, more complex visibility indices may be available in common GIS software, such as the depth below visible horizon or view angle. For the purpose of this tutorial, we will take into account only the basic true/false output. We will use [QGIS Visibility analysis plugin]( http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/), available in the official QGIS plugin repository. 
 
@@ -31,7 +31,7 @@ Now we can create our cumulative viewshed. We have to choose the "Addition" opti
 ![2020-03-15-raw.jpg]({{site.baseurl}}/figures/2020-03-15-raw.jpg)
 *Cumulative viewshed: raw output.*
 
-We can now classify our cumulative viewshed model in order to isolate areas that receive particular attention. I will only use raster visualisation here, without producing a separate reclassified raster. We simply adjust the colour ramp to extract three arbitrary classes: low visibility, medium visibility, high visibility. Apparently the sea may have received particular attention, but this needs to be studied further because sea views are pervasive on a small, rocky island. 
+We can now classify our cumulative viewshed model in order to isolate areas that receive particular attention. I will only use raster visualisation here, without producing a separate reclassified raster. We simply adjust the colour ramp to extract three arbitrary classes: low visibility, medium visibility, high visibility. Our first model seems to indicate that a particualr attention was paid to the surrounding sea, even if dense view overlaps appear inland as well.  
 
 ![2020-03-15-style.jpg]({{site.baseurl}}/figures/2020-03-15-style.jpg)
 
@@ -41,7 +41,7 @@ We can now classify our cumulative viewshed model in order to isolate areas that
 
 Let us now ask another question, concerning the visual impact of ancient towers. From which areas a random passer-by would feel observed? Or, to put things into contemporary perspective, from which areas would a tourist have a particularly good sight of ancient towers (setting aside their poor state of conservation). 
 
-Our previous model was not parametrised for this question. We have modelled a situation where an observer, placed atop a tower, is looking to the bare ground. However, for the second problem we need to simulate potential observers anywhere in the landscape. This can be achieved by tweaking the target height parameter which, normally, determines the height above the bare terrain that the observer is looking to. 
+Our previous model was not parametrised for this problem. We have modelled a situation where an observer, placed atop a tower, is looking to the bare ground. However, now we need to simulate potential observers anywhere in the landscape. This can be achieved by tweaking the target height parameter which, normally, determines the height above the bare terrain that the observer is looking to. 
 
 ![2020-03-15-views.png]({{site.baseurl}}/figures/2020-03-15-views.png)
 *Views from vs views towards a central point.*

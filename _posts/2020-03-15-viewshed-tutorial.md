@@ -11,23 +11,25 @@ Viewshed analysis denotes field of vision modelling in GIS jargon. The term is q
 
 A basic viewshed analysis output is a visibility map, in raster format, which classifies the terrain surrounding an observation point into visible and not visible (true/false or 1/0). Other, more complex visibility indices may be available in common GIS software, such as the depth below visible horizon or view angle. For the purpose of this tutorial, we will take into account only the basic true/false output. We will use [QGIS Visibility analysis plugin]( http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/), available in the official QGIS plugin repository. 
 
-Our dataset consists of ancient Greek towers of the island of Siphnos. For some reason, ancient inhabitants of the island have constructed a large number of circular and rectangular towers across the small island in the period between the 6th and 3rd century (approximately). Some 70 tower locations are known today, but none of these structures has survived in its original height; at maximum a couple of metres can still be seen. Considering the terrain model, I’m using the fresh NASA DEM which should be good enough for the purpose of this tutorial (data sources are listed below). 
+Our dataset consists of ancient Greek towers of the island of Siphnos. For some reason, the ancient inhabitants of the small island constructed a large number of circular and rectangular towers in the period between the 6th and 3rd century BC (approximately). Some 70 tower locations are known today, but none of these structures has survived in its original height; at maximum a couple of metres can still be seen. Considering the terrain model, I’m using the fresh NASA DEM which should be good enough for the purpose of this tutorial (data sources are listed below). 
 
-![2020-03-15-views.png]({{site.baseurl}}/figures/2020-03-15-views.png)
-* Cheimarros Tower, island of Naxos [kastra.eu](https://www.kastra.eu/castleen.php?kastro=xeimaros)*
+![2020-03-15-views.png]({{site.baseurl}}/figures/2020-03-15-tower.jpg)
+*Cheimarros Tower, island of Naxos ([kastra.eu](https://www.kastra.eu/castleen.php?kastro=xeimaros)).*
 
-Ancient Greek towers probably had a strategic function (even if all historians/archaeologists may not agree about that); one would invest in such a structure in order to keep things safe and, additionally, to keep an eye over the surrounding land. Using viewshed analysis we can, then, evaluate the visual coverage from these structures: which areas were most keenly observed from these settlements? 
+Ancient Greek towers probably had a strategic function (even if all historians/archaeologists may not agree about that); one would invest in such a structure in order to keep things safe and, additionally, to keep an eye over the surrounding land. Using viewshed analysis we can evaluate the visual coverage from these structures: which areas were most keenly observed by tower dwellers? 
 
-Our question can be answered by creating a so-called cumulative visibly map, which is simply a stack of viewsheds from all observer points, placed one upon the other. In other words, cumulative visibility map is summing up all viewsheds, where visible value is 1 and not visible 0. To begin, we have to create our viewpoints: use the Create viewpoints routine and choose desired parameters. Here, the viewing height is set to 10 metres, for a hypothetical tower-based observer. His/her maximum radius is set to 5km, supposing that further away he/she would not be able to discern a potential threat (these are just mock parameters, no science here…). 
+Our question can be answered by creating a so-called cumulative visiblity map, which is simply a stack of viewsheds from all observer points, placed one upon the other. In other words, cumulative visibility map is summing up all viewsheds, where visible value is 1 and not visible 0. 
+
+To begin, we have to create our viewpoints: use the "Create viewpoints" module and choose desired parameters. Here, the viewing height is set to 10 metres, for a hypothetical tower-based observer. His/her maximum view radius is set to 5km, supposing that further away he/she would not be able to discern a potential threat (these are just mock parameters, no science here…). 
 
 ![2020-03-15-create.jpg]({{site.baseurl}}/figures/2020-03-15-create.jpg)
 
-Now we can create our cumulative viewshed. We have to choose option – sum …, which is also the default option. We can also tick the box for earth curvature correction, even if high precision is not really needed in our case.  
+Now we can create our cumulative viewshed. We have to choose the "Addition" option, which is also set as the default. We can also tick the box for earth curvature correction, even if high precision is not really needed in our case.  
 
 ![2020-03-15-analysis.jpg]({{site.baseurl}}/figures/2020-03-15-analysis.jpg)
 
 ![2020-03-15-raw.jpg]({{site.baseurl}}/figures/2020-03-15-raw.jpg)
-*Cumualtive viewshed: raw output*
+*Cumulative viewshed: raw output.*
 
 We can now classify our cumulative viewshed model in order to isolate areas that receive particular attention. I will only use raster visualisation here, without producing a separate reclassified raster. We simply adjust the colour ramp to extract three arbitrary classes: low visibility, medium visibility, high visibility. Apparently the sea may have received particular attention, but this needs to be studied further because sea views are pervasive on a small, rocky island. 
 

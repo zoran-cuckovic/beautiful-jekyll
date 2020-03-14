@@ -39,7 +39,7 @@ We can now classify our cumulative viewshed model in order to isolate areas that
 
 ## Understanding the target height parameter. 
 
-Let us now ask another question, concerning the visual impact of ancient towers: from which areas a random passer-by would feel observed? Or, to put things into contemporary perspective, from which areas would a tourist have a particularly good sight of the structures (setting aside their poor conservation). 
+Let us now ask another question, concerning the visual impact of ancient towers. From which areas a random passer-by would feel observed? Or, to put things into contemporary perspective, from which areas would a tourist have a particularly good sight of the structures (setting aside their poor state of conservation). 
 
 Our previous model was not parametrised for this question. We have modelled the situation where an observer, placed atop a tower, is looking to the bare ground. However, for the second problem we need to simulate potential observers anywhere in the landscape. This can be achieved by tweaking the target height parameter which, normally, determines the height above the bare terrain that the observer is looking to. 
 

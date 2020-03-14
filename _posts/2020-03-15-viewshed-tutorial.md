@@ -65,7 +65,7 @@ A random, archaeologist's comment. Both our models show important visibility ove
 
 ## Data sources
 
-Greek towers dataset: Ashton, N. G. and Pantazoglou, E. Th. (1991): Siphnos: ancient towers BC. Athens. (Today, twice as much have been registered, as claimed on [e-sifnos.com](http://sifnos1.e-sifnos.com/explore-sifnos/ancient-towers.php)). 
+Greek towers dataset: Ashton, N. G. and Pantazoglou, E. Th. (1991): Siphnos: ancient towers BC. Athens. 
 
 Elevation model: [NASADEM](https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem) with 30m resolution.
 

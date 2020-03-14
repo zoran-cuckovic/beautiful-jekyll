@@ -12,7 +12,14 @@ LandscapeArchaeology.org is published in France and is attributed ISSN 2649-8774
 
 ## Cookie policy
 
-There are few sites out there that don't collect any information on their visitors. This site features a Google Analytics cookie (as does 3/4 of the web...). [See on Wikipedia](https://en.wikipedia.org/wiki/Google_Analytics).  
+There are few sites out there that don't collect any information on their visitors. This site features a Google Analytics cookie (as does 3/4 of the web...). [Check on Wikipedia](https://en.wikipedia.org/wiki/Google_Analytics).  
+
+
+## Coffee corner
+
+Like free, open source software ? Me too! Buy me a coffee, so that I may support you with free GIS goodness.
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D41HYSW)
 
 ## Contact
 
@@ -24,7 +31,7 @@ There are few sites out there that don't collect any information on their visito
 	Message	<textarea rows="10" name="body"></textarea>
 	<p>
     <input type="submit" value="Send">
-	
+</form>	
 <!-- 
 <form id="contactform" action="https://formspree.io/cuckovic.zoran@gmail.com" method="POST">
 	<input type="text" name="name" placeholder="Your name ">
@@ -37,8 +44,3 @@ There are few sites out there that don't collect any information on their visito
 </form>
 https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
 
-## Coffee corner
-
-Like free, open source software ? Me too! Buy me a coffee, so that I may support you with free GIS goodness.
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D41HYSW)

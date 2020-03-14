@@ -23,7 +23,8 @@ Our question can be answered by creating a so-called cumulative visibly map, whi
 ![2020-03-15-create.jpg]({{site.baseurl}}/figures/2020-03-15-create.jpg)
 
 Now we can create our cumulative viewshed. We have to choose option – sum …, which is also the default option. We can also tick the box for earth curvature correction, even if high precision is not really needed in our case.  
-IMG Viewshed window
+
+![2020-03-15-analysis.jpg]({{site.baseurl}}/figures/2020-03-15-analysis.jpg)
 
 ![2020-03-15-raw.jpg]({{site.baseurl}}/figures/2020-03-15-raw.jpg)
 *Cumualtive viewshed: raw output*

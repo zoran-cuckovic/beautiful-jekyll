@@ -68,5 +68,8 @@ A random, archaeologist's comment. Both our models show important visibility ove
 Greek towers dataset: Ashton, N. G. and Pantazoglou, E. Th. (1991): Siphnos: ancient towers BC. Athens. 
 
 Elevation model: [NASADEM](https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem) with 30m resolution.
+## Software
+
+QGIS Visibiliy analysis: [zoran-cuckovic.github.io/QGIS-visibility-analysis/](https://zoran-cuckovic.github.io/QGIS-visibility-analysis/).
 
 Happy mapping!

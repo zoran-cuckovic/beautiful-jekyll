@@ -46,13 +46,13 @@ Our previous model was not parametrised for this problem. We have modelled a sit
 ![2020-03-15-views.png]({{site.baseurl}}/figures/2020-03-15-views.png)
 *Views from vs views towards a central point.*
 
-Note that a single line of sight is valid in both directions: the path of a light ray from A to B is the same as from B to A. Of course, human visual capacities do not work that way, if I can see A, it doesn’t imply that A sees me – but if it were the case, our views would be nourished by the same light channel. Therefore, if we reverse viewshed parameters and set the target height to a human eyelevel while the observer's height is zero, we will effectively model a situation where a large number of potential observers is looking to a single point, the one that was previously occupied by the tower.
+Note that a single line of sight is valid in both directions: the path of a light ray from A to B is the same as from B to A. Of course, human visual capacities do not work that way, if I can see A, it doesn’t imply that A sees me – but if it were the case, our views would be nourished by the same light channel. Therefore, if we reverse viewshed parameters and set the target height to human eyelevel while the observer's height is zero, we will effectively model a situation where a large number of potential observers is looking to a single point, the one that was previously occupied by the tower.
 
 Remember: observer height and target height parameters are interchangeable, they are named this way for simplicity reasons. The “observer point” is just a central point from or to which the visibility is calculated. So, if our previous observer position, a tower, has now become the object seen, we should consider its apparent height above the horizon. Let’s suppose that at least top 5 meters have to be in view on order for it to be perceived: the “observer height” will now be 10 - 5 = 5 metres. We can, of course, set parameters to any desired value, in order to simulate a wide range of potential situations, such as an observer in a car and target occupied by a wind turbine… 
 
 ![2020-03-15-targets.jpg]({{site.baseurl}}/figures/2020-03-15-targets.jpg)
 
-So, all we need to do is to change parameters. We can do that, a) by editing values in the previously created file or b), creating a new observation points file. The second option is clearer in my view, that way we can easily keep track of different models. 
+All we need to do now is to change parameters. We can do that, a) by editing values in the previously created file or b), creating a new observation points file. The second option is clearer in my view, that way we can easily keep track of different models. 
 
 ![2020-03-15-visibility_to.png]({{site.baseurl}}/figures/2020-03-15-visibility_to.png)
 *Visibility of towers from the surrounding landscape.*

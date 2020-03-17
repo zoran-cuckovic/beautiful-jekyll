@@ -52,7 +52,7 @@ Remember: observer height and target height parameters are interchangeable, they
 
 ![2020-03-15-targets.jpg]({{site.baseurl}}/figures/2020-03-15-targets.jpg)
 
-All we need to do now is to change the parameters. We can do that, a) by editing values in the previously created file or b), creating a new observation points file. The second option is clearer in my view, that way we can easily keep track of different models. 
+All we need to do now is to change the parameters. We can do that a) by editing values in the previously created file, or b) creating a new observation points file. The second option is clearer in my view, that way we can easily keep track of different models. 
 
 ![2020-03-15-visibility_to.png]({{site.baseurl}}/figures/2020-03-15-visibility_to.png)
 *Visibility of towers from the surrounding landscape.*

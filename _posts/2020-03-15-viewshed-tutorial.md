@@ -57,12 +57,8 @@ All we need to do now is to change the parameters. We can do that a) by editing 
 ![2020-03-15-visibility_to.png]({{site.baseurl}}/figures/2020-03-15-visibility_to.png)
 *Visibility of towers from the surrounding landscape.*
 
-Now we have our model of the visibility of towers for a random passer-by. It is quite similar to the previous one since the parameters were only slightly changed. We could go on and check the difference between two models by subtracting them. That way, we may find areas which were “covertly observed”, where a passer-by wouldn’t have a tower in clear sight, while still being observed. But that’s for another tutorial…  
+Now we have our model of tower visibility for a random passer-by. It is quite similar to the previous one since the parameters were only slightly changed. We could go on and check the difference between two models by subtracting them. That way, we may find areas which were “covertly observed”, where a passer-by wouldn’t have a tower in clear sight, while still being observed. But that’s for another tutorial…  
  
-*
-
-A random, archaeologist's comment. Both our models show important visibility overlaps off-shore. The island is known to have suffered from sea-borne raids in the Antiquity, defence from piracy might be one of the hypotheses for further study. 
-
 ## Data sources
 
 Greek towers dataset: Ashton, N. G. and Pantazoglou, E. Th. (1991): Siphnos: ancient towers BC. Athens. 

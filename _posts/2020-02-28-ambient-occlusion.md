@@ -37,7 +37,7 @@ Metrics obtained using this technique are called negative openness and, by analo
 
 ![20-02-banks_inverted.jpg]({{site.baseurl}}/figures/20-02-banks_inverted.jpg)
 
-This image represents the result of sky-view algorithm over an inverted DEM. Note the superior rendering of deep drainage channels, which now appear as fine black lines. The overall sharpness is also significantly improved. Unfortunately, the model doesn’t convey the feeling of depth, the terrain seems flattened and schematic. 
+The above image shows the result of sky-view algorithm over an inverted DEM. Note the superior rendering of deep drainage channels, which now appear as fine black lines. The overall sharpness is also significantly improved. Unfortunately, the model doesn’t convey the feeling of depth, the terrain seems flattened and schematic. 
 
 
 ![20-02-banks_combined.jpg]({{site.baseurl}}/figures/20-02-banks_combined.jpg)

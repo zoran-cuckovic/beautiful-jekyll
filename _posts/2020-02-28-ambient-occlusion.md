@@ -31,7 +31,7 @@ This simple sky-view factor shading of Banks peninsula (New Zealand) is ideally 
 
 If we observe carefully the images above, we may notice that the sky-view factor is more efficient for rendering ridgelines than valley bottoms and drainage channels. This is probably not a major issue, but let’s try to compensate for this effect. 
 
-In order to provide a better impression of valley bottoms, we need to invert the elevation model used, as a glove, so that valleys become ridgelines and vice versa. That’s elementary, Sherlock would say, just multiply the elevation model by -1 (in QGIS raster calculator: `my_dem * -1`). We can now do all our analyses as usual. 
+In order to provide a better impression of valley bottoms, we need to invert the elevation model, as a glove, so that valleys become ridgelines and vice versa. That’s elementary, Sherlock would say, just multiply the elevation model by -1 (in QGIS raster calculator: `my_dem * -1`). We can now do all our analyses as usual. 
 
 Metrics obtained using this technique are called negative openness and, by analogy, negative sky-view factor. However, it’s just a hack which has no intuitive explanation, the result is not related to a real-world phenomenon.  
 

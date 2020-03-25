@@ -43,10 +43,10 @@ The above image shows the result of sky-view algorithm over an inverted DEM. Not
 ![20-02-banks_combined.jpg]({{site.baseurl}}/figures/20-02-banks_combined.jpg)
 *Combined positive and negative sky-view factor.*
 
-To obtain the best from both worlds, we can combine the usual sky-view factor with the negative one, as on the figure above. Here, the negative svf is overlaid as semi-transparent layer using the “Overlay” blending mode (see screenshot below). Our svf shading  is now sharper and more detailed in low lying areas, while still preserving the ambient occlusion effect that produces the 3D feeling. 
+To obtain the best from both worlds, we can combine the usual sky-view factor with the negative one, as on the figure above. Here, the negative SVF is overlaid as semi-transparent layer using the “Overlay” blending mode (see screenshot below). Our SVF shading  is now sharper and more detailed in low lying areas, while still preserving the ambient occlusion effect that produces the 3D feeling. 
 
 ![20-02-layer_style.jpg]({{site.baseurl}}/figures/20-02-layer_style.jpg)
-*QGIS stlye used for the negative svf overlay. Valleys are represented with an inverse scale (white to black) and superposed as a semi-transparent layer over the usual sky-view model.*
+*QGIS stlye used for the negative SVF overlay. Valleys are represented with an inverse scale (white to black) and superposed as a semi-transparent layer over the usual sky-view model.*
 
 Happy mapping!
 

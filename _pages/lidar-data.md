@@ -71,6 +71,7 @@ Portugal, coastal strip: http://mapas.igeo.pt/lidar/   (view only
 
 Poland see https://mobile.twitter.com/gunthera_mws/status/1106312408149172225
 
+Iceland : http://atlas.lmi.is/mapview/?application=DEM
 
 Lidar for qgis https://plugins.bruy.me/processing-fusion.html
 

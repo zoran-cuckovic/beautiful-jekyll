@@ -57,15 +57,16 @@ If needed, you can also specify the inner radius in the *radius_in* filed. Here,
 
 Now, we can finally run the viewshed analysis. All vital parameters have been entered into Viewpoints data table, we just choose file input/output. (25 kilometres is a fairly large radius, the calculation may take a couple of minutes.)
 
-
-IMG VIEWSHED OK
+![20-03-30-viewshed.JPG]({{site.baseurl}}/figures/20-03-30-viewshed.JPG)
 
 We have, now, a model of directed cumulative viewshed which reveals the areas most often seen by a hiker taking the Premužić trail. 
 
+![20-03-30-view_go.jpg]({{site.baseurl}}/figures/20-03-30-view_go.jpg)
 
-FIG MODEL
 But wait, what happens when he/she goes back? Well, we simply readjust our azimuth1 and azimuth2 parameters to point in the opposite direction. (I’m leaving you the pleasure to figure out the calculation. Or, you can use “Reverse line direction” in QGIS and repeat all the steps, if your brain is lazy… ) 
 Here is our return viewshed model, it seems much more oriented towards the sea than the previous one. 
-IMG OK
+
+![20-03-30-view_back.jpg]({{site.baseurl}}/figures/20-03-30-view_back.jpg)
+
 
 Happy mapping!

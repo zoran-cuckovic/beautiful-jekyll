@@ -68,8 +68,8 @@ We have, now, a model of directed cumulative viewshed which reveals the areas mo
 
 ![20-03-30-view_go.jpg]({{site.baseurl}}/figures/20-03-30-view_go.jpg)
 
-But wait, what happens when he/she goes back? Well, we simply readjust our azimuth1 and azimuth2 parameters to point in the opposite direction. (I’m leaving you the pleasure to figure out the calculation. Or, you can use “Reverse line direction” in QGIS and repeat all the steps, if your brain is lazy… ) 
-Here is our return viewshed model, it seems much more oriented towards the sea than the previous one. 
+But wait, what happens when he/she goes back? Well, we simply readjust our azimuth1 and azimuth2 parameters to point in the opposite direction. (I’m leaving you the pleasure to figure out the calculation. Or, you can use “Reverse line direction” in QGIS and repeat all the steps, if you're lazy… ) 
+Here is our return viewshed model. Apparently, it is more oriented towards the sea than the previous one. 
 
 ![20-03-30-view_back.jpg]({{site.baseurl}}/figures/20-03-30-view_back.jpg)
 

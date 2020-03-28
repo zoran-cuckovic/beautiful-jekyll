@@ -39,7 +39,7 @@ The observer file does not contain the azimuth data: we have to create a data jo
 ![20-03-30-join.jpg]({{site.baseurl}}/figures/20-03-30-join.jpg)
 
 
-We will now calculate our azimuths and store the parameter in table fields named *azimuth1* and *azimuth2*. My formula is following, considering a 90° view range: 
+We will now calculate our azimuths and store the parameter in table fields named *azimuth1* and *azimuth2*. My formula is as following, considering a 90° view range: 
 ```
 CASE 
 WHEN "Vertices_angle"> 45

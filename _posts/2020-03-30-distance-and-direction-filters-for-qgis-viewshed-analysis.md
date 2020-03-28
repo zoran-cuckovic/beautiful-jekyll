@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Distance and direction filters for QGIS Viewshed analysis
 tags:
   - qgis-visibility-plugin

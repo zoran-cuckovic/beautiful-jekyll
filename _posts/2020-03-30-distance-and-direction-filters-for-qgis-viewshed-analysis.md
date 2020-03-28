@@ -49,12 +49,15 @@ THEN "Vertices_angle"-45
 ELSE  "Vertices_angle"-45 + 360
  END
 ```
+AZIMUTH 2
+
 ![20-03-30-azim_calc.JPG]({{site.baseurl}}/figures/20-03-30-azim_calc.JPG)
 
 
 If needed, you can also specify the inner radius in the *radius_in* filed. Here, it will be 1000 meters. 
 
 ![]({{site.baseurl}}/figures/20-03-30-radius_in.jpg)
+RADIUS IN IMAGE
 
 
 Now, we can finally run the viewshed analysis. All vital parameters have been entered into Viewpoints data table, we just choose file input/output. (25 kilometres is a fairly large radius, the calculation may take a couple of minutes.)

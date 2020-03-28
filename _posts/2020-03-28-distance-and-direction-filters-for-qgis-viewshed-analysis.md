@@ -2,6 +2,8 @@
 layout: post
 published: false
 title: Distance and direction filters for QGIS Viewshed analysis
+tags:
+  - qgis-visibility-plugin
 ---
 
 Viewshed analysis produces a model of visible areas from a chosen point, given a 2.5 or 3D elevation model. Most often, we model full range visibility, in all directions from an observer point, but such models may not satisfy all uses. For instance, we are sometimes interested in a scene that an observer can see in front of him/her, excluding the scenery behind his/her back. We may also prefer to exclude certain zones for various reasons, for instance when we model different visibility ranges (close, middle, far). 

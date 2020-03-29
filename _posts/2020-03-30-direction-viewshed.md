@@ -1,9 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 title: Distance and direction filters for QGIS Viewshed analysis
 tags:
-  - qgis-visibility-plugin
+  - QGIS-visibility-plugin
 ---
 
 Viewshed analysis produces a model of visible areas from a chosen point, given a 2.5 or 3D elevation model. Most often, we model full range visibility, in all directions from an observer point, but such models may not satisfy all uses. For instance, we are sometimes interested in a scene that an observer can see in front of him/her, excluding the scenery behind his/her back. We may also prefer to exclude certain zones for various reasons, for instance when we model different visibility ranges (close, middle, far). 
@@ -41,23 +41,32 @@ The observer file does not contain the azimuth data: we have to create a data jo
 ![20-03-30-join.jpg]({{site.baseurl}}/figures/20-03-30-join.jpg)
 
 
-We will now calculate our azimuths and store the parameter in table fields named *azimuth1* and *azimuth2*. My formula is as following, considering a 90° view range: 
+We will now calculate our azimuths and store the parameter in table fields named *azimuth1* and *azimuth2*. My formula for *azimuth1* is as following, considering a 90° view range: 
 ```
 CASE 
-WHEN "Vertices_angle"> 45
-THEN "Vertices_angle"-45
-ELSE  "Vertices_angle"-45 + 360
- END
+  WHEN "Vertices_angle" > 45
+     THEN "Vertices_angle" - 45
+  ELSE  "Vertices_angle" - 45 + 360
+END
 ```
-AZIMUTH 2
 
 ![20-03-30-azim_calc.JPG]({{site.baseurl}}/figures/20-03-30-azim_calc.JPG)
+
+And for *azimuth2* field:
+
+```
+CASE 
+  WHEN "Vertices_angle" < 315
+    THEN "Vertices_angle" + 45
+  ELSE  "Vertices_angle" + 45 - 360
+END
+```
 
 
 If needed, you can also specify the inner radius in the *radius_in* filed. Here, it will be 1000 meters. 
 
-![]({{site.baseurl}}/figures/20-03-30-radius_in.jpg)
-RADIUS IN IMAGE
+
+![20-03-30-radius_in.jpg]({{site.baseurl}}/figures/20-03-30-radius_in.jpg)
 
 
 Now, we can finally run the viewshed analysis. All vital parameters have been entered into Viewpoints data table, we just choose file input/output. (25 kilometres is a fairly large radius, the calculation may take a couple of minutes.)
@@ -69,6 +78,7 @@ We have, now, a model of directed cumulative viewshed which reveals the areas mo
 ![20-03-30-view_go.jpg]({{site.baseurl}}/figures/20-03-30-view_go.jpg)
 
 But wait, what happens when he/she goes back? Well, we simply readjust our azimuth1 and azimuth2 parameters to point in the opposite direction. (I’m leaving you the pleasure to figure out the calculation. Or, you can use “Reverse line direction” in QGIS and repeat all the steps, if you're lazy… ) 
+
 Here is our return viewshed model. Apparently, it is more oriented towards the sea than the previous one. 
 
 ![20-03-30-view_back.jpg]({{site.baseurl}}/figures/20-03-30-view_back.jpg)

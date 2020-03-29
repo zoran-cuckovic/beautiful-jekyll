@@ -8,7 +8,7 @@ tags:
 
 Viewshed analysis produces a model of visible areas from a chosen point, given a 2.5 or 3D elevation model. Most often, we model full range visibility, in all directions from an observer point, but such models may not satisfy all uses. For instance, we are sometimes interested in a scene that an observer can see in front of him/her, excluding the scenery behind his/her back. We may also prefer to exclude certain zones for various reasons, for instance when we model different visibility ranges (close, middle, far). 
 
-A single visibility model can easily be tailored by deleting unwanted zones, but the problem is not trivial when dealing with hundreds of viewsheds. Starting with the 1.1 version of the [Viewshed analysis plugin for QGIS]( http://www.zoran-cuckovic.github.io/QGIS-visibility-analysis/) users will be able to define a doughnut & wedge shaped mask for each visibility model by associating three parameters with each observer point. These are entered in the observer points data table, under columns *radius_in* (inside radius), *azimuth1* and *azimuth2* (angles that limit the wedge zone). Note that in the circular domain of angular variables both, 300 to 20 and 20 to 300 ranges are valid; they cover two opposite sectors. 
+A single visibility model can easily be tailored by deleting unwanted zones, but the problem is not trivial when dealing with hundreds of viewsheds. Starting with the 1.1 version of the [Viewshed analysis plugin for QGIS]( http://www.zoran-cuckovic.github.io/QGIS-visibility-analysis/) users will be able to define a doughnut & wedge shaped mask for each visibility model by associating three parameters with each observer point. These are entered in the observer points data table, under columns *radius_in* (inside radius), *azim_1* and *azim_2* (azimuth angles that limit the wedge zone). Note that in the circular domain of angular variables both, 300 to 20 and 20 to 300 ranges are valid; they cover two opposite sectors. 
 
 ![20-03-30-shema.png]({{site.baseurl}}/figures/20-03-30-shema.png)
 
@@ -41,7 +41,7 @@ The observer file does not contain the azimuth data: we have to create a data jo
 ![20-03-30-join.jpg]({{site.baseurl}}/figures/20-03-30-join.jpg)
 
 
-We will now calculate our azimuths and store the parameter in table fields named *azimuth1* and *azimuth2*. My formula for *azimuth1* is as following, considering a 90° view range: 
+We will now calculate our azimuths and store the parameter in table fields named *azim_1* and *azim_2*. My formula for *azim_1* is as following, considering a 90° view range: 
 ```
 CASE 
   WHEN "Vertices_angle" > 45
@@ -52,7 +52,7 @@ END
 
 ![20-03-30-azim_calc.JPG]({{site.baseurl}}/figures/20-03-30-azim_calc.JPG)
 
-And for *azimuth2* field:
+And for *azim_2* field:
 
 ```
 CASE 
@@ -77,7 +77,7 @@ We have, now, a model of directed cumulative viewshed which reveals the areas mo
 
 ![20-03-30-view_go.jpg]({{site.baseurl}}/figures/20-03-30-view_go.jpg)
 
-But wait, what happens when he/she goes back? Well, we simply readjust our *azimuth1* and *azimuth2* parameters to point in the opposite direction. (I’m leaving you the pleasure of figuring out the calculation. Or, you can use “Reverse line direction” in QGIS and repeat all the steps, if you're lazy… ) 
+But wait, what happens when he/she goes back? Well, we simply readjust our *azim_1* and *azim_2* parameters to point in the opposite direction. (I’m leaving you the pleasure of figuring out the calculation. Or, you can use “Reverse line direction” in QGIS and repeat all the steps, if you're lazy… ) 
 
 Here is our return viewshed model. Apparently, it is more oriented towards the sea than the previous one. 
 

@@ -19,13 +19,13 @@ Our example will be a section of the beautiful Premužić trail which is followi
 
 ![20-03-30-premuzic_path.jpg]({{site.baseurl}}/figures/20-03-30-premuzic_path.jpg)
 
-Let’s answer the following question, what scenery does a hiker see while walking along the path? Obviously, he/she cannot see behind his/her back, so we need to restrict the viewing range, let’s say to 45 degrees on each side. Since we’re interested in the overall scenery, we will exclude the immediate zone up to one kilometre distance. The overall analysis radius will be 25 kilometres, to test for far reaching views. 
+Let’s answer the following question: what scenery does a hiker see while walking along the path? Obviously, he/she cannot see behind his/her back, so we need to restrict the viewing range, let’s say to 45 degrees on each side. Since we’re interested in the overall scenery, we will exclude the immediate zone up to one kilometre distance. The overall analysis radius will be 25 kilometres, to test for far reaching views. 
 
 We start with a line drawn along the path. Find the “Extract vertices” algorithm and use it to transform the path into points. 
 
 ![20-03-30-extract_vertices.JPG]({{site.baseurl}}/figures/20-03-30-extract_vertices.JPG)
 
-Take a look at the data table of the new file. We have the line direction (angle), distance and an ID number for each vertex (yay, all in one step!).
+Take a look at the data table of the new file. We have line direction (angle), distance and an ID number for each vertex (yay, all in one step!).
 
 ![20-03-30-vertices_table.JPG]({{site.baseurl}}/figures/20-03-30-vertices_table.JPG)
 
@@ -77,7 +77,7 @@ We have, now, a model of directed cumulative viewshed which reveals the areas mo
 
 ![20-03-30-view_go.jpg]({{site.baseurl}}/figures/20-03-30-view_go.jpg)
 
-But wait, what happens when he/she goes back? Well, we simply readjust our azimuth1 and azimuth2 parameters to point in the opposite direction. (I’m leaving you the pleasure to figure out the calculation. Or, you can use “Reverse line direction” in QGIS and repeat all the steps, if you're lazy… ) 
+But wait, what happens when he/she goes back? Well, we simply readjust our *azimuth1* and *azimuth2* parameters to point in the opposite direction. (I’m leaving you the pleasure of figuring out the calculation. Or, you can use “Reverse line direction” in QGIS and repeat all the steps, if you're lazy… ) 
 
 Here is our return viewshed model. Apparently, it is more oriented towards the sea than the previous one. 
 

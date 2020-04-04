@@ -8,6 +8,8 @@ Hello!
 
 Author/editor of LandscapeArchaeology.org goes by the name of Zoran Čučković. The site will bring together my previous work on geographical analysis and archaeology. See at [zoran-cuckovic.from.hr](http://zoran-cuckovic.from.hr). I’m currently a PhD candidate in archaeology at the University of Bourgogne Franche-Comté, France. Previously I worked as archaeologist in Croatia and studied in Croatia and Slovenia.
 
+On Twitter, I'm [@GISwhispers](https://twitter.com/giswhisp).
+
 LandscapeArchaeology.org is published in France and is attributed ISSN 2649-8774.
 
 ## Cookie policy
@@ -43,4 +45,3 @@ Like free, open source software ? Me too! Buy me a coffee, so that I may support
 	<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
 </form>
 https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
-

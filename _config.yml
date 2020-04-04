@@ -136,7 +136,7 @@ google_analytics: UA-126833017-1
 
 # --- Comments --- #
 
-simpleform: true
+simpleform: false
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 #disqus: landscapearchaeology

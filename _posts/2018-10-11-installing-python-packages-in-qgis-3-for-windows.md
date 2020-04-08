@@ -21,5 +21,16 @@ This is how to proceed in QGIS 3.x in Windows (I work on Win. 7)
 
 [![](/wp/wp-content/uploads/2018/10/Capture.png)](/wp/wp-content/uploads/2018/10/Capture.png)
 
-Notes:
-- I don't need to open the shell as administrator -- but this could solve some problems if the program starts complaining about permissions.
+Remark: I don't need to open the shell as administrator -- but this could solve some problems if the program starts complaining about permissions.
+
+**Option 2**
+
+Packages can also be installed directly from within Python, but that is not the preferred approach. Open QGIS Python console (under Plugins >> Python Console) and type: 
+
+```
+>> import pip
+
+>> pip.main(['install', 'my-package-name'])
+
+```
+Note that the arguments are given as a list [...] of 'strings'. 

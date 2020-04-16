@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Ambient occlusion and sky-view algorithm for QGIS
+title: Ambient occlusion and sky-view factor for QGIS
 tags:
   - qgis
   - qgis relief shading

@@ -17,7 +17,7 @@ Welcome visibility index algorithm, aka total viewshed, now available in [QGIS V
 Visibility index is calculated as the ratio of positive visual connections: 1.0 or 100% implies that a point can be seen from all of its neighbours. In fact, we have two options when mapping these positive views. The first one is to assign the value to seen locations, which can be termed as incoming views. This is equivalent to cumulative viewshed ([see my previous post]({{site.baseurl}}/2020/viewshed-tutorial/)). The second option is to map positive views to observer locations, which will register the size of observed surface. These are, then, outgoing views. View direction parameter can therefore be used to distinguish between visual exposition of terrain features and the visual coverage from each terrain location. 
 
 ![20-05-01-direction.png]({{site.baseurl}}/figures/20-05-01-direction.png)
-*Visibility is not reciprocal: we can choose to model either the observer’s perspective or the observed one's perspective (painting by [www.nadiatsakova.com](www.nadiatsakova.com)).*
+*Visibility is not reciprocal: we can choose to model either the observer’s perspective, or the observed one's perspective (painting by [www.nadiatsakova.com](www.nadiatsakova.com)).*
 
 The thing with visibility index is that it takes *days and weeks of computing* (see for instance Gillings 2015 who reports 300 hours of heavy calculation). Using standard GIS algorithms, you’re lucky if it takes only overnight! The reason is in the complexity of visibility calculations. Suppose that it takes 1 second to produce a single viewshed: for a 5 million pixel DEM (which is not large at all) this amounts to 1300 *hours* of computing.
 

@@ -15,7 +15,7 @@ Welcome visibility index algorithm, aka total viewshed, now available in [QGIS V
 Visibility index is calculated as the ratio of positive visual connections: 1.0 or 100% implies that a point can be seen from all of its neighbours. In fact, we have two options when mapping these positive views. The first one is to assign the value to the locations seen, this can be termed as incoming views. The second option is to map positive views to observer locations, these are then outgoing views. This view direction parameter can be used to distinguish between visual exposition of terrain features and the visual coverage from each terrain location. 
 
 ![20-05-01-direction.png]({{site.baseurl}}/figures/20-05-01-direction.png)
-*Visibility is not reciprocal: we can choose to model either the observer’s perspective or the perspective of the observed one.*
+*Visibility is not reciprocal: we can choose to model either the observer’s perspective or the perspective of the observed one (painting by [www.nadiatsakova.com](www.nadiatsakova.com)). *
 
 The thing with visibility index is that it takes *days and weeks of computing* (see for instance Gillings 2017 who reports 300 hours of heavy calculation). Using standard GIS algorithms, you’re lucky if it takes only overnight! The reason is in the complexity of visibility calculations. Suppose that it takes 1 second to produce a single viewshed (field of view surface): for a 5 million pixel DEM (which is not large at all) this amounts to 1300 *hours* of computing.
 
@@ -34,3 +34,10 @@ The second optimisation relies on spatial correlation of typical DEM elements. T
 So, how long does it take? On my old and tired computer, with no CPU/GPU optimisation or whatever, it takes some 25 minutes for a 31.2 million pixel DEM (default parameters; 16 lines sample and 3 km radius). Not really a blink of an eye, but reasonable at least: these are viewsheds for 30 million observers. 
 
 The algorithm is based on Numpy library which can itself be optimised, but I didn’t yet venture into these grounds: to be continued… Anyway, here it is, the first usable and reasonably efficient visibility index algorithm out there :).
+
+## Bibliography
+
+M. Gillings 2015: Mapping invisibility: GIS approaches to the analysis of hiding and seclusion. Journal of Archaeological Science 62.
+
+T.Brughmans, M. van Garderen, M.Gillings 2018: Introducing visual neighbourhood configurations for total viewsheds. Journal of Archaeological Science 96. [open access](https://www.sciencedirect.com/science/article/pii/S0305440318302383).
+

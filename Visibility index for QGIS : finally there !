@@ -25,5 +25,4 @@ The second optimisation relies on spatial correlation of typical DEM elements. T
 
 So, how long does it take? On my old and tired computer, with no CPU/GPU optimisation or whatever, it takes some 25 minutes for a 31.2 million pixel DEM (default parameters; 16 lines sample and 3 km radius). Not really a blink of an eye, but reasonable at least: these are viewsheds for 30 million observers. 
 
-The algorithm is based on Numpy library which can itself be optimised, but I didn’t yet venture into these grounds: to be continued… Anyway, here it is, the first usable and reasonably efficient visibility index algorithm out there :). 
-
+The algorithm is based on Numpy library which can itself be optimised, but I didn’t yet venture into these grounds: to be continued… Anyway, here it is, the first usable and reasonably efficient visibility index algorithm out there :).

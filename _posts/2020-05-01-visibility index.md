@@ -1,7 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Visibility index for QGIS : finally there !'
+tags:
+  - QGIS visibility plugin
 ---
 
 Welcome visibility index algorithm, aka total viewshed, now available in [QGIS Visibility analysis plugin](http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/). This metric informs us on the size of the visual field for any location across a given terrain, normally each pixel in a gridded digital elevation model (DEM). At first, visibility index resembles other terrain indices such as topographic position, terrain roughness, etc. However, the visual structure of the landscape is essentially a question of human (or animal) perception and has to be evaluated within a specific cognitive/perceptual framework. Rather than as a terrain quality, I like to think of visibility index as a model of visible scene quality.  

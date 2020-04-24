@@ -29,15 +29,14 @@ Note that typical viewshed is calculated by projecting lines of sight form an ob
 ![20-05-01-lines-sample.png]({{site.baseurl}}/figures/20-05-01-lines-sample.png)
 *Sampling lines of sight: 16 lines.*
 
-The second optimisation relies on spatial correlation of typical DEM elements. Think of two adjacent pixels in a DEM: their values will most likely be very similar. Only in the case of standing architecture or very steep cliffs can we expect abrupt changes. Therefore, we can safely sample only a fraction of pixels and still obtain realistic visibility index. However, sampling observer locations is not the ideal method since we cannot easily predict their optimal positions: how many should occupy high ground vs low ground etc. Much better approach is to sample lines of sight, for instance we can take 8 lines of sight from each DEM pixel. Even such low number obtains a surprisingly accurate result. As we raise the number of these lines, the outcome slowly converges to a model produced with full range viewshed analysis. I’ve implemented 8 to 64 lines samples, to satisfy all levels of precision. 
+The second optimisation relies on spatial correlation of typical DEM elements. Think of two adjacent pixels in a DEM: their values will most likely be very similar. Only in the case of standing architecture or very steep cliffs can we expect abrupt changes. Therefore, we can safely sample only a fraction of pixels and still obtain realistic visibility index. However, sampling observer locations is not the ideal method since we cannot easily predict their optimal positions: how many should occupy high ground vs low ground etc. A better approach is to sample lines of sight, for instance we can take 8 lines of sight from each DEM pixel. Even such a low number obtains a surprisingly accurate result. As we raise the number of these lines, the outcome will slowly converge to a model produced with full range viewshed analysis. I’ve implemented 8 to 64 lines samples, to satisfy all levels of precision. 
 
-So, how long does it take? On my old and tired computer, with no CPU/GPU optimisation or whatever, it takes some 25 minutes for a 31.2 million pixel DEM (default parameters; 16 lines sample and 3 km radius). Not really a blink of an eye, but reasonable at least: these are viewsheds for 30 million observers. 
+So, how long does it take? On my old and tired computer, with no CPU/GPU optimisation or whatever, it takes some 25 minutes for a 30 million pixel DEM (default parameters; 16 lines sample and 3 km radius). Not really a blink of an eye, but reasonable at least: these are viewsheds for 30 million observers! 
 
-The algorithm is based on Numpy library which can itself be optimised, but I didn’t yet venture into these grounds: to be continued… Anyway, here it is, the first usable and reasonably efficient visibility index algorithm out there :).
+The algorithm is based on Numpy library which can itself be optimised, but I havent’t yet ventured into these grounds: to be continued… Anyway, here it is, the first usable and reasonably efficient visibility index algorithm out there :).
 
 ## Bibliography
 
 M. Gillings 2015: Mapping invisibility: GIS approaches to the analysis of hiding and seclusion. Journal of Archaeological Science 62.
 
 T.Brughmans, M. van Garderen, M.Gillings 2018: Introducing visual neighbourhood configurations for total viewsheds. Journal of Archaeological Science 96. [open access](https://www.sciencedirect.com/science/article/pii/S0305440318302383).
-

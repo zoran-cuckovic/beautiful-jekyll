@@ -31,7 +31,7 @@ include:
 
 # List of links in the navigation bar
 navbar-links:
-  Books: "books"
+  # Books: "books"
   Content: "tags"
   QGIS projects:
     - QGIS visibility analysis: "https://zoran-cuckovic.github.io/QGIS-visibility-analysis/"

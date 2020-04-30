@@ -21,7 +21,7 @@ Visibility index is calculated as the ratio of positive visual connections: 1.0 
 
 The thing with visibility index is that it takes *days and weeks of computing* (see for instance Gillings 2015 who reports 300 hours of heavy calculation). Using standard GIS algorithms, you’re lucky if it takes only overnight! The reason is in the complexity of visibility calculations. Suppose that it takes 1 second to produce a single viewshed: for a 5 million pixel DEM (which is not large at all) this amounts to 1300 *hours* of computing.
 
-These are serious algorithmic problems that are not easy to solve. I’ve coded a solution which a) eliminates calculation redundancy and b) takes the maximum advantage of spatial correlation of geographic data. It works as follows.
+These are serious algorithmic problems which are not easy to solve. I’ve coded a solution which a) eliminates calculation redundancy and b) takes the maximum advantage of spatial correlation of geographic data. It works as follows.
 
 ![20-05-01-lines.png]({{site.baseurl}}/figures/20-05-01-lines.png)
 *Untangling lines of sight for multiple viewshed calculation.*

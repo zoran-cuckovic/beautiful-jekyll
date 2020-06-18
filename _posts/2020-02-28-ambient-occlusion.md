@@ -9,7 +9,7 @@ tags:
 Ambient occlusion is a concept developed in 3D modelling and visualisation which is used to evaluate the exposition to the ambient light of each model element. The idea is to simulate the diffuse, scattered light that bounces off various surfaces. Such light may not have an identifiable source, as for instance under overcast sky. Ambient occlusion models produce very realistic renderings which capture the dim light in tight spaces and corners (figure below).
 
 ![Gears]({{site.baseurl}}/figures/20-02-gears.jpg)
-*Representing 3D volumes using ambient occlusion technique ([pinterest.com](www.pinterest.fr/pin/599963981589528927/)).*
+*Representing 3D volumes using ambient occlusion technique ([pinterest.com](https://www.pinterest.fr/pin/599963981589528927/)).*
 
 Ambient occlusion is very promising for terrain visualisation, as well; a couple of scientific publications on the topic are listed below. The simplest and the most widely used approach assumes a homogenous distribution of light sources from all possible directions, as under a blanket of fog. In this case, the amount of the incident light is directly related to the portion of the visible radiant surface. This metric is called terrain openness and is expressed as the ratio of the sphere around each terrain point that is not occupied by the terrain itself. Note that we need to specify the radius of the sphere, and that the result will vary according to the reach of this radius. Sky-view factor is a variant of this method where we consider only the hemisphere above each point, hence the sky view. This approach has proven to provide a more intuitive output than openness, and is widely used.
 

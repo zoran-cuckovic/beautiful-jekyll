@@ -6,6 +6,7 @@ tags:
   - theory
 published: true
 ---
+<head> <link rel="canonical" href="https://zoran.hcommons.org/2016/historicity-and-chronological-puritanism/"  />  </head>
 
 If anything, archaeologists are much annoyed by messed up chronologies. There are always some "intrusive finds", "residual artefacts" or "stray objects" that need to be sorted out and removed from the analysis. Archaeological layers almost invariably include small quantities of objects from previous periods that came there either accidentally, for instance when people would dig pits or till the soil, or as "collateral damage" of archaeological excavation and post-excavation work. It is one of archaeologist's fundamental tasks to clear up this mess and to sort out associations of finds and features (pits, walls, floors etc.) that are broadly contemporary. What we all dream of are neat sequences of archaeological contexts that would line up on temporal scale one after another: settlement phases clearly separated by layers of total destruction, graveyards developing concentrically from the oldest interments in the centre to the most recent on the outer fringe and, more generally, historical periods characterised by exclusive, easily distinguishable types of objects.
 

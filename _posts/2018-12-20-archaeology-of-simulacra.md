@@ -13,6 +13,8 @@ tags:
   
 excerpt: "Several weeks ago I stumbled upon an amusing article on a museum displaying pebbles and rocks resembling human faces, situated in Chichibu, Japan. The stones are called <em>jinmenseki</em> (珍石) and one should be able to recognise human faces in their naturally occurring dents and holes. The founder of the museum, Shozo Hayama, spent some 50 years collecting these specimens"
 ---
+<head> <link rel="canonical" href="https://zoran.hcommons.org/2016/archaeology-of-simulacra/" />  </head>
+
 
 ![](https://1.bp.blogspot.com/-abc7ffiHeD0/Wi57CGU5P6I/AAAAAAAABCI/bDtOV1XdfBUARsuO7L-3S0zdn0I-C75dgCEwYBhgL/s1600/Chichibu-museum.jpg)
 *Chichibu museum (photo: [www.thisiscolossal.com](http://www.thisiscolossal.com))*

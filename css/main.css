@@ -72,7 +72,7 @@ img {	display: block;
 	margin-left: auto;
     	margin-right: auto;
 	margin-top: 10 auto;
-	max-width: 739px /* addition ZC */
+	max-width: 500px /* addition ZC */
 }
 		
 /* hack for captions : https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll */

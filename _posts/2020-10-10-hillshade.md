@@ -43,4 +43,5 @@ Such bidirectional angular exaggeration is very useful for the detection and vis
 
 ## Bibliography
 Article on Lambert's cosine law on [Wikipedia](https://en.wikipedia.org/wiki/Lambert%27s_cosine_law).
+
 B. K. Horn 1981: Hill Shading and the Reflectance Map. *Proceedings of the IEEE* 69(1), 14-47. ([download](http://people.csail.mit.edu/bkph/papers/Hill-Shading.pdf)).

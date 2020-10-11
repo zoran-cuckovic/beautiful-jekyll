@@ -25,7 +25,7 @@ In a nutshell, hillshade algorithm assigns a theoretical reflectance value to ea
 The formula commonly used is the one devised by the mathematician Johan Heinrich Lambert, which postulates that the reflectance value will vary according to the difference between illumination angle and surface angle (Fig. 3). More specifically the amount of the reflected light will be proportional to the cosine of such angular difference. Imagine putting a piece of paper in front of a table lamp. The shadow of the paper on the table below will contract as you rotate or incline it, because you’re increase the angular difference between the surface orientation and the light source. Now, the size of the shadow corresponds to the amount of light received by the paper, it will therefore appear darker when capturing diminishing amounts of light. 
 
 ## Hillshade implementation in Terrain Shading module for QGIS
-Such simple approach has proven to be useful in GIS, but it certainly has its drawbacks, namely a rather artificial output and poor flexibility for modelling different lighting scenarios. (Ambient occlusion is one of those: see [my previous post](https://landscapearchaeology.org/2020/ambient-occlusion/). 
+Such simple approach has proven to be useful in GIS, but it certainly has its drawbacks, namely a rather artificial output and poor flexibility for modelling different lighting scenarios. (Ambient occlusion is one of those: see [my previous post](https://landscapearchaeology.org/2020/ambient-occlusion/)). 
 
 
 ![diagram: latera/longitudinal adjustment](/figures/20-10-angles.jpg)

@@ -38,7 +38,7 @@ The [Terrain Shading module](http://www.zoran-cuckovic.from.hr/QGIS-terrain-shad
 
 Such bidirectional angular exaggeration is very useful for the detection and visualisation of faint terrain features that become visible only when illuminated form a specific angle. Lateral exaggeration in particular will accentuate slopes that are often poorly rendered with standard lambertian hillshade. This may prevent the appearance of highly illuminated slopes that seem washed out when directly illuminated - a frequent, undesired effect (see the comparison of images below).
 
-<iframe frameborder="0" class="juxtapose" width="100%" height="670" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3e206e9a-0bf0-11eb-bf88-a15b6c7adf9a"></iframe>
+<iframe frameborder="0" class="juxtapose" width="100%" height="870" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3e206e9a-0bf0-11eb-bf88-a15b6c7adf9a"></iframe>
 *Figure 6. Comparison of standard hillshade model with the one with lateral angle exaggeration (factor: 3.0).*   
 
 ## Bibliography

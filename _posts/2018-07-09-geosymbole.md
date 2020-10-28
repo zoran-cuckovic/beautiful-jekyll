@@ -1,18 +1,19 @@
 ---
+layout: post
 id: 20
 title: Le géosymbole vu par l’archéologie
-date: 2018-07-09T14:58:27+00:00
+date: 'Mon Jul 09 2018 16:58:27 GMT+0200 (heure d’été d’Europe centrale)'
 author: Zoran
-layout: post
-guid: http://landscapearchaeology.org/?p=20
+guid: 'http://landscapearchaeology.org/?p=20'
 permalink: /2018/geosymbole/
 categories:
   - Landscape theory
-tags: 
+tags:
   - theory
+published: true
 ---
 
-<link rel="canonical" href="https://zoran.hcommons.org/geosymbole/" /> 
+<link rel="canonical" href="https://fragments.hypotheses.org/1/" /> 
 
 Le concept du géosymbole est issu du mouvement culturaliste en géographie, suite au désenchantement, dans les années 80, par les approches structuralistes. Ces dernières donnaient l’impression de relégation de l’humain en marges du grand tableau socio-politico-économique : le discours géographique risquait de prolonger celui du pouvoir qui écrase l’individu. Ainsi, la géographie s’est à nouveau tournée vers l’étude de la diversité culturelle, des systèmes de représentation et du symbolisme. Selon Bonnemaison (1992, 76) le géosymbole serait « un lieu, un relief, un itinéraire, une route, une construction, un site qui, pour des raisons religieuses, culturelles ou politiques, prennent aux yeux des groupes ethniques et sociaux une dimension symbolique qui les ancre dans une identité héritée ».  
   

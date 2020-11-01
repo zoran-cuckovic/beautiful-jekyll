@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 'Hillshade in QGIS: a new implementation in Terrain Shading module.'
+title: 'Hillshade in QGIS:  new implementation in Terrain Shading module'
 tags:
   - QGIS Terrain Shading
 ---

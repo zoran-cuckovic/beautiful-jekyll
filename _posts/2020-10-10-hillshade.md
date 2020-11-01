@@ -13,10 +13,11 @@ tags:
 Hillshade modelling is a standard form of terrain representation in cartography. The idea is to simulate light reflectance form a terrain surface, when illuminated from a specific direction (or multiple directions). The method is well known and constantly improved in GIS as a means of terrain visualisation. The basic principles of the hillshade method are quite simple (see below), but understanding and handling the outputs produced is less so. 
 <!--- This is the first part of a series of posts on hillshade models that take an in-depth perspective on their geometric properties and aesthetic qualities. -->
 
+## The basics
+
 ![diagram: sun angle/azimuth](/figures/20-10-azimuth_diagram.jpg)
 *Figure 2. When calculating a hillshade we need to specify the sun direction (azimuth) and sun height, in angular units.*
 
-## The basics
 In a nutshell, hillshade algorithm assigns a theoretical reflectance value to each terrain element (a pixel of a digital terrain model in most cases). Given a defined light source, such reflectance will depend on the inclination of each terrain element: those that are perpendicular to the light source will receive and thus reflect more light than those that are facing other directions (see Fig. 3). In GIS, hillshade algorithms normally do not aim to model truly realistic scenes; factors such as surface texture or various light qualities are not taken into account. For this reason the immediate output is rather artificial and usually needs additional treatment in order to provide a visually pleasing terrain representation. 
 
 ![diagram: surface angle](/figures/20-10-surface.jpg)

@@ -15,6 +15,10 @@ published: true
 
 <link rel="canonical" href="https://fragments.hypotheses.org/1/" /> 
 
+
+[Billet remanié et transféré sur [fragments.hypothèses.org](https://fragments.hypothèses.org/1)]
+
+
 Le concept du géosymbole est issu du mouvement culturaliste en géographie, suite au désenchantement, dans les années 80, par les approches structuralistes. Ces dernières donnaient l’impression de relégation de l’humain en marges du grand tableau socio-politico-économique : le discours géographique risquait de prolonger celui du pouvoir qui écrase l’individu. Ainsi, la géographie s’est à nouveau tournée vers l’étude de la diversité culturelle, des systèmes de représentation et du symbolisme. Selon Bonnemaison (1992, 76) le géosymbole serait « un lieu, un relief, un itinéraire, une route, une construction, un site qui, pour des raisons religieuses, culturelles ou politiques, prennent aux yeux des groupes ethniques et sociaux une dimension symbolique qui les ancre dans une identité héritée ».  
   
 Les notions sont lourdes : religion, culture, politique, identité, héritage… Les archéologues, quand à eux, ont surtout appris de s’en distancier, nos données muettes ayant subi suffisamment d’abus interprétatifs dans l’histoire de la discipline. Certes, il est peu problématique que les constructions telles que les monuments funéraires, les fortifications ou les lieux de culte avaient un impact majeur sur le ressenti de l’espace par les populations anciennes, tout en véhiculant des messages symboliques complexes. Mais, comme en témoignent les maints essais de « décodage » des vestiges archéologiques, le problème de symbolisme est trop souvent celui de notre impuissance devant le « sens obscur », impénétrable derrière la matérialité des objets. Je crois, cependant, qu’il y a d’autres causes à cette impuissance, plus profonds que seule méthode de lecture de la culture matérielle.  

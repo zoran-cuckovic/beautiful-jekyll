@@ -1,19 +1,26 @@
 ---
+layout: post
 id: 453
 title: 'Pebbles, faces and landscapes: <br>the archaeology of simulacra'
-date: 2018-12-20T17:23:18+00:00
+date: 'Thu Dec 20 2018 18:23:18 GMT+0100 (heure normale d’Europe centrale)'
 author: Zoran
-layout: post
-guid: https://landscapearchaeology.org/?p=453
+guid: 'https://landscapearchaeology.org/?p=453'
 permalink: /2018/archaeology-of-simulacra/
 categories:
   - Uncategorized
-tags: 
+tags:
   - theory
-  
-excerpt: "Several weeks ago I stumbled upon an amusing article on a museum displaying pebbles and rocks resembling human faces, situated in Chichibu, Japan. The stones are called <em>jinmenseki</em> (珍石) and one should be able to recognise human faces in their naturally occurring dents and holes. The founder of the museum, Shozo Hayama, spent some 50 years collecting these specimens"
+excerpt: >-
+  Several weeks ago I stumbled upon an amusing article on a museum displaying
+  pebbles and rocks resembling human faces, situated in Chichibu, Japan. The
+  stones are called <em>jinmenseki</em> (珍石) and one should be able to recognise
+  human faces in their naturally occurring dents and holes. The founder of the
+  museum, Shozo Hayama, spent some 50 years collecting these specimens
+published: true
 ---
-<head> <link rel="canonical" href="https://zoran.hcommons.org/2016/archaeology-of-simulacra/" />  </head>
+<head> <link rel="canonical" href="https://fragments.hypotheses.org/28" />  </head>
+
+[This article has been updated and transfered to [fragments.hypotheses.org](https://fragments.hypotheses.org/28)]
 
 
 ![](https://1.bp.blogspot.com/-abc7ffiHeD0/Wi57CGU5P6I/AAAAAAAABCI/bDtOV1XdfBUARsuO7L-3S0zdn0I-C75dgCEwYBhgL/s1600/Chichibu-museum.jpg)

@@ -47,7 +47,7 @@ Anyway, the result is sweet, isn't it? But, is there a catch, you may wonder ...
 
 <h2>2. Algorithm</h2>
 
-![LOS schema](/images/2016/04/Line_of_sight.png)
+![LOS schema](/figures/2016/04/Line_of_sight.png)
 
 *Fig. 1 Line of sight anatomy.*
 
@@ -55,7 +55,7 @@ Anyway, the result is sweet, isn't it? But, is there a catch, you may wonder ...
 
 Implemented algorithm casts an array of lines-of-sight from the observation point to the perimeter of the analysed area. The position above or below the visibility line is then recorded for each pixel encountered along the line. Note that these lines do not necessarily touch the centre of each pixel (Fig. 2) - the height values are therefore interpolated between pairs of pixels on each side of line-of-sight (linear interpolation).
 
-![Ray casting algorithm](/images/2016/04/algorithm.png)
+![Ray casting algorithm](/figures/2016/04/algorithm.png)
 
 *Fig. 2 Ray casting algorithm.*
 
@@ -65,19 +65,19 @@ The density of the lines of sight per pixel is apparently diminishing with the d
 
 (Note that the horizontal shift does not affect the calculation of intervisibility lines which is made from the centre observer's pixel to target pixel centre.)
 
-![Error_matrix_square](/images/2016/04/Error_matrix_square-1.jpg)
+![Error_matrix_square](/figures/2016/04/Error_matrix_square-1.jpg)
 
 *Fig. 3 Shift of the nearest line of sight from each pixel centre.*
 
 What becomes apparent when looking at the error matrix on Fig. 3 is that errors higher than a quarter of a pixel (red) stay out of the large square which happens to cross half of the radius. (maximum possible error is half pixel size, 0.5.) Likewise, errors higher that an eighth of a pixel (yellow) stay outside the square at the quarter radius distance. This comes handy for estimating the accuracy of the viewshed calculation: 1/4 radius = very good, 1/2 radius = good, above 1/2 radius = not-that-good. Now, in some cases the last one may indeed be "bad", for instance when trying to estimate depth below visible horizon (invisibility) more accurately. For such cases it is possible to artificially double the radius by choosing "fine" algorithm. The result will be clipped back to the specified radius and will now be devoid of errors above quarter of a pixel.
 
-![Option fine](/images/2016/04/Option-fine.jpg)
+![Option fine](/figures/2016/04/Option-fine.jpg)
 
 *Fig. 4 Option fine*
 
 Some inconsistencies may arise in the "red zone"  when calculating visible horizon. The horizon is composed by selecting the farthest visible pixel for each line of sight. When only a couple of lines is available per pixel, some ambiguities may arise. The pixel to the left on Fig. 5 should be selected, but upon first visit it's not visible because of the interpolation of height with its (lower) neighbour, while upon the second visit the line of sight hits an even farther visible pixel to the right. This problem can be avoided by using the fine algorithm option or by increasing the radius of analysis.
 
-![Horizon schema](/images/2016/04/horizon_ambiguity.png)
+![Horizon schema](/figures/2016/04/horizon_ambiguity.png)
 
 *Fig. 5 The ambiguity when selecting horizon pixel.*
 
@@ -86,11 +86,11 @@ So, the algorithm is fraught with errors - not a pleasant thing to hear! ... and
 
 Note that the observer point (blue) is very close to the invisible area, and that the inconsistencies arise after a large black gap. This indicates that the problem most probably lies in interpolation of height values between pixels in the observer's vicinity. These minute inconsistencies get particularly amplified because of closeness to the observer. In fact, the horizontal line of sight shift affecting the outer zone of the viewshed (Fig. 3) is much less significant (or even insignificant) when compared with the height interpolation (or sampling) method.
 
-![](/images/2016/04/test_vs_r.los.jpg)
+![](/figures/2016/04/test_vs_r.los.jpg)
 
 *Fig. 6a Implemented algorithm (white) overlaid with GRASS r.los model (red).*
 
-![](/images/2016/04/test_vs_ArcGIS.jpg)
+![](/figures/2016/04/test_vs_ArcGIS.jpg)
 
 *Fig. 6b Implemented algorithm (white) overlaid with ArcGIS 10.1 viewshed model (green).*
 

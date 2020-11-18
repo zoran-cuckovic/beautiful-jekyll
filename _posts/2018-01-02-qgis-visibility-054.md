@@ -2,8 +2,8 @@
 layout: post
 title: 'Visibility analysis, release 0.5.4: <br>modelling the horizon'
 subtitle: 
-date: 2016-12-22
-modified: 2017-01-02
+# date: 2016-12-22
+# modified: 2017-01-02
 author: zoran
 tags: [qgis-visibility, qgis]
 ---

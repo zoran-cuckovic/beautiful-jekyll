@@ -9,11 +9,11 @@ tags: [qgis-visibility, qgis]
 ---
 
 
-Visibility analysis plugin for QGIS is prospering quite well. As of writing, it counts some 20 000 downloads and a bunch of « votes », which means that at least several thousand people are using it. (Although, it does feel uncomfortable knowing that any potential error would risk a blame-storm ….)
+Visibility analysis plugin for QGIS is prospering quite well. As of writing [2016], it counts some 20 000 downloads and a bunch of « votes », which means that at least several thousand people are using it. (Although, it does feel uncomfortable knowing that any potential error would risk a blame-storm ….)
 
 The new release brings a more polished algorithm and two options for horizon analysis. Horizon detection was, and still remains, rather problematic. On the conceptual level, the skyline has to be understood in terms of perception and not as a fixed terrain parameter. Consider the image below: there are many skylines in the mountainous landscape, progressively dissolving into the atmosphere. The most distant skyline might not even be visible at all, even if it would be rendered as “true horizon” by GIS. Sometimes we may be able to see a chain of mountains at distances [above 100 or 200 km](http://www.summitpost.org/phpBB3/longest-lines-of-sight-photographed-t44409.html), but such views demand exceptional weather conditions. A book was recently published by William Malm (2016) on that particular issue.
 
-![Vosges](/images/2016/12/Vosges.jpg)
+![Vosges](/figures/2016/12/Vosges.jpg)
 
 *Fig 1. A scene from Vosges mountains, France [(Wikimedia commons, author “lybil”)](https://commons.wikimedia.org/wiki/File:Panorama_des_Vosges_vue_depuis_les_ruines_du_Ch%C3%A2teau_de_Salm.jpg)*
 
@@ -25,7 +25,7 @@ The algorithm implemented in the QGIS viewshed plugin examines all the height va
 
 Finally, unlike ArcGIS skyline module, the implemented algorithm does not force horizon line over visible areas that are cut off by the radius of analysis or by the extent of the elevation model.  
 
-![Cumulative horizon](/images/2016/12/Cumulative-horizon.jpg)
+![Cumulative horizon](/figures/2016/12/Cumulative-horizon.jpg)
 
 *Figure 2. Cumulative horizon output*
 

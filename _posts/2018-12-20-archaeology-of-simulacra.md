@@ -17,8 +17,9 @@ excerpt: >-
   human faces in their naturally occurring dents and holes. The founder of the
   museum, Shozo Hayama, spent some 50 years collecting these specimens
 published: true
+canonical: 'https://fragments.hypotheses.org/28'
 ---
-<head> <link rel="canonical" href="https://fragments.hypotheses.org/28" />  </head>
+
 
 [This article has been updated and transfered to [fragments.hypotheses.org](https://fragments.hypotheses.org/28)]
 

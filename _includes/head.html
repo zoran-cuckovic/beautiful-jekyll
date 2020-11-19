@@ -79,9 +79,16 @@
 
   {% if page.id %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   {% else %}
   <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
+  {% endif %}
+  
+  
+  {% if page.canonical %}
+  <link rel="canonical" href="{{ page.canonical }}" />
+  {% elsif page.id %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  {% else %}
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
   {% endif %}
 

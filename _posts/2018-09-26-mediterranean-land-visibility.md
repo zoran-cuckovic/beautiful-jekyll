@@ -35,7 +35,7 @@ We need to make a smart choice of viewable terrain features (otherwise I would s
 
 <h3>Calculation</h3>
 
-The <a href="http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/">QGIS viewshed plugin</a> was used (no surprise, it's my baby); the latest version is <a href="/2018/visibility-analysis-0-6-4/">tuned to handle large rasters</a>. For the 150 km radius it took me some 14 hours or so, while for the 50 km model some 3 hours. The calculation time would obviously be much reduced by cleaning up the « mountaintops ». However, the algorithm didn’t take up too much live memory (less than 1 GB), so I just left it grinding in the background.
+The <a href="http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/">QGIS viewshed plugin</a> was used; the latest version is tuned to handle large rasters. For the 150 km radius it took me some 14 hours or so, while for the 50 km model some 3 hours. The calculation time would obviously be much reduced by cleaning up the « mountaintops ». However, the algorithm didn’t take up too much live memory (less than 1 GB), so I just left it grinding in the background.
 
 <h2>Results</h2>
 

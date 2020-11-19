@@ -53,5 +53,7 @@ The 150 km model resembles the historical one, cited in archaeological publicati
 The cartography is not exemplary : the map needs some make-up to be publishable (to be continued...).
 
 ## PS: a historical visibility model
+
 ![](/wp/wp-content/uploads/2018/09/mediterranean-visibility-1922.jpg)
-*This map from 1922 might be the much copied source for visibility estimates. Note that two visibility criteria were mapped. (See in [David Rumsey Collection](https://www.davidrumsey.com/luna/servlet/s/4g9tr7). *
+*This map from 1922 might be the much copied source for visibility estimates. Note that two visibility criteria were mapped. (See in [David Rumsey Collection](https://www.davidrumsey.com/luna/servlet/s/4g9tr7)).*
+

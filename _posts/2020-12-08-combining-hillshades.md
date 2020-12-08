@@ -25,7 +25,7 @@ Light source for the ambient occlusion is undefined, the light comes from all di
 *Colour ramp that removes average reflectance component, i.e. the grey zone. Values between 0.63 and 0.7 are completely transparent.*
 
 ![2020-12-10-occlusion+hillshade.jpg]({{site.baseurl}}/figures/2020-12-10-occlusion+hillshade.jpg)
-*Ambient occlusion model overlaid with hillshade.*
+*Ambient occlusion model overlaid with a hillshade.*
 
 This filtered hillshade is then overlaid on ambient occlusion model (above). The diffuse light component is still dominant, but it's certainly more readable once we’ve introduced the reflectance. The problem of this method is that it tends to produce dull grey patches on steep slopes. These areas have both, high reflectance and low diffuse light levels, i.e. they become uniformly white in the hillshade and uniformly black in the occlusion model, which doesn’t combine well. In order to counter this effect, I’ve used two levels of white, with varying transparency values (see the colour ramp above). 
 

@@ -10,7 +10,7 @@ tags:
 
 This is the third post in my series on hillshades: previous ones were on the functionality of [QGIS Terrain Shading module](https://landscapearchaeology.org/2020/hillshade/) and some ramblings on the combination of [multiple hillshades](https://landscapearchaeology.org/2018/lidar-hillshade/). 
 
-In general, the use of hillshades in GIS is to make pretty visualisations, for mapping or for visual detection of terrain features, as for instance in archaeology or geomorphology. However, even if prettiness is the main criterion that we may care of, this doesn’t mean that we should skip the concepts that are involved. In fact, this seems to be very poorly understood, even in scientific literature. What is hillshade, in the first place?
+In general, the use of hillshades in GIS is to make pretty visualisations, for mapping or for visual detection of terrain features, as for instance in archaeology or geomorphology. However, even if prettiness is the main criterion that we may care of, this doesn’t mean that we should skip the concepts that are involved. In fact, hillshades seem to be rather poorly understood, even in scientific literature. What is hillshade, in the first place?
 
 Hillshade is **not** a model of what a terrain would look like when viewed from above: it’s a model of **only one** light component. Namely, hillshade represents the direct light reflectance. Therefore, the result on its own gives an impression of wrinkled aluminium foil, the appearance of which is dominated by reflectance alone.  
 

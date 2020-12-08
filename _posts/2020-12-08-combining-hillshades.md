@@ -51,5 +51,3 @@ The result is now much richer than a single hillshade, but it’s also more diff
 
 ## Wrap up
 Hillshade is probably the most widely used method for terrain visualisation. Its result is rather intuitive, but its handling is not so. In this post, I’ve discussed some principles which are not aesthetical, but rather conceptual. Hillshade is about modelling light, namely reflected light, which is only one component among several that are required to model a realistic scene. In order to do so, hillshade models should be broken down to different lighting components, which can be then be combined with other shading methods.  
-
-Perhaps, if I ever master it, I will post on coloured hillshades in the future…

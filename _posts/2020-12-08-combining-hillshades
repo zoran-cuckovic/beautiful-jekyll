@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Working with hillshades: beauty is not all there is to it!'
-date: '2020-10-12'
+published: true
 tags:
   - hillshade
   - qgis terrain shading

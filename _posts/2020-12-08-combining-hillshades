@@ -4,7 +4,7 @@ title: 'Working with hillshades: beauty is not all there is to it!'
 published: true
 tags:
   - hillshade
-  - qgis terrain shading
+  - QGIS Terrain Shading
 ---
 
 This is the third post in my series on hillshades: previous ones were on the functionality of [QGIS Terrain Shading module](https://landscapearchaeology.org/2020/hillshade/) and some ramblings on the combination of [multiple hillshades](https://landscapearchaeology.org/2018/lidar-hillshade/). 

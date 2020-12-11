@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 'Visibility index for QGIS : finally there!'
+title: 'Visibility index (total viewshed) for QGIS : finally there!'
 tags:
   - QGIS visibility plugin
 ---

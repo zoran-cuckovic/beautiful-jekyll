@@ -120,7 +120,8 @@ Finally, the result is much nicer when line terminals are rounded (**Cap stlye :
 
 Original Tanaka's examples of shaded contours are mostly used to represent natural topography. I find that approach visually too heavy; it is difficult to add additional information without overcrowding the map (but that's just an impression...). What works better are all those heatmaps that are otherwise colourful splatters: Tanaka contours bring them to life! Just take a look at the gorgeous depth-map below...
 
-[**Download the style definition here.**](https://drive.google.com/file/d/1CTy0wqomH8HmjmQDaZJrDX3ku4tuV8gI/view?usp=sharing)
+[**Download the style from QGIS style library.**](https://plugins.qgis.org/styles/68/)
+
 
 ### Bibliography
 

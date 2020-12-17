@@ -92,7 +92,7 @@ scale_linear(
 
 Super complicated ? Yes it is, indeed... This is a difficult nut to crack without real programming (such as in a Python function). This is what you need to know:
 
-Colour and line thickness values are extracted from the `scale_linear` function. First two values are the input, and the last two are minimum and maximum output. For example, in `scale_linear("our_file", 0, 180, 0, 100)` original values of 0 - 180 are projected to the range 0 - 100. (The scale_linear function has a good explanation in QGIS expression builder).
+Line brightness and thickness values are extracted from the `scale_linear` function. First two values are the input, and the last two are minimum and maximum output. For example, in `scale_linear("our_file", 0, 180, 0, 100)` original values of 0 - 180 are projected to the range 0 - 100. (The scale_linear function has a good explanation in QGIS expression builder).
 
 Thus to change **brightness** you have to play with the last two values of the colour definition, where 0 is black and 100 is white (100% brightness). Likewise, to change the **line thickness**, the last two values of the thickness definition need to be changed (0.2 and 0.7 for min/max thickness). 
 

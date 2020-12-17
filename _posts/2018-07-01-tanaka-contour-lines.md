@@ -1,15 +1,16 @@
 ---
+layout: post
 author: Zoran
 categories:
-- Spatial analysis & GIS
-date: 2018-07-01 10:17:28
-guid: http://landscapearchaeology.org/?p=91
+  - Spatial analysis & GIS
+date: 'Sun Jul 01 2018 12:17:28 GMT+0200 (heure d’été d’Europe centrale)'
+guid: 'http://landscapearchaeology.org/?p=91'
 id: 91
-layout: post
 permalink: /2018/tanaka-contour-lines/
 tags:
-- qgis
+  - qgis
 title: Tanaka method or how to make shaded contour lines
+published: true
 ---
 
 Contour lines have become a commonplace, unassuming companion of our cartographic outputs - GIS has made us forget their visual potential. Already in the 19th century cartographers experimented with shaded contours, but the technique has become known as the Tanaka method, after Japanese cartographer Kitiro Tanaka (Kennelly 2016, wiki.gis 2017). Even the cover page of Imhof's seminal book sports a pile of shaded contours!
@@ -85,13 +86,17 @@ scale_linear(
           start_point(geometry_n($geometry,@geometry_part_num))
       ) ))
     % 180 - 90),
- 0, 90 ,0.2, 1)
+ 0, 90 ,0.2, 0.7)
 ```
-### Adjusting light direction and other parameters
+### Adjusting line thickness and light direction
 
 Super complicated ? Yes it is, indeed... This is a difficult nut to crack without real programming (such as in a Python function). This is what you need to know:
 
-The function is squeezing the full angle range to a smaller interval using modulo operator (%). The default light angle (0) is from the west and values for light angles are increasing counter-clockwise.
+Colour and line thickness values are extracted from the `scale_linear` function. First two values are the input, and the last two are minimum and maximum output. For example, in `scale_linear("our_file", 0, 180, 0, 100)` original values of 0 - 180 are projected to the range 0 - 100. (The scale_linear function has a good explanation in QGIS expression builder).
+
+Thus to change **brightness** you have to play with the last two values of the colour definition, where 0 is black and 100 is white (100% brightness). Likewise, to change the **line thickness**, the last two values of the thickness definition need to be changed (0.2 and 0.7 for min/max thickness). 
+
+Light angle can also be tweaked. The function is squeezing the full angle range to a smaller interval using modulo operator (%). The default light angle (0) is from the west and values for light angles are increasing counter-clockwise (don't ask me why...).
 ```          
               90 
        135          45
@@ -104,9 +109,8 @@ The function is squeezing the full angle range to a smaller interval using modul
 
 To adjust the lighting, we can push the beginning of the range forward, but we cannot pull it into the negative range. So, for the north-western lighting, on clockwise oriented contours, we set the angle to 135. To have the same effect on counter-clockwise contours, we need to push to 315.
 
-You can easily spot the 135 value in the expression: that is the one to be changed in order to adjust the lighting.(! this has to be done for both, colour and line thickness !)
+You can easily spot the 135 value in the expression: that is the one to be changed in order to adjust the lighting (! this has to be done for both, colour and line thickness !).
 
-Colour and line thickness values are extracted from the `scale_linear` function. First two values are the input, and the last two are minimum and maximum output. For example, in `scale_linear("our_input", 0, 180, 0, 100)` colour lightness can vary from 0 to 100 (percent), and the same applies to 0.2 - 1 range for line thickness. (The scale_linear function has a good explanation in QGIS expression builder). You can now play with the last two values to obtain that desired effect...
 
 Finally, the result is much nicer when line terminals are rounded (**Cap stlye : Round**) \[Thanks to Nyall Dawson for the reminder.\]
 

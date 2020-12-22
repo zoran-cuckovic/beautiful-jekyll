@@ -8,7 +8,7 @@ subtitle: As implemented in Terrain Shading module
 ---
 
  
-![hillshade pozega](/figures/20-10-pozega1.jpg)
+![hillshade pozega](/figures/20-10-pozega.jpg)
 *Figure 1. Hillshade model of Požega valley (Croatia).*
 
 Hillshade modelling is a standard form of terrain representation in cartography. The idea is to simulate light reflectance form a terrain surface, when illuminated from a specific direction (or multiple directions). The method is well known and constantly improved in GIS as a means of terrain visualisation. The basic principles of the hillshade method are quite simple (see below), but understanding and handling the outputs produced is less so. 

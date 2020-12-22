@@ -47,7 +47,7 @@ We will now follow the same principle as above, one hillshade is chosen as the b
 The result is now much richer than a single hillshade, but it’s also more difficult to control. There is some interference, especially on high slopes. In any case, this is the theoretical maximum of information that we may get for a given height of the light source (here 45 degrees). We can still introduce models made for other directions, but with very restricted value ranges to highlight specific terrain exposures. 
  
 <iframe frameborder="0" class="juxtapose" width="100%" height="594" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=bc46e784-394c-11eb-83c8-ebb5d6f907df"></iframe>
-*Bidirectional hillshade is, in theory, revealing the maximum information.*
+*Bidirectional hillshade is, in theory, revealing the maximum information. Massanutten Mountain, Virginia, USA ([shadedrelief.com](http://shadedrelief.com/SampleElevationModels/)).*
 
 ## Wrap up
 Hillshade is probably the most widely used method for terrain visualisation. Its result is rather intuitive, but its handling is not so. In this post, I’ve discussed some principles which are not aesthetical, but rather conceptual. Hillshade is about modelling light, namely reflected light, which is only one component among several that are required to model a realistic scene. In order to do so, hillshade models should be broken down to different lighting components, which can be then be combined with other shading methods.  

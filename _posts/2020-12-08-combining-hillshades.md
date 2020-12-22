@@ -22,7 +22,7 @@ To get a more realistic terrain shading we need to a) combine the hillshade with
 Light source for the ambient occlusion is undefined, the light comes from all directions of open sky (but always from above). We will now use hillshade to introduce the reflectance effect of direct sunlight (standard, NW sun direction is used). All grey areas that have average reflectance are removed: see the figure below. 
  
 ![2020-12-10-scale1.JPG]({{site.baseurl}}/figures/2020-12-10-scale1.JPG)
-*This colour ramp is removing the average reflectance component, i.e. the grey zone. Values between 0.63 and 0.7 are completely transparent.*
+*This colour ramp is removing the average reflectance component, i.e. the grey zone. Values between 0.7 and 0.9 are completely transparent.*
 
 ![2020-12-10-occlusion+hillshade.jpg]({{site.baseurl}}/figures/2020-12-10-occlusion+hillshade.jpg)
 *Ambient occlusion model overlaid with a hillshade.*

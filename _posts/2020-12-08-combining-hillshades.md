@@ -17,7 +17,7 @@ Hillshade is **not** a model of what a terrain would look like when viewed from 
 To get a more realistic terrain shading we need to a) combine the hillshade with other models and b) isolate hillshade components that we’re interested in. Here, we will combine hillshade with [ambient occlusion](https://landscapearchaeology.org/2020/ambient-occlusion/), which models the diffuse light. 
 
 ![2020-12-10-occlusion.jpg]({{site.baseurl}}/figures/2020-12-10-occlusion.jpg)
-*Ambient occlusion: the base layer. Massanutten Mountain, Virginia, USA ([shadedrelief.com](http://shadedrelief.com/SampleElevationModels/))*
+*Ambient occlusion: the base layer. Massanutten Mountain, Virginia, USA ([shadedrelief.com](http://shadedrelief.com/SampleElevationModels/)).*
 
 Light source for the ambient occlusion is undefined, the light comes from all directions of open sky (but always from above). We will now use hillshade to introduce the reflectance effect of direct sunlight (standard, NW sun direction is used). All grey areas that have average reflectance are removed: see the figure below. 
  

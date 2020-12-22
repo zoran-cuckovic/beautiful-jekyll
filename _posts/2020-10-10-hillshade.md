@@ -12,7 +12,7 @@ subtitle: As implemented in Terrain Shading module
 *Figure 1. Hillshade model of Požega valley (Croatia).*
 
 Hillshade modelling is a standard form of terrain representation in cartography. The idea is to simulate light reflectance form a terrain surface, when illuminated from a specific direction (or multiple directions). The method is well known and constantly improved in GIS as a means of terrain visualisation. The basic principles of the hillshade method are quite simple (see below), but understanding and handling the outputs produced is less so. 
-<!--- This is the first part of a series of posts on hillshade models that take an in-depth perspective on their geometric properties and aesthetic qualities. -->
+<!--- This is the first part of a series of posts on hillshade models that take an in-depth perspective on their geometric properties and aesthetic qualities.  -->
 
 ## The basics
 
@@ -41,7 +41,7 @@ The [Terrain Shading module](http://www.zoran-cuckovic.from.hr/QGIS-terrain-shad
 Such bidirectional angular exaggeration is very useful for the detection and visualisation of faint terrain features that become visible only when illuminated form a specific angle. Lateral exaggeration in particular will accentuate slopes that are often poorly rendered with standard lambertian hillshade. This may prevent the appearance of highly illuminated slopes that seem washed out when directly illuminated - a frequent, undesired effect (see the comparison of images below).
 
 <iframe frameborder="0" class="juxtapose" width="100%" height="670" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3e206e9a-0bf0-11eb-bf88-a15b6c7adf9a"></iframe>
-*Figure 6. Comparison of standard hillshade model with the one with lateral angle exaggeration (factor: 3.0).*
+*Figure 6. Comparison of standard hillshade model with the one with lateral angle exaggeration (factor: 3.0, very strong).*
 
 ## Bibliography
 Article on Lambert's cosine law on [Wikipedia](https://en.wikipedia.org/wiki/Lambert%27s_cosine_law).

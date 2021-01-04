@@ -34,7 +34,7 @@ Some users were having difficulties to grasp the parameters involved. Note that 
 
 The same would apply if we were using two different datastes, for instance the view of towers from villages. Towers would become targets and only their target height would be taken into account (here, 10 meters); likewise, villages would become observers and only their observer height would be needed.  
 
-These parameters are specified through the *Create viewpoints* module. (Note that you can vary the value for each point by editing the associated data table.). Other parameters, such as radius of analysis etc. shouldn’t need further explanation. 
+These parameters are specified through the *Create viewpoints* module. (Note that you can vary the value for each point by editing the associated data table.). Other parameters, such as radius of analysis etc. shouldn’t need further explanation. **Important** : target height does not refer to view targets, here other towers. Indeed, every tower can have its specific height when acting as a target. Therefore target height and observer height parameters always refer to the same structre which may act **as** observer point or **as** view target.   
 
 ![19-04-create_points.jpg]({{site.baseurl}}/figures/19-04-create_points.jpg)
 

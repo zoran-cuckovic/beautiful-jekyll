@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Working with hillshades: beauty is not all there is to it!'
+title: 'Combining hillshades: beauty is not all there is to it!'
 published: true
 tags:
   - hillshade
@@ -50,4 +50,4 @@ The result is now much richer than a single hillshade, but it’s also more diff
 *Bidirectional hillshade is, in theory, revealing the maximum information.*
 
 ## Wrap up
-Hillshade is probably the most widely used method for terrain visualisation. Its result is rather intuitive, but its handling is not so. In this post, I’ve discussed some principles which are not aesthetical, but rather conceptual. Hillshade is about modelling light, namely reflected light, which is only one component among several that are required to model a realistic scene. In order to do so, hillshade models should be broken down to different lighting components, which can be then be combined with other shading methods.  
+Hillshade is probably the most widely used method for terrain visualisation. Its result is rather intuitive, but its handling is not so. In this post, I’ve discussed some principles which are not aesthetical, but rather conceptual. Hillshade is about modelling light, namely reflected light, which is only one component among several that are required to model a realistic scene. In order to do so, hillshade models should be broken down to different lighting components, which can be then be combined with other shading methods.

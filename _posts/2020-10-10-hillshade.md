@@ -43,6 +43,8 @@ Such bi-directional angular exaggeration is very useful for the detection and vi
 <iframe frameborder="0" class="juxtapose" width="100%" height="670" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3e206e9a-0bf0-11eb-bf88-a15b6c7adf9a"></iframe>
 *Figure 6. Comparison of standard hillshade model with the one with lateral angle exaggeration (factor: 3.0, very strong).*
 
+**PS** For a follow up, see the post on [combining hillshades](https://landscapearchaeology.org/2020/combining-hillshades/).
+
 ## Bibliography
 Article on Lambert's cosine law on [Wikipedia](https://en.wikipedia.org/wiki/Lambert%27s_cosine_law).
 

@@ -30,7 +30,7 @@ The formula commonly used is the one devised by the mathematician Johan Heinrich
 Such simple approach has proven to be useful in GIS, but it certainly has its drawbacks, namely a rather artificial output and poor flexibility for modelling different lighting scenarios. (Ambient occlusion is one of those: see [my previous post](https://landscapearchaeology.org/2020/ambient-occlusion/)). 
 
 
-![diagram: latera/longitudinal adjustment](/figures/20-10-angles.jpg)
+![diagram: lateral/longitudinal adjustment](/figures/20-10-angles.jpg)
 *Figure 4. Surface orientation can be broken down to two angles (or vectors): longitudinal, parallel to the sun direction, and lateral, perpendicular to sun rays. Terrain Shading module for QGIS provides separate adjustments for these two angles.*
 
 The [Terrain Shading module](http://www.zoran-cuckovic.from.hr/QGIS-terrain-shading/), developed for QGIS, features a lambertian hillshade algorithm, but with an important modification. It enables to artificially exaggerate the angles of surface elements, and that in two directions, along the axis of illumination (longitudinal axis) and perpendicular to the illumination axis (lateral axis : Figure 4). These parameters enable to adjust light quality, and to render more detail than with standard cosine-law formula. 

@@ -30,7 +30,7 @@ To understand the principle, imagine putting a piece of paper in front of a tabl
 
 
 ## Hillshade implementation in Terrain Shading module for QGIS
-Such simple approach has proven to be useful in GIS, but it certainly has its drawbacks, namely a rather artificial output and poor flexibility for modelling different lighting scenarios. (Ambient occlusion is one of those: see [my previous post](https://landscapearchaeology.org/2020/ambient-occlusion/)). 
+Such simple approach has proven to be useful in GIS, but it certainly has some drawbacks. Hillshades often look rather artificial, and cannot be used to  modelling complex, real-life lighting scenarios. (Ambient occlusion is one of those: see [my previous post](https://landscapearchaeology.org/2020/ambient-occlusion/)). 
 
 
 ![diagram: lateral/longitudinal adjustment](/figures/20-10-angles.jpg)

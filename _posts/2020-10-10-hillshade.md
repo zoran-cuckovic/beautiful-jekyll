@@ -42,7 +42,7 @@ The [Terrain Shading module](http://www.zoran-cuckovic.from.hr/QGIS-terrain-shad
 ![screenshot](/figures/20-10-screenshot.jpg)
 *Figure 5. Terrain shading module for hillshade analysis. Note two settings for angular exaggeration.*
 
-Lateral exaggeration in will accentuate slopes that are often poorly rendered with standard lambertian hillshade - as when overlying a hillshade model with a slope model. Such effect may be useful for the detection and visualisation of faint terrain features are othervise poorly visible when illuminated form a chosen hillshade angle. At the same time this approach may prevent the appearance of washed out, highly illuminated slopes - a frequent, undesired effect (see the comparison of images below).
+Lateral exaggeration will accentuate slopes which may be poorly rendered with standard lambertian hillshade - as when overlying a hillshade model with a slope model. Such effect may be useful for the detection and visualisation of faint terrain features that are poorly visible in standard hillshade models. This approach may also prevent the appearance of washed out, highly illuminated slopes - a frequent, undesired effect (see the comparison of images below).
 
 <iframe frameborder="0" class="juxtapose" width="100%" height="670" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3e206e9a-0bf0-11eb-bf88-a15b6c7adf9a"></iframe>
 *Figure 6. Comparison of standard hillshade model with the one with lateral angle exaggeration (factor: 3.0, very strong).*

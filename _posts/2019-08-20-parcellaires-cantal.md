@@ -54,7 +54,7 @@ La faible empreinte de l’élevage contemporain (et historique) a permis la con
 ![Parcellaire, Mt. Chastel]({{site.baseurl}}/figures/2019-08-30-chastel.jpg)
 *Mont Chastel, Vèze (Cantal).*
 
-L’habitat médiéval de Mont Chastel à Vèze est bien visible sur la droite de l’image (les fosses, les traces des murs etc.). Le parcellaire régulier implanté sur la crête douce qui mène au site semble axé sur l’entrée à la zone fortifiée. On observe la disposition verticale des parcelles, leur régularité et les traces probables des murets de part et d’autre du chemin axial. Une trace possible d’un chemin d’accès à la fortification traverse les lotissements de manière oblique : il pourrait s’agir d’un dispositif plus ancien que le parcellaire. Le lotissement a dû être fait, dans ce cas, lors d’une phase tardive d’évolution du site.    
+L’habitat médiéval de Mont Chastel à Vèze est bien visible sur la droite de l’image (les fossés, les traces des murs etc.). Le parcellaire régulier implanté sur la crête douce qui mène au site semble axé sur l’entrée à la zone fortifiée. On observe la disposition verticale des parcelles, leur régularité et les traces probables des murets de part et d’autre du chemin axial. Une trace possible d’un chemin d’accès à la fortification traverse les lotissements de manière oblique : il pourrait s’agir d’un dispositif plus ancien que le parcellaire. Le lotissement a dû être fait, dans ce cas, lors d’une phase tardive d’évolution du site.    
 
 ![Parcellaire événtail]({{site.baseurl}}/figures/2019-08-30-parcellaire-eventail.jpg)
 *Enclos pastoraux, commune de Ségur-les-Villas (Cantal).*

@@ -1,7 +1,7 @@
 ---
 layout: page
 published: true
-title: Free lidar data
+title: 'Free lidar data [work in progress]'
 permalink: /lidar-data/
 ---
 
@@ -41,34 +41,38 @@ explanation https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too
 ## Sardegna
 http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/
 
-Belgium
+## Belgium
 Flanders:  https://overheid.vlaanderen.be/DHM-DHMV-II-brondata
 Wallonie : http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html
 
-Netherlands : https://www.pdok.nl/nl/ahn3-downloads   20 pts m2
+## Netherlands  
+[https://www.pdok.nl/nl/ahn3-downloads](https://www.pdok.nl/nl/ahn3-downloads) 
 
-# Spain 
-[centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Pointcloud, DEM 2m, DEM 5m. 
+## Spain 
+[centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Point cloud, DEM 2m, DEM 5m. 
 
-# Danemark
-https://download.kortforsyningen.dk/content/geodataprodukter?field_korttype_tid_1=653&field_aktualitet_tid=749&field_datastruktur_tid=All&field_scheme_tid=All
+## Denmark
+[https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid](https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid) : DEM 0.4m 
+[https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : Point cloud 
 
-Germany
--  https://data.geobasis-bb.de/geobasis/daten/dgm/
+## Germany
+[https://data.geobasis-bb.de/geobasis/daten/dgm/](https://data.geobasis-bb.de/geobasis/daten/dgm/)
 
-Estonia
+## Estonia
 
 
-Finland: 
-http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data
-http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data
+## Finland: 
+[http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data](http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data)
+[http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data](http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data)
 
-Denmark  : http://download.kortforsyningen.dk/content/dhmpunktsky  4-5pt m2
 
-Ireland : https://data.gov.ie/dataset/open-topographic-lidar-data
+## Ireland: 
+[https://data.gov.ie/dataset/open-topographic-lidar-data](http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data)
 
-Portugal, coastal strip: http://mapas.igeo.pt/lidar/   (view only
+## Portugal: 
+coastal strip: [http://mapas.igeo.pt/lidar/](http://mapas.igeo.pt/lidar/):  (view only)
 
+<!--
 Poland see https://mobile.twitter.com/gunthera_mws/status/1106312408149172225
 
 Iceland : http://atlas.lmi.is/mapview/?application=DEM
@@ -79,3 +83,6 @@ Austria +DEM FREE https://data.opendataportal.at/dataset/dtm-austria
 
 ++ ArcticDEM  : 2 meters for canada
 Sao Paolo http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx
+-->
+
+To be continued ...

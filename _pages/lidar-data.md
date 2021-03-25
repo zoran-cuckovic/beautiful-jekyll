@@ -29,7 +29,8 @@ explanation https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too
 
 
 # Slovenia
-(gis.arso.gov.si)[http://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso&culture=en-US]: point cloud, DTM 1m
+[gis.arso.gov.si](http://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso&culture=en-US): point cloud, DTM 1m
+NB: the point cloud data format is a mess. There is some missing data at the end of each file : check at [arheologija.neocities.org](https://arheologija.neocities.org/Lidar_tutorial.html ) or [https://paleoseismicity.org](https://paleoseismicity.org/tutorial-how-to-make-a-dem-from-the-slovenian-lidar-data/) for tutorials. 
  
 # Italy
 [www.pcn.minambiente.it](http://www.pcn.minambiente.it/mattm/procedura-richiesta-dati-lidar-e-interferometrici-ps/): DTM 1 or 2 meters
@@ -41,32 +42,32 @@ explanation https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too
 ## Sardegna
 http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/
 
-## Belgium
+# Belgium
 Flanders:  https://overheid.vlaanderen.be/DHM-DHMV-II-brondata
 Wallonie : http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html
 
-## Netherlands  
+# Netherlands  
 [https://www.pdok.nl/nl/ahn3-downloads](https://www.pdok.nl/nl/ahn3-downloads) 
 
-## Spain 
+# Spain 
 [centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Point cloud, DEM 2m, DEM 5m. 
 
-## Denmark
+# Denmark
 [https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid](https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid) : DEM 0.4m 
 [https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : Point cloud 
 
-## Germany
+# Germany
 [https://data.geobasis-bb.de/geobasis/daten/dgm/](https://data.geobasis-bb.de/geobasis/daten/dgm/)
 
-## Estonia
+# Estonia
 
 
-## Finland: 
+# Finland: 
 [http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data](http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data)
 [http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data](http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data)
 
 
-## Ireland: 
+# Ireland: 
 [https://data.gov.ie/dataset/open-topographic-lidar-data](http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data)
 
 ## Portugal: 

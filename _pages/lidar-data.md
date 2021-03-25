@@ -15,8 +15,7 @@ An overwiew of current lidar coverage can be found on [lidarfinder.com](https://
 [data.gov.uk/dataset - composite](https://data.gov.uk/dataset/80c522cc-e0bf-4466-8409-57a04c456197/lidar-composite-dsm-1m): Point cloud, DEM/DSM 1m, DEM/DSM 2m
 
 ## Scotland
-   [remotesensingdata.gov.scot](https://remotesensingdata.gov.scot/collections): Point cloud, DSM/DTM 1m, DSM/DTM 2m.
-explanation https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too/
+[remotesensingdata.gov.scot](https://remotesensingdata.gov.scot/collections): Point cloud, DSM/DTM 1m, DSM/DTM 2m. See also https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too/
 ## Wales
 [lle.gov.wales](http://lle.gov.wales/catalogue/item/lidarcompositedataset/): DEM/DSM 1m, DEM/DSM 2m
 
@@ -28,7 +27,6 @@ explanation https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too
 [opendata.auvergnerhonealpes.eu](http://opendata.auvergnerhonealpes.eu/dataset/7-les-donnees.htm?from=0&q=lidar): patchy, small scale lidar surveys of various resolutions.
 ## Coast
 [diffusion.shom.fr](https://diffusion.shom.fr/pro/catalogsearch/result/?q=+lidar): patchy coverage of the coastal strip (Atlantic, Mediterranean)
-
 
 # Slovenia
 [gis.arso.gov.si](http://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso&culture=en-US): point cloud, DTM 1m

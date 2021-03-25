@@ -43,8 +43,9 @@ NB: the point cloud data format is a mess. There is some missing data at the end
 http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/
 
 # Belgium
-Flanders:  https://overheid.vlaanderen.be/DHM-DHMV-II-brondata
-Wallonie : http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html
+Flanders: [https://overheid.vlaanderen.be/DHM-DHMV-II-brondata](https://overheid.vlaanderen.be/DHM-DHMV-II-brondata)
+
+Wallonie: [http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html](http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html)
 
 # Netherlands  
 [https://www.pdok.nl/nl/ahn3-downloads](https://www.pdok.nl/nl/ahn3-downloads) 
@@ -54,6 +55,7 @@ Wallonie : http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3
 
 # Denmark
 [https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid](https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid) : DEM 0.4m 
+
 [https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : Point cloud 
 
 # Germany
@@ -64,6 +66,7 @@ Wallonie : http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3
 
 # Finland: 
 [http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data](http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data)
+
 [http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data](http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data)
 
 

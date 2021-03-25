@@ -22,6 +22,8 @@ explanation https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too
 
 # France
 
+[https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rge-alti-1m](https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rge-alti-1m) DEM 1m, DEM 5m. (Quality is very variable, LiDAR was used for flood risk areas, coast and forrest areas : https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html)
+
 ## Auvergne - Rhône - Alpes region
 [opendata.auvergnerhonealpes.eu](http://opendata.auvergnerhonealpes.eu/dataset/7-les-donnees.htm?from=0&q=lidar): patchy, small scale lidar surveys of various resolutions.
 ## Coast

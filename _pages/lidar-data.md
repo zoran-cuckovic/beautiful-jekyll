@@ -40,7 +40,7 @@ NB: the point cloud data format is a mess. There is some missing data at the end
 [territorio.provincia.tn.it](http://www.territorio.provincia.tn.it/portal/server.pt/community/lidar/847/lidar/23954): DSM/STM 1m, 2m, point cloud (upon request).
 
 ## Sardegna
-http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/
+[http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/](http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/)
 
 # Belgium
 Flanders: [https://overheid.vlaanderen.be/DHM-DHMV-II-brondata](https://overheid.vlaanderen.be/DHM-DHMV-II-brondata)

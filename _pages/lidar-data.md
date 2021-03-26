@@ -122,6 +122,11 @@ An overwiew of current lidar coverage can be found on [lidarfinder.com](https://
 [lle.gov.wales](http://lle.gov.wales/catalogue/item/lidarcompositedataset/): DEM/DSM 1m, DEM/DSM 2m
 
 <!--
+
+TO check : 
+https://www.usna.edu/Users/oceano/pguth/md_help/html/gis_country_sites.htm
+https://arheologijaslovenija.blogspot.com/p/blog-page_81.html
+
 Iceland : http://atlas.lmi.is/mapview/?application=DEM
 
 Lidar for qgis https://plugins.bruy.me/processing-fusion.html

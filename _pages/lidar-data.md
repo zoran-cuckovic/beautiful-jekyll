@@ -98,6 +98,10 @@ NB: the point cloud data format is a mess. There is some missing data at the end
 # Sweden
 [https://www.lantmateriet.se/en/maps-and-geographic-information/open-geodata/](https://www.lantmateriet.se/en/maps-and-geographic-information/open-geodata/): point cloud (1-2 pts/m²)
 
+# Switzerland
+
+[https://www.swisstopo.admin.ch/en/geodata/height/alti3d.html](https://www.swisstopo.admin.ch/en/geodata/height/alti3d.html) : DEM 0.5m, 2m, point cloud
+
 # United Kingdom
 An overwiew of current lidar coverage can be found on [lidarfinder.com](https://www.lidarfinder.com/).
 

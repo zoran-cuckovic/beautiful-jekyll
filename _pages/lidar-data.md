@@ -55,13 +55,16 @@ AHN2 lidar: [http://geodata.nationaalgeoregister.nl/ahn2/atom/ahn2_uitgefilterd.
 NB 1. These links point to .xml files, you will need to convert these to something browser-readable ([www.google.com/search?q=convert+xml+to+html](www.google.com/search?q=convert+xml+to+html))
 
 NB 2. Non-filtered versions of the data are also available: replace `gefilterd` with `uitgefilterd` in the page adress. 
+
 # Spain 
 [centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Point cloud, DEM 2m, DEM 5m. 
 
 # Denmark
 [https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid](https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid) : DEM 0.4m 
 
-[https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : Point cloud 
+[https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : Point cloud (4-5 pts/m²)
+
+NB. Free registration is needed.
 
 # Germany
 [https://data.geobasis-bb.de/geobasis/daten/dgm/](https://data.geobasis-bb.de/geobasis/daten/dgm/)

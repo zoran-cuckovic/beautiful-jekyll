@@ -48,8 +48,13 @@ Flanders: [https://overheid.vlaanderen.be/DHM-DHMV-II-brondata](https://overheid
 Wallonie: [http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html](http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html)
 
 # Netherlands  
-[https://www.pdok.nl/nl/ahn3-downloads](https://www.pdok.nl/nl/ahn3-downloads) 
+AHN1 lidar [http://geodata.nationaalgeoregister.nl/ahn1/atom/ahn1_gefilterd.xml](http://geodata.nationaalgeoregister.nl/ahn1/atom/ahn1_gefilterd.xml): point cloud (4-5 pts/m²)
 
+AHN2 lidar: [http://geodata.nationaalgeoregister.nl/ahn2/atom/ahn2_uitgefilterd.xml](http://geodata.nationaalgeoregister.nl/ahn2/atom/ahn2_uitgefilterd.xml) : point cloud (9 pts/m²)
+
+NB 1. These links point to .xml files, you will need to convert these to something browser-readable ([www.google.com/search?q=convert+xml+to+html](www.google.com/search?q=convert+xml+to+html))
+
+NB 2. Non-filtered versions of the data are also available: replace `gefilterd` with `uitgefilterd` in the page adress. 
 # Spain 
 [centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Point cloud, DEM 2m, DEM 5m. 
 

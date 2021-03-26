@@ -65,9 +65,7 @@ Wallonie: [http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3
 [https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-data-p308.html](https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-data-p308.html)
 
 # Finland: 
-[http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data](http://www.maanmittauslaitos.fi/en/digituotteet/laser-scanning-data)
-
-[http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data](http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data)
+[https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en](https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en) : DEM 2m, DEM 10m, point cloud (5pts/m²)
 
 
 # Ireland: 

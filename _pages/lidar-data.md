@@ -87,9 +87,15 @@ List of files for direct download : [https://s3.storage.pub.lvdc.gov.lv/lgia-ope
 ## Portugal: 
 coastal strip: [http://mapas.igeo.pt/lidar/](http://mapas.igeo.pt/lidar/):  (view only)
 
-<!--
-Poland see https://mobile.twitter.com/gunthera_mws/status/1106312408149172225
 
+# Poland
+
+[https://mapy.geoportal.gov.pl/imap/Imgp_2.html](https://mapy.geoportal.gov.pl/imap/Imgp_2.html?SRS=2180&resources=map:wms@https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/WMS/SkorowidzeWUkladzieKRON86): DEM 1m
+
+NB. The label "Data for download" is "Dane do pobrania" in the Polish version.
+
+
+<!--
 Iceland : http://atlas.lmi.is/mapview/?application=DEM
 
 Lidar for qgis https://plugins.bruy.me/processing-fusion.html

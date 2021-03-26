@@ -12,16 +12,18 @@ permalink: /lidar-data/
 
 
 # Belgium
-Flanders: [https://overheid.vlaanderen.be/DHM-DHMV-II-brondata](https://overheid.vlaanderen.be/DHM-DHMV-II-brondata)
+## Flanders
+[https://overheid.vlaanderen.be/DHM-DHMV-II-brondata](https://overheid.vlaanderen.be/DHM-DHMV-II-brondata)
 
-Wallonie: [http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html](http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html)
+## Wallony:
+[http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html](http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html)
 
 
 
 # Denmark
 [https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid](https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid) : DEM 0.4m 
 
-[https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : Point cloud (4-5 pts/m²)
+[https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : point cloud (4-5 pts/m²)
 
 NB. Free registration is needed.
 
@@ -35,7 +37,9 @@ NB. Free registration is needed.
 
 # France
 
-[https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rge-alti-1m](https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rge-alti-1m) DEM 1m, DEM 5m. (Quality is very variable, LiDAR was used for flood risk areas, coast and forrest areas : https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html)
+[https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rge-alti-1m](https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rge-alti-1m) DEM 1m, DEM 5m. 
+
+(Quality is very variable, LiDAR was used for flood risk areas, coast and forrest areas : [https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html](https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html))
 
 ## Auvergne - Rhône - Alpes region
 [opendata.auvergnerhonealpes.eu](http://opendata.auvergnerhonealpes.eu/dataset/7-les-donnees.htm?from=0&q=lidar): patchy, small scale lidar surveys of various resolutions.

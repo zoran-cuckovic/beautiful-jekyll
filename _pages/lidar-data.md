@@ -74,7 +74,8 @@ NB 1. These links point to .xml files, you will need to convert these to somethi
 NB 2. Non-filtered versions of the data are also available: replace `gefilterd` with `uitgefilterd` in the page adress. 
 
 
-
+# New Zealand
+[https://www.linz.govt.nz/data/linz-data/elevation-data](https://www.linz.govt.nz/data/linz-data/elevation-data)
 
 # Poland
 

@@ -65,11 +65,16 @@ Wallonie: [http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3
 [https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-data-p308.html](https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-data-p308.html)
 
 # Finland: 
-[https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en](https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en) : DEM 2m, DEM 10m, point cloud (5pts/m²)
+[https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en](https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en) : DEM 2m, DEM 10m, point cloud (5 pts/m²)
 
 
 # Ireland: 
 [https://data.gov.ie/dataset/open-topographic-lidar-data](http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data)
+
+# Latvia
+[https://www.lgia.gov.lv/lv/Digit%C4%81lais%20virsmas%20modelis](https://www.lgia.gov.lv/lv/Digit%C4%81lais%20virsmas%20modelis) : point cloud (1.5 - 4 pts/m²)
+
+List of files for direct download : [https://s3.storage.pub.lvdc.gov.lv/lgia-opendata/las/LGIA_OpenData_las_saites.txt](https://s3.storage.pub.lvdc.gov.lv/lgia-opendata/las/LGIA_OpenData_las_saites.txt)
 
 ## Portugal: 
 coastal strip: [http://mapas.igeo.pt/lidar/](http://mapas.igeo.pt/lidar/):  (view only)

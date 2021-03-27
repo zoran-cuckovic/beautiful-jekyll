@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 'Visibility analysis, release 0.5.4: <br>modelling the horizon'
-subtitle: 
-# date: 2016-12-22
-# modified: 2017-01-02
 author: zoran
-tags: [qgis-visibility, qgis]
+tags:
+  - qgis
+  - QGIS visibility plugin
+published: true
 ---
 
 
@@ -42,4 +42,3 @@ ArcGIS skyline (N.D.). [How Skyline works, desktop.arcgis.com](http://desktop.ar
 Lake, M.W., Ortega, D.A. (2013). Compute-Intensive GIS Visibility Analysis of the Settings of Prehistoric Stone Circles. In Bevan, A., Lake, M. (Eds.), Computational Approaches to Archaeological Spaces. (pp. 213-242). Walnut Creek, California: Left Coast Press.
 
 Malm, W. (2016). Visibility, The Seeing of Near and Distant Landscape Features. Elsevier.
-

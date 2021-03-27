@@ -34,7 +34,7 @@ navbar-links:
   # Books: "books"
   Content: "tags"
   QGIS projects:
-    - QGIS visibility analysis: "/qgis-visibility-analysis/"
+    - QGIS visibility analysis: "https://landscapearchaeology.org/qgis-visibility-analysis/"
     - QGIS terrain shading:  "https://zoran-cuckovic.github.io/QGIS-terrain-shading/" 
   About: "about"
   #Resources:

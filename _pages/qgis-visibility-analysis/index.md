@@ -43,6 +43,16 @@ Qgis visibility analysis maintained by [Zoran Čučković](http://zoran-cuckovic
 
 ### Archive 
 
+{%- for post in site.tags["QGIS visibility plugin"] -%}
+            <div class="tag-entry">
+                <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+                <div class="entry-date">
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: "%B %d, %Y" -}}</time>
+                </div>
+            </div>
+{%- endfor -%}
+</div>
+
 - [May 1, 2020](https://landscapearchaeology.org/2020/visibility-index/): Visibility index / total viewshed
 
 - [March 30, 2020](https://landscapearchaeology.org/2020/direction-viewshed/): Direction and angle filters for viewsheds

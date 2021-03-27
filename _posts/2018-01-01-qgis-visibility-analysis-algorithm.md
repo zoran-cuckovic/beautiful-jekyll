@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "QGIS visibility analysis algorithm"
+title: QGIS visibility analysis algorithm
 author: zoran
-tags: [qgis, qgis-visibility]
-
+tags:
+  - qgis
+  - qgis-visibility
+published: true
 ---
-**Made for [QGIS viewsehd analysis plugin](http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/plugin), version: 0.5**
+**Made for [QGIS viewsehd analysis plugin](/qgis-visibility-analysis/plugin), version: 0.5**
 
 It took me long time to develop an algorithm for the visibility analysis which would be comparable in terms of speed and quality to those available in other packages. And then some more time to tweak it for the type of analysis the QGIS visibility plugin is intended: higher volume calculation of multiple viewsheds over standard (coarse) elevation models. But here it is - an implementation which is faster than previous ones by a factor of 10 (at least).
 <h2>1. Performance test</h2>

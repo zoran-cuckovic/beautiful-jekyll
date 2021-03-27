@@ -54,3 +54,8 @@ This project is released with a [Contributor Code of Conduct](https://github.com
 Thanks to Alexander Bruy and Gilles Vuidel fir the help in migration to QGIS processing framework.
 
 Qgis visibility analysis is maintained by [Zoran Čučković](http://zoran-cuckovic.from.hr).
+
+
+## Support & donations
+
+If this piece of software makes you a happier cartographer, express your feelings and  [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D41HYSW)

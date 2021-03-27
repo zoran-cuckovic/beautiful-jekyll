@@ -34,8 +34,8 @@ navbar-links:
   # Books: "books"
   Content: "tags"
   QGIS projects:
-    - QGIS visibility analysis: "https://landscapearchaeology.org/qgis-visibility-analysis/"
-    - QGIS terrain shading:  "https://landscapearchaeology.org/qgis-terrain-shading/" 
+    - QGIS visibility analysis: "qgis-visibility-analysis"
+    - QGIS terrain shading:  "qgis-terrain-shading" 
   About: "about"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

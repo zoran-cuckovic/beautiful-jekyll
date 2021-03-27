@@ -5,17 +5,16 @@ title: 'Free lidar data [work in progress]'
 permalink: /lidar-data/
 ---
 
-
-
-
-
+# Austria
+### Upper Austria
+[https://www.land-oberoesterreich.gv.at/211787.htm](https://www.land-oberoesterreich.gv.at/211787.htm) : DEM 0.5m, DEM 1m.
 
 
 # Belgium
-### * Flanders
+### Flanders
 [https://overheid.vlaanderen.be/DHM-DHMV-II-brondata](https://overheid.vlaanderen.be/DHM-DHMV-II-brondata) : point cloud (8 pts/m²).
 
-### * Wallony:
+### Wallony:
 [http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html](http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html) : point cloud (0.8 pts/m²).
 
 
@@ -39,9 +38,9 @@ NB. Free registration is needed.
 
  - quality is very variable, LiDAR was used for flood risk areas, coast and forrest areas : [https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html](https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html).
 
-### * Auvergne - Rhône - Alpes region
+### Auvergne - Rhône - Alpes region
 [opendata.auvergnerhonealpes.eu](http://opendata.auvergnerhonealpes.eu/dataset/7-les-donnees.htm?from=0&q=lidar): patchy, small scale lidar surveys of various resolutions.
-### * Coast
+### Coast
 [diffusion.shom.fr](https://diffusion.shom.fr/pro/catalogsearch/result/?q=+lidar): patchy coverage of the coastal strip (Atlantic, Mediterranean).
 
 # Germany
@@ -68,6 +67,8 @@ NB. A formal request and 2 euros fee are required.
 
 List of files for direct download : [https://s3.storage.pub.lvdc.gov.lv/lgia-opendata/las/LGIA_OpenData_las_saites.txt](https://s3.storage.pub.lvdc.gov.lv/lgia-opendata/las/LGIA_OpenData_las_saites.txt)
 
+
+
 # Netherlands  
 AHN1 lidar [http://geodata.nationaalgeoregister.nl/ahn1/atom/ahn1_gefilterd.xml](http://geodata.nationaalgeoregister.nl/ahn1/atom/ahn1_gefilterd.xml): point cloud (4-5 pts/m²)
 
@@ -83,15 +84,23 @@ NB 2. Non-filtered versions of the data are also available: replace `gefilterd` 
 
 [https://portal.opentopography.org/datasets?loc=New%20Zealand](https://portal.opentopography.org/datasets?loc=New%20Zealand) : point clouds.
 
+# Norway
+[https://hoydedata.no/LaserInnsyn/](https://hoydedata.no/LaserInnsyn/) : DTM/DSM 0.5m, 1m, point clouds. 
+
+- portal is available in English ... but language is not really the reason why you still can't spot the "Download" button :). 
+
 # Poland
 
 [https://mapy.geoportal.gov.pl/imap/Imgp_2.html](https://mapy.geoportal.gov.pl/imap/Imgp_2.html?SRS=2180&resources=map:wms@https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/WMS/SkorowidzeWUkladzieKRON86): DEM 1m.
 
 NB. The label "Data for download" is "Dane do pobrania" in the Polish version.
 
-# Portugal: 
-coastal strip: [http://mapas.igeo.pt/lidar/](http://mapas.igeo.pt/lidar/) : view only.
 
+# Slovakia 
+
+[https://zbgis.skgeodesy.sk/mkzbgis/en/teren](https://zbgis.skgeodesy.sk/mkzbgis/en/teren) : DTM 5m, DSM 1m, point cloud. 
+
+- the game is to find the "export data" button :).
 
 # Slovenia
 [gis.arso.gov.si](http://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso&culture=en-US): point cloud, DTM 1m.
@@ -106,21 +115,24 @@ NB. DEM data format is a mess; there is some missing data at the end of each fil
 
 # Switzerland
 
-[https://www.swisstopo.admin.ch/en/geodata/height/alti3d.html](https://www.swisstopo.admin.ch/en/geodata/height/alti3d.html) : DEM 0.5m, 2m, point cloud
+[https://www.swisstopo.admin.ch/en/geodata/height/alti3d.html](https://www.swisstopo.admin.ch/en/geodata/height/alti3d.html) : DEM 0.5m, 2m, point cloud.
 
 # United Kingdom
 An overwiew of current lidar coverage can be found on [lidarfinder.com](https://www.lidarfinder.com/).
 
-### * England 
+### England 
 [data.gov.uk/dataset - time stamped tiles](https://data.gov.uk/dataset/8275e71e-1516-42a1-bb0c-4fa73807fe2b/lidar-dtm-time-stamped-tiles): various lidar surveys beggining in 1998.
 
 [data.gov.uk/dataset - composite](https://data.gov.uk/dataset/80c522cc-e0bf-4466-8409-57a04c456197/lidar-composite-dsm-1m): Point cloud, DEM/DSM 1m, DEM/DSM 2m
 
-### * Scotland
+### Scotland
 [remotesensingdata.gov.scot](https://remotesensingdata.gov.scot/collections): Point cloud, DSM/DTM 1m, DSM/DTM 2m. See also https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too/
 
-### * Wales
-[lle.gov.wales](http://lle.gov.wales/catalogue/item/lidarcompositedataset/): DEM/DSM 1m, DEM/DSM 2m
+### Wales
+[lle.gov.wales](http://lle.gov.wales/catalogue/item/lidarcompositedataset/): DSM/DTM 0.5m, 1m, 2m.
+
+### Northern Ireland
+[https://www.opendatani.gov.uk/dataset?q=lidar&sort=score+desc%2C+metadata_modified+desc](https://www.opendatani.gov.uk/dataset?q=lidar&sort=score+desc%2C+metadata_modified+desc).
 
 <!--
 
@@ -128,7 +140,19 @@ TO check :
 https://www.usna.edu/Users/oceano/pguth/md_help/html/gis_country_sites.htm
 https://arheologijaslovenija.blogspot.com/p/blog-page_81.html
 
-Iceland : http://atlas.lmi.is/mapview/?application=DEM
+Pays Basque ftp://ftp.geo.euskadi.eus/lidar/
+b5m.gipuzkoa.net/url5000/es/G_22485/PUBLI&consulta=HAZLIDAR
+Catalonia : http://www.icc.cat/vissir3/
+La Rioja https://www.iderioja.larioja.org/geovisor/index_fs.php?
+
+Switzerland : Zurich, Solothurn, Schaffhaussen
+
+# Malta
+
+[http://geoserver.pa.org.mt/publicgeoserver](http://geoserver.pa.org.mt/publicgeoserver)
+
+- data cannot be downloaded ??
+
 
 Lidar for qgis https://plugins.bruy.me/processing-fusion.html
 
@@ -136,9 +160,12 @@ Austria +DEM FREE https://data.opendataportal.at/dataset/dtm-austria
 
 ++ ArcticDEM  : 2 meters for canada
 Sao Paolo http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx
+
+# Portugal: 
+Coastal strip: [http://mapas.igeo.pt/lidar/](http://mapas.igeo.pt/lidar/) : view only.
 -->
 
-To be continued ...
+To be continued ... 
 
 
 ## Support & donations

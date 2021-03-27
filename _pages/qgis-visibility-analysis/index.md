@@ -42,7 +42,7 @@ Qgis visibility analysis maintained by [Zoran Čučković](http://zoran-cuckovic
 
 
 ### Archive 
-
+<div class="post-list">
 {%- for post in site.tags["QGIS visibility plugin"] -%}
             <div class="tag-entry">
                 <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>

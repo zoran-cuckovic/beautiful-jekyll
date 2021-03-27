@@ -13,7 +13,7 @@ permalink: /qgis-terrain-shading/
 
 **Repository and download: [github.com/zoran-cuckovic/QGIS-terrain-shading](https://github.com/zoran-cuckovic/QGIS-terrain-shading)**
 
-![FIGURE SHADOWS](/Dalmacija.jpg)
+![FIGURE SHADOWS](images/Dalmacija.jpg)
 
 ## Installation
 

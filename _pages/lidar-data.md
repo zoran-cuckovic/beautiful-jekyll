@@ -156,8 +156,6 @@ Switzerland : Zurich, Solothurn, Schaffhaussen
 
 Lidar for qgis https://plugins.bruy.me/processing-fusion.html
 
-Austria +DEM FREE https://data.opendataportal.at/dataset/dtm-austria
-
 ++ ArcticDEM  : 2 meters for canada
 Sao Paolo http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx
 

@@ -138,3 +138,9 @@ Sao Paolo http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx
 To be continued ...
 
 
+## Support & donations
+
+If this info makes you a happier cartographer, express your feelings and  [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D41HYSW)
+
+
+

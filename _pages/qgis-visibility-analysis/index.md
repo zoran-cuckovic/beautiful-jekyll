@@ -1,7 +1,7 @@
 ---
 layout: page
 published: true
-title: 'QGIS Visibility Analysis'
+title: QGIS Visibility Analysis
 permalink: /qgis-visibility-analysis/
 ---
 
@@ -41,37 +41,7 @@ Data used for testing and tutorials can be found **[here](https://github.com/zor
 - [May 1, 2020](https://landscapearchaeology.org/2020/visibility-index/): The algorithmic solution for visibility index, a.k.a. total viewshed.
 - [March 15, 2020](https://landscapearchaeology.org/2020/viewshed-tutorial): Basic **tutorial** for QGIS 3
 
-For other posts/tutorials, check the [site content](/tags/#qgis-visibility-plugin")
-<div class="post-list">
-{%- for post in site.tags["QGIS visibility plugin"] -%}
-            <div class="tag-entry">
-                <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: "%B %d, %Y" -}}</time>
-                </div>
-            </div>
-{%- endfor -%}
-</div>
-
-- [May 1, 2020](https://landscapearchaeology.org/2020/visibility-index/): Visibility index / total viewshed
-
-- [March 30, 2020](https://landscapearchaeology.org/2020/direction-viewshed/): Direction and angle filters for viewsheds
-
-- [March 15, 2020](https://landscapearchaeology.org/2020/viewshed-tutorial): Basic **tutorial** for QGIS 3
-
-- [December 6, 2019](https://landscapearchaeology.org/2019/visual-impact-analysis/): Analysing visual impact of high buildings
-
-- [April 7, 2019](https://landscapearchaeology.org/2019/intervisibility-qgis/): Intervisibility analysis 
-
-- [October 23, 2018](https://landscapearchaeology.org/2018/depth-below-horizon): Depth below horizon analysis
-
-- [July 15, 2018]( https://landscapearchaeology.org/2018/visibility-test-nuraghi/): Testing perfomance of 0.6 version
-
-- [July 3, 2018](http://landscapearchaeology.org/2018/visibility-analysis-0-6/): 0.6 version - compatible with QGIS 3 
-
-- [December 22, 2016](http://landscapearchaeology.org/2018/qgis-visibility-054/) : Visibility analysis, release 0.5.4: modelling the horizon
-
-- [July 30, 2016](http://landscapearchaeology.org/2018/qgis-visibility-analysis-algorithm/): QGIS visibility analysis algorithm
+For other posts/tutorials, check the [site content](/tags/#qgis-visibility-plugin).
 
 
 ## Community guidelines and feedback
@@ -84,5 +54,3 @@ This project is released with a [Contributor Code of Conduct](https://github.com
 Thanks to Alexander Bruy and Gilles Vuidel fir the help in migration to QGIS processing framework.
 
 Qgis visibility analysis is maintained by [Zoran Čučković](http://zoran-cuckovic.from.hr).
-
-

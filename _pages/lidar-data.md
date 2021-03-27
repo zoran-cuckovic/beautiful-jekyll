@@ -13,11 +13,10 @@ permalink: /lidar-data/
 
 # Belgium
 ## Flanders
-[https://overheid.vlaanderen.be/DHM-DHMV-II-brondata](https://overheid.vlaanderen.be/DHM-DHMV-II-brondata)
+[https://overheid.vlaanderen.be/DHM-DHMV-II-brondata](https://overheid.vlaanderen.be/DHM-DHMV-II-brondata) : point cloud (8 pts/m²).
 
 ## Wallony:
-[http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html](http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html)
-
+[http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html](http://geoportail.wallonie.be/catalogue/cd7578ef-c726-46cb-a29e-a90b3d4cd368.html) : point cloud (0.8 pts/m²).
 
 
 # Denmark
@@ -32,8 +31,7 @@ NB. Free registration is needed.
 
 
 # Finland: 
-[https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en](https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en) : DEM 2m, DEM 10m, point cloud 
-(5 pts/m²)
+[https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en](https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en) : DEM 2m, DEM 10m, point cloud (5 pts/m²)
 
 # France
 
@@ -138,3 +136,5 @@ Sao Paolo http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx
 -->
 
 To be continued ...
+
+

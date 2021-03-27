@@ -2,11 +2,10 @@
 layout: page
 published: true
 title: 'QGIS Visibility Analysis'
-permalink: qgis-visibility-analysis/
+permalink: /qgis-visibility-analysis/
 ---
 
-Quantum GIS plugin for visibility analysis
-======================
+
 
 ![screenshot](images/screenshot.jpg)
 

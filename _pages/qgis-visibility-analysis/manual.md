@@ -105,7 +105,7 @@ Similar to other viewshed algorithms available, it is possible to account for ef
 
  Following formula is used to adjust height values in the DEM:
 
-z adjusted = z - (Dist² / Diam Earth ) * (1 - Refraction)
+`z adjusted = z - (Dist² / Diam Earth ) * (1 - Refraction)`
 
 Where:  
 Dist: The planimetric distance between the observation point and the target point.  
@@ -125,10 +125,7 @@ Dependencies
 -------------
 The plugin is coded in Python 3.6 and does not require any additional libraries than those provided by standard QGIS installation. These libraries include *numpy* and *gdal* for manipulating raster data, and *PyQt5* and *QGIS core libraries* for integration with QGIS.
 
-Repository and download
+GitHub Repository
 ------------------------
 [https://github.com/zoran-cuckovic/QGIS-visibility-analysis](https://github.com/zoran-cuckovic/QGIS-visibility-analysis)
 
-Tutorials
----------
-See [main page](http://www.zoran-cuckovic.from.hr/QGIS-visibility-analysis/).

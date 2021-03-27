@@ -4,7 +4,7 @@ title: QGIS visibility analysis algorithm
 author: zoran
 tags:
   - qgis
-  - qgis-visibility
+  - QGIS visibility plugin
 published: true
 ---
 **Made for [QGIS viewsehd analysis plugin](/qgis-visibility-analysis/plugin), version: 0.5**

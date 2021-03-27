@@ -33,11 +33,7 @@ Archived at: [![10.5281/zenodo.56664](https://zenodo.org/badge/22929/zoran-cucko
 
 You can signal an issue at **[GitHub](https://github.com/zoran-cuckovic/QGIS-visibility-analysis/issues)**
 
-For further information on algorithms used, case studies etc. take a look **[at the content](https://landscapearchaeology.org/tags/)** .
-
 Data used for testing and tutorials can be found **[here](https://github.com/zoran-cuckovic/QGIS-visibility-analysis/tree/test-data/)**.
-
-Qgis visibility analysis maintained by [Zoran Čučković](http://zoran-cuckovic.from.hr)
 
 
 
@@ -82,3 +78,7 @@ This project is released with a [Contributor Code of Conduct](https://github.com
 ## Ackowledgments
 
 Thanks to Alexander Bruy and Gilles Vuidel fir the help in migration to QGIS processing framework.
+
+Qgis visibility analysis is maintained by [Zoran Čučković](http://zoran-cuckovic.from.hr).
+
+

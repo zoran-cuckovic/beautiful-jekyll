@@ -20,35 +20,37 @@ permalink: /lidar-data/
 
 
 # Denmark
-[https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid](https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid) : DEM 0.4m 
+[https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid](https://download.kortforsyningen.dk/content/dhmterr%C3%A6n-04-m-grid) : DEM 0.4m.
 
-[https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : point cloud (4-5 pts/m²)
+[https://download.kortforsyningen.dk/content/dhmpunktsky](https://download.kortforsyningen.dk/content/dhmpunktsky) : point cloud (4-5 pts/m²).
 
 NB. Free registration is needed.
 
 # Estonia
-[https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-data-p308.html](https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-data-p308.html)
+[https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-data-p308.html](https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-data-p308.html) : DEM 1m, 5m, point cloud.
 
 
 # Finland: 
-[https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en](https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en) : DEM 2m, DEM 10m, point cloud (5 pts/m²)
+[https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en](https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en) : DEM 2m, 10m, point cloud (5 pts/m²).
 
 # France
 
 [https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rge-alti-1m](https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rge-alti-1m) DEM 1m, DEM 5m. 
 
-(Quality is very variable, LiDAR was used for flood risk areas, coast and forrest areas : [https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html](https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html))
+ - quality is very variable, LiDAR was used for flood risk areas, coast and forrest areas : [https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html](https://geoservices.ign.fr/ressources_documentaires/Espace_documentaire/MODELES_3D/RGE_ALTI/IGNF_RGEALTIr_2-0.html).
 
 ## Auvergne - Rhône - Alpes region
 [opendata.auvergnerhonealpes.eu](http://opendata.auvergnerhonealpes.eu/dataset/7-les-donnees.htm?from=0&q=lidar): patchy, small scale lidar surveys of various resolutions.
 ## Coast
-[diffusion.shom.fr](https://diffusion.shom.fr/pro/catalogsearch/result/?q=+lidar): patchy coverage of the coastal strip (Atlantic, Mediterranean)
+[diffusion.shom.fr](https://diffusion.shom.fr/pro/catalogsearch/result/?q=+lidar): patchy coverage of the coastal strip (Atlantic, Mediterranean).
 
 # Germany
-[https://data.geobasis-bb.de/geobasis/daten/dgm/](https://data.geobasis-bb.de/geobasis/daten/dgm/)
+[https://data.geobasis-bb.de/geobasis/daten/dgm/](https://data.geobasis-bb.de/geobasis/daten/dgm/) : DEM 1m.
 
 # Ireland: 
-[https://data.gov.ie/dataset/open-topographic-lidar-data](http://www.maanmittauslaitos.fi/en/professionals/digital-products/datasets-free-charge/acquisition-nls-open-data)
+[https://data.gov.ie/dataset/open-topographic-lidar-data](https://data.gov.ie/dataset/open-topographic-lidar-data) : DEM 0.1m to 1m.
+
+- very limited coverage of Lidar surveys.
 
 # Italy
 [www.pcn.minambiente.it](http://www.pcn.minambiente.it/mattm/procedura-richiesta-dati-lidar-e-interferometrici-ps/): DTM 1 or 2 meters
@@ -58,8 +60,8 @@ NB. A formal request and 2 euros fee are required.
 ## Trentino-Alto Adige
 [territorio.provincia.tn.it](http://www.territorio.provincia.tn.it/portal/server.pt/community/lidar/847/lidar/23954): DSM/STM 1m, 2m, point cloud (upon request).
 
-## Sardegna
-[http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/](http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/)
+## Sardinia
+[http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/](http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/) : DTM/DSM 1m.
 
 # Latvia
 [https://www.lgia.gov.lv/lv/Digit%C4%81lais%20virsmas%20modelis](https://www.lgia.gov.lv/lv/Digit%C4%81lais%20virsmas%20modelis) : point cloud (1.5 - 4 pts/m²)
@@ -78,6 +80,8 @@ NB 2. Non-filtered versions of the data are also available: replace `gefilterd` 
 
 # New Zealand
 [https://www.linz.govt.nz/data/linz-data/elevation-data](https://www.linz.govt.nz/data/linz-data/elevation-data)
+
+[https://portal.opentopography.org/datasets?loc=New%20Zealand](https://portal.opentopography.org/datasets?loc=New%20Zealand) : point clouds.
 
 # Poland
 

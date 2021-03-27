@@ -17,7 +17,7 @@ If you encounter problems, please read on **[geographic projections](https://lan
 
 ## Current stable version: 1.5 (February 2021)
 - Supported QGIS version: 3.x
-- [**Help & documentation**](https://zoran-cuckovic.github.io/QGIS-visibility-analysis/help_qgis3.html)
+- [**Help & documentation**](/qgis-visibility-analysis-manual/)
 
 ## Deprecated version: 0.5 
 - Supported QGIS version: 2.x
@@ -33,13 +33,12 @@ Archived at: [![10.5281/zenodo.56664](https://zenodo.org/badge/22929/zoran-cucko
 
 You can signal an issue at **[GitHub](https://github.com/zoran-cuckovic/QGIS-visibility-analysis/issues)**
 
-For further information on algorithms used, case studies etc. take a look at **[LandscapeArchaeology.org]( http://landscapearchaeology.org)** and **[zoran-cuckovic.from.hr](http://zoran-cuckovic.from.hr)** .
+For further information on algorithms used, case studies etc. take a look **[at the content](https://landscapearchaeology.org/tags/)** .
 
 Data used for testing and tutorials can be found **[here](https://github.com/zoran-cuckovic/QGIS-visibility-analysis/tree/test-data/)**.
 
-Qgis visibility analysis maintained by [zoran-cuckovic](https://github.com/zoran-cuckovic)
+Qgis visibility analysis maintained by [Zoran Čučković](http://zoran-cuckovic.from.hr)
 
-Homepage: [zoran-cuckovic.from.hr](http://zoran-cuckovic.from.hr)
 
 
 ### Archive 
@@ -72,4 +71,4 @@ This project is released with a [Contributor Code of Conduct](https://github.com
 
 ## Ackowledgments
 
-Thanks to Alexander Bruy and Gilles Vuidel.
+Thanks to Alexander Bruy and Gilles Vuidel fir the help in migration to QGIS processing framework.

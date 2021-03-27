@@ -56,10 +56,10 @@ NB. Free registration is needed.
 
 NB. A formal request and 2 euros fee are required.
 
-### * Trentino-Alto Adige
+### Trentino-Alto Adige
 [territorio.provincia.tn.it](http://www.territorio.provincia.tn.it/portal/server.pt/community/lidar/847/lidar/23954): DSM/STM 1m, 2m, point cloud (upon request).
 
-### * Sardinia
+### Sardinia
 [http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/](http://www.sardegnageoportale.it/areetematiche/modellidigitalidielevazione/) : DTM/DSM 1m.
 
 # Latvia
@@ -126,7 +126,7 @@ An overwiew of current lidar coverage can be found on [lidarfinder.com](https://
 [data.gov.uk/dataset - composite](https://data.gov.uk/dataset/80c522cc-e0bf-4466-8409-57a04c456197/lidar-composite-dsm-1m): Point cloud, DEM/DSM 1m, DEM/DSM 2m
 
 ### Scotland
-[remotesensingdata.gov.scot](https://remotesensingdata.gov.scot/collections): Point cloud, DSM/DTM 1m, DSM/DTM 2m. See also https://rapidlasso.com/2017/10/03/scotlands-lidar-goes-open-data-too/
+[remotesensingdata.gov.scot](https://remotesensingdata.gov.scot/collections): Point cloud, DSM/DTM 1m, DSM/DTM 2m. 
 
 ### Wales
 [lle.gov.wales](http://lle.gov.wales/catalogue/item/lidarcompositedataset/): DSM/DTM 0.5m, 1m, 2m.
@@ -169,6 +169,3 @@ To be continued ...
 ## Support & donations
 
 If this info makes you a happier cartographer, express your feelings and  [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D41HYSW)
-
-
-

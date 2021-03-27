@@ -1,4 +1,9 @@
-
+---
+layout: page
+published: true
+title: 'QGIS Visibility Analysis: Manual'
+permalink: /qgis-visibility-analysis-manual/
+---
 
 Installation:
 ------------

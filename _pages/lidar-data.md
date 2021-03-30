@@ -110,6 +110,10 @@ NB. DEM data format is a mess; there is some missing data at the end of each fil
 # Spain 
 [centrodedescargas.cnig.es](http://centrodedescargas.cnig.es/CentroDescargas/) : Point cloud, DEM 2m, DEM 5m. 
 
+### Basque country
+
+[b5m.gipuzkoa.eus](https://b5m.gipuzkoa.eus/url5000/en/G_22485/PUBLI&consulta=HAZLIDAR) : point cloud, DTM/DSM 1m.
+
 # Sweden
 [https://www.lantmateriet.se/en/maps-and-geographic-information/open-geodata/](https://www.lantmateriet.se/en/maps-and-geographic-information/open-geodata/): point cloud (1-2 pts/m²).
 

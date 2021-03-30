@@ -143,9 +143,8 @@ An overwiew of current lidar coverage can be found on [lidarfinder.com](https://
 TO check : 
 https://www.usna.edu/Users/oceano/pguth/md_help/html/gis_country_sites.htm
 https://arheologijaslovenija.blogspot.com/p/blog-page_81.html
+http://www.equipex-geosud.fr/web/guest/donnees-lidar-satellitaire
 
-Pays Basque ftp://ftp.geo.euskadi.eus/lidar/
-b5m.gipuzkoa.net/url5000/es/G_22485/PUBLI&consulta=HAZLIDAR
 Catalonia : http://www.icc.cat/vissir3/
 La Rioja https://www.iderioja.larioja.org/geovisor/index_fs.php?
 
@@ -153,7 +152,7 @@ Switzerland : Zurich, Solothurn, Schaffhaussen
 
 # Malta
 
-[http://geoserver.pa.org.mt/publicgeoserver](http://geoserver.pa.org.mt/publicgeoserver)
+[http://geoserver.pa.org.mt/publicgeoserver](http://geoserver.pa.org.mt/http://www.equipex-geosud.fr/web/guest/donnees-lidar-satellitairepublicgeoserver)
 
 - data cannot be downloaded ??
 

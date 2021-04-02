@@ -103,7 +103,7 @@ NB. The label "Data for download" is "Dane do pobrania" in the Polish version.
 - the game is to find the "export data" button :).
 
 # Slovenia
-[gis.arso.gov.si](http://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso&culture=en-US): point cloud, DTM 1m.
+[gis.arso.gov.si](http://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso&culture=en-US): point cloud, DEM 1m.
 
 NB. DEM data format is a mess; there is some missing data at the end of each file. Check at [arheologija.neocities.org](https://arheologija.neocities.org/Lidar_tutorial.html ) or [https://paleoseismicity.org](https://paleoseismicity.org/tutorial-how-to-make-a-dem-from-the-slovenian-lidar-data/) for tutorials. 
  

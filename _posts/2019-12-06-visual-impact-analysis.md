@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 'Analysing visual impact of high buildings: a Roman period case study'
+title: 'Analysing visual impact of high buildings: the Urkulu tower '
 tags:
   - QGIS visibility plugin
 ---

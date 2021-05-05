@@ -4,7 +4,7 @@ id: 20
 title: Le géosymbole vu par l’archéologie
 date: 'Mon Jul 09 2018 16:58:27 GMT+0200 (heure d’été d’Europe centrale)'
 author: Zoran
-guid: 'http://landscapearchaeology.org/?p=20'
+canonical: https://fragments.hypotheses.org/1
 permalink: /2018/geosymbole/
 categories:
   - Landscape theory
@@ -12,8 +12,6 @@ tags:
   - theory
 published: true
 ---
-
-<link rel="canonical" href="https://fragments.hypotheses.org/1" /> 
 
 
 [Billet remanié et transféré sur [fragments.hypothèses.org](https://fragments.hypotheses.org/1)]

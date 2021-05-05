@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: 'Archéologie des parcellaires : quelques réflexions sur l’exemple du Cantal'
+canonical: https://fragments.hypotheses.org/88
 tags:
   - field systems
 ---

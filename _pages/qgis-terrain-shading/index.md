@@ -74,6 +74,8 @@ This algorithm calculates surface shading - hillshade - for elevation models. Th
 
 *Denoise* option is using larger search radius, producing smoother results. 
 
+![FIGURE HILLSHADES](images/hillshades-QGIS.gif)
+
 **Remarks** -- Lateral exaggeration will provide some shading to features that are parallel to the light source, and would normally remain invisible. For more details on algorithm used, see the post at [LandscapeArchaeology.org/2020/hillshade/](https://landscapearchaeology.org/2020/hillshade/).   
 
 ### Terrain position index (TPI)

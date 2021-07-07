@@ -45,3 +45,6 @@ Like free, open source software ? Me too! Buy me a coffee, so that I may support
 	<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
 </form>
 https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870 -->
+
+## Tweets...
+                <a class="twitter-timeline" href="https://twitter.com/qgiswhisp?ref_src=twsrc%5Etfw">Tweets by qgiswhisp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
